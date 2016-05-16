@@ -1,0 +1,8 @@
+﻿Goety|1|This is the sorcery of conjuration, command, and banishment of supernatural creatures from beyond the boundaries of the world, those commonly called demons.
+Necromancy|1|Necromancy deals with calling up the dead from the beyond, but not to revive them as undead – even though the art of Necromancy can also open the door to this unholy pursuit – but rather to question the shades of the deceased and thereby learn secrets beyond human ken.
+Cursing|0|Cursing is the dark art of placing a doom on somebody.
+Enslavement|0|With the Mystery of Enslavement, the sorcerer forces his will on his victims’ will, right up to the point where the sorcerer commands his victim’s view of reality.
+Mending|0|The Mending Mystery can be used to aid in and greatly speed up the recovery from injuries, though it does not normally heal them immediately.
+Prophecy|0|Prophecy is the art of either seeing into the future or else divining something that is not readily apparent.
+Scrying|0|The Mystery of Scrying is the practice of sending one’s consciousness, or maybe one’s spirit, astral body, or soul, away from one’s physical self and having it travel quickly to distant places to spy out what is happening there.
+Witchfire|0|The Witchfire Mystery sorcerously unleashes energies to damage or outright destroy inanimate and animate things.

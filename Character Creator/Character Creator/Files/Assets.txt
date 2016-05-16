@@ -1,0 +1,69 @@
+﻿Abrasive|1|1|0|You are difficult and demanding in conversation. This tends to oppress those around you.
+Absent Minded|1|1|0|You are fascinated by knowledge and learning, and are capable of pursuing complex trains of thought quite quickly. However, your preoccupation with such thoughts makes you less aware of your surroundings.
+Addiction|0|1|1|The character is addicted to a drug that has at least two out of the following three properties: highly illegal, very expensive, and/or debilitating.
+Aggressive|1|1|You are quick to initiate combat, and you tend to press the attack once battle is joined. Your enthusiasm makes you a dangerous foe, but you sometimes leave yourself open to blows that a more cautious warrior would avoid.
+Ambidextrous|1|0|0|The character is equally agile and dexterous with his left and right hands.
+Arrogance|1|1|1|The character is arrogant to a point that it is very hard for him to give pride of place to any lesser man, let alone follow his orders. It is very galling for him to be treated without the immense respect he believes to be his due.
+Berserk|1|1|2|The character is known to engage in fits of berserk rage, during which he strikes out violently at all who oppose him, with no regard for his own safety.
+Brawler|1|1|0|Your instincts dictate that you fight close to your opponent, grabbing and punching, rather than striking with a weapon.
+Cannibalism|0|1|2|The character has a craving for human flesh.
+Cautious|1|1|0|You are cautious in combat, even a bit cowardly, and you take more care than others to defend yourself. However, this caution renders you susceptible to fear.
+Connection|1|1|0|The character has either a useful friendly connection or a dangerous enmity to a person or organization in the core area of the campaign.
+Detached|1|1|0|You maintain a distance from events. This keeps you grounded, but it limits your reaction speed.
+Dishonest|1|1|0|You are naturally deceitful and insincere. You have a talent for lying, but have difficulty convincing others when you do speak truthfully.
+Dreaded|1|1|0|There is something about you - a physical aspect, aura, or reputation - that suggests you are supremely dangerous or deadly. This palpable menace does not impress and affect animals or supernatural opponents.
+Dwarf|0|1|2|The character is abnormally small – at least 75% of the height of an average person. This may be extreme: s/he may measure up to 60% less than the average of his / her gender.
+Easygoing|1|1|0|You are naturally friendly. Others feel comfortable around you, however this Asset makes it difficult for you to be pushy or suspicious.
+Eunuch|1|1|0|The (male) character has been castrated.
+Farsighted|1|1|0|You have difficulty focusing on nearby objects, but your distance vision is more keen than normal.
+Feral|1|1|0|During at least your early infancy you were nurtured by wild animals, or you were raised under conditions normal to wild beasts rather than even primitive humanity.
+Focused|1|1|0|You can keep your attention on a task, despite many distractions. However, events in the background tend to pass you by.
+Giant|1|1|2|The character is abnormally huge, at least 25% and maybe up to 35% taller than the average for people of like gender.
+Hallucinations|0|1|1|Either because of a strangely mystical bent or a long history of heavy drug abuse, the character suffers frequent hallucinations. These hallucinations arise from the character’s imagination, seem perfectly real, and are devoid of any real prophetic content.
+Hard of Hearing|0|1|0|You have a slight hearing impairment.
+Hardy|1|1|0|You are made of tougher stuff than the average person, but you’re not quite as quick to react to dangers.
+Hideous|0|1|2|The character is not just plain or ugly, but truly hideous.
+Honest|1|1|0|You are naturally straightforward and sincere. This quality helps you win people to your viewpoint, but you have difficulty telling lies and seeing deception in others.
+Hunchback|0|1|2|The character’s spine is deformed in such a way that he is constantly bent forward significantly with a prominent hunchback.
+Inattentive|1|1|0|You are skilled at finishing simple tasks, but you have a difficult time dealing with longer, more complex tasks.
+Indomitable|1|1|0|The character can draw upon reserves of strength and resolve, but is prone to overextending himself.
+Inhuman|1|1|2|The character is akin to a demi-human species that preceded humankind. Possibly a distant strain asserts itself in his genes, he is the product of some freak experiment of sorcerous crossbreeding, or the fruit of an unsavory union in the not-too-distant past. Whatever he is, he is not entirely human.
+Killer Instinct|1|1|0|A predatory beast lurks within the character. He always goes for the kill.
+Lame|0|1|2|Somehow, maybe due to a wound or a birth defect, one of the character’s legs is either decidedly shorter and / or weaker than the other.
+Lecherous|1|1|1|Most heroes of S&S are very fond of wenching, but this character takes it to extremes.
+Legendary Beauty|1|1|0|The character is more than just being beautiful – his looks are singularly breathtaking.
+Literacy|1|1|0|In a setting where literacy is uncommon, the character can read and write. Where it is common, he cannot.
+Lithe|1|1|0|You are fast, but less sturdy than the average member of your race.
+Lost Love|1|1|0|Somehow, somewhere, the character found and enjoyed what he is convinced was his one true love. He has since irrevocably lost it.
+Missing Arm|0|1|3|The character is missing not only a hand; he has lost an entire arm or at least the greater portion of it (from mid upper arm).
+Missing Hand|0|1|0|The character is missing one of his hands, possibly along with a small portion of his forearm.
+Muscle-Bound|1|1|0|You are good at almost everything that requires strength, but you are less adept than most at tasks that require coordination.
+Nearsighted|1|1|0|You have difficulty focusing on distant objects, however your near vision is more keen than normal.
+Necrophilia|0|1|2|The character is sexually attracted to fresh (or reasonably fresh) corpses.
+Night-Sighted|1|1|2|Your eyes are particularly well suited to darkness, but they are less well adapted to what others consider normal light.
+Obese|1|1|1|You are pronouncedly overweight, weighing at least 30% more than is normal for your height.
+Overconfidence|1|1|0|The character thinks he is far more accomplished than reality dictates, and is more than ready to go up against prohibitive odds.
+Panther Reflexes|1|1|0|You are difficult to surprise and you strike your opponents with catlike speed. However this Asset also makes it more difficult for you to relax and interact with others.
+Plodding|1|1|0|You are slow, but you are also sturdier than the average member of your race.
+Plucky|1|1|0|You have a strength of will that is not reflected in your limited physical gifts.
+Polite|1|1|0|You are courteous and well spoken.
+Prince of Thieves|1|1|0|You are a consummate thief. Stealing is your calling and nature, and it is what really makes you come alive.
+Reckless|1|1|0|Your instincts dictate that you sacrifice accuracy to put more power behind your blows.
+Relentless|1|1|0|You don’t know the meaning of the word tired. You go all out until you simply can’t continue.
+Saddleborn|1|1|0|You are a natural in the saddle. However you do not feel comfortable walking.
+Sadism|0|1|2|The character enjoys witnessing and inflicting suffering and pain.
+Shadow|1|1|0|You are a master at going unnoticed, however you may also be very nondescript.
+Skinny|1|1|0|You are very slender for your race.
+Slippery|1|1|0|You are less adept at grappling and wrestling than others of your size and strength, however you are adept at slipping out of another’s hold.
+Specialized|1|0|0|You have a knack for one kind of work or study.
+Spell-Gifted|1|1|0|The character has a special flair for a certain sorcerous Mystery – and perhaps for nothing other than the one Mystery. This Asset may only be chosen for characters created with an A-C Sorcery Priority.
+Stout|1|1|0|You are heavy for your race.
+Superstitious|1|1|0|For good or bad, you have an unwavering belief in the power of the supernatural. You may be intrigued by or afraid of it, or both.
+Suspicious|1|1|0|You are naturally suspicious of everyone and everything. While this Asset makes you hard to fool, it makes others more likely to find you unpleasant.
+Swindler|1|1|0|Lying, swindling, and obfuscating are not just a way of life to a character with this Asset; they are his second nature.
+Torpid|1|1|0|You are sluggish and slow to react to danger, but also resistant to others’ commands.
+Tough as Nails|1|0|0|You are made of sterner stuff than the average person.
+Uncivilized|1|1|0|You relate better to animals than you do to people.
+Wastrel|0|1|0|The character either does not care at all about hanging on to money or else he is spectacularly bad at it.
+Wordbound|1|1|0|The character feels bound always to keep his word – either because of a sense of honor, or possibly because of some sorcery.
+Zealot|1|1|0|The character adheres to very clearcut and uncompromising morals. He is absolutely convinced that his moral standards are correct and is unable and unwilling to view moral questions other than in terms of black and white.

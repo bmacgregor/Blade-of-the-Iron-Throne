@@ -1,0 +1,11 @@
+﻿Brawling|null|-2|-1|-4|null|-4|-4|-3|-4|-4|-1|
+Cut and Thrust|-4|null|-4|-4|null|-3|-3|-4|-3|-2|-4|
+Dagger|-1|-2|null|-4|null|-2|-3|-4|-4|-4|-2|
+Greatsword|-4|-3|-4|null|null|-2|-4|-2|-4|-3|-4|
+Lance|null|null|null|null|null|null|null|-3|-2|null|null|
+Longsword|-4|-4|-4|-1|null|null|-4|-3|-3|-2|-3|
+Mass Weapon and Shield|-3|-2|-4|-4|null|-4|null|-3|-3|-2|-4|
+Pole-arm|-4|-3|-4|-2|-3|-2|-3|null|-2|-4|-4|
+Spear and Shield|-4|-3|-4|-2|-3|-3|-3|-3|null|-3|-4|
+Sword and Shield|-4|-2|-4|-3|null|-2|-2|-4|-3|null|-4|
+Wrestling|-1|-4|-2|-4|null|-3|-4|-4|-4|-4|null|

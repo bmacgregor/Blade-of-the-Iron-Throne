@@ -1,0 +1,38 @@
+﻿Acting|3|
+Ancient Languages|4|
+Animal Ken|3|
+Apothecary|4|
+Battlefield Tactics|4|
+Climbing|1|
+Customs|3|
+Dancing|1|
+Decipher|4|
+Detect Sorcery|5|
+Disguise|5|
+Etiquette|3|
+Falsehood|3|
+Falsehood|4|
+Foreign Languages|4|
+Healing|4|
+Information Gathering|3|
+Light Step|5|
+Lock Picking|5|
+Music|3|
+Navigation|2|
+Negotiation|3|
+Occultism|4|
+Omen Reading|3|
+Pick Pockets|5|
+Precognition|5|
+Prestidigitation|5|
+Riding|1|
+Seamanship|2|
+Seduction|3|
+Sneaking|5|
+Soldiering|2|
+Survival|5|
+Swimming|1|
+Theology|4|
+Tracking|5|
+Trailing|5|
+Trapping|5|
