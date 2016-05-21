@@ -1,7 +1,7 @@
 ﻿Abrasive|1|1|0|You are difficult and demanding in conversation. This tends to oppress those around you.
 Absent Minded|1|1|0|You are fascinated by knowledge and learning, and are capable of pursuing complex trains of thought quite quickly. However, your preoccupation with such thoughts makes you less aware of your surroundings.
 Addiction|0|1|1|The character is addicted to a drug that has at least two out of the following three properties: highly illegal, very expensive, and/or debilitating.
-Aggressive|1|1|You are quick to initiate combat, and you tend to press the attack once battle is joined. Your enthusiasm makes you a dangerous foe, but you sometimes leave yourself open to blows that a more cautious warrior would avoid.
+Aggressive|1|1|0|You are quick to initiate combat, and you tend to press the attack once battle is joined. Your enthusiasm makes you a dangerous foe, but you sometimes leave yourself open to blows that a more cautious warrior would avoid.
 Ambidextrous|1|0|0|The character is equally agile and dexterous with his left and right hands.
 Arrogance|1|1|1|The character is arrogant to a point that it is very hard for him to give pride of place to any lesser man, let alone follow his orders. It is very galling for him to be treated without the immense respect he believes to be his due.
 Berserk|1|1|2|The character is known to engage in fits of berserk rage, during which he strikes out violently at all who oppose him, with no regard for his own safety.

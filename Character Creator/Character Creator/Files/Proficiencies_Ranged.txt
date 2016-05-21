@@ -1,8 +1,8 @@
-﻿Black Powder Weapons|null|-3|-2|null|null|null|null|null|null|null|null|null
-Bow|null|null|-4|null|null|null|null|null|null|null|null|null
-Crossbow|-2|-2|null|null|null|null|null|null|null|null|null|null
-Sling|null|null|null|null|null|null|null|-4|null|null|null|null
-Spear/Javelin|null|null|null|null|null|null|null|null|-3|-3|null|null
-Thrown Knife|null|null|null|null|null|null|null|null|null|null|-4|null
-Thrown Axe|null|null|null|null|null|null|null|null|null|null|null|-4
-Thrown Rock|null|null|null|-3|-3|-3|-3|null|null|null|null|null
+﻿Black Powder Weapons|0|-3|-2|0|0|0|0|0|0|0|0|0
+Bow|0|0|-4|0|0|0|0|0|0|0|0|0
+Crossbow|-2|-2|0|0|0|0|0|0|0|0|0|0
+Sling|0|0|0|0|0|0|0|-4|0|0|0|0
+Spear/Javelin|0|0|0|0|0|0|0|0|-3|-3|0|0
+Thrown Knife|0|0|0|0|0|0|0|0|0|0|-4|0
+Thrown Axe|0|0|0|0|0|0|0|0|0|0|0|-4
+Thrown Rock|0|0|0|-3|-3|-3|-3|0|0|0|0|0

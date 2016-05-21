@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Character_Creator
+namespace Character_Creator.Data
 {
     class Mystery
     {
