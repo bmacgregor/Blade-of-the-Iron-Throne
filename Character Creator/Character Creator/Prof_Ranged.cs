@@ -25,10 +25,8 @@ namespace Character_Creator
         public int? dDagger { get; set; }
         public int? dMass_Weapon { get; set; }
 
-        public string Description { get; set; }
-
         public Prof_Ranged(string name, int? blackpowder, int? bow, int? crossbow, int? sling, int? spear_javelin, int? tKnife, int? tAxe,
-            int? tRock, int? polearm, int? spear_shield, int? dagger, int? massweapon, string desc)
+            int? tRock, int? polearm, int? spear_shield, int? dagger, int? massweapon)
         {
             Name = name;
             dBlack_Powder = blackpowder;
@@ -43,7 +41,6 @@ namespace Character_Creator
             dSpear_Shield = spear_shield;
             dDagger = dagger;
             dMass_Weapon = massweapon;
-            Description = desc;
         }
     }
 }

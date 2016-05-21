@@ -1,38 +1,38 @@
-﻿Acting|3|
-Ancient Languages|4|
-Animal Ken|3|
-Apothecary|4|
-Battlefield Tactics|4|
-Climbing|1|
-Customs|3|
-Dancing|1|
-Decipher|4|
-Detect Sorcery|5|
-Disguise|5|
-Etiquette|3|
-Falsehood|3|
-Falsehood|4|
-Foreign Languages|4|
-Healing|4|
-Information Gathering|3|
-Light Step|5|
-Lock Picking|5|
-Music|3|
-Navigation|2|
-Negotiation|3|
-Occultism|4|
-Omen Reading|3|
-Pick Pockets|5|
-Precognition|5|
-Prestidigitation|5|
-Riding|1|
-Seamanship|2|
-Seduction|3|
-Sneaking|5|
-Soldiering|2|
-Survival|5|
-Swimming|1|
-Theology|4|
-Tracking|5|
-Trailing|5|
-Trapping|5|
+﻿Acting|3|The character is skilled in all aspects of stage acting in front of crowds. Memorizing lines, voice projection, body control and voice mimicry are all within the range of the normal use of this Skill.
+Ancient Languages|4|This Skill provides the ability to read, write, and eventually speak one chosen language from a long ago, lost civilization. Ancient Languages can only be used to learn languages from the past that are not typically spoken in the character’s modern world.
+Animal Ken|3|A character with Animal Ken is particularly keen on determining the drive, desires, demeanor, and feelings of an animal.
+Apothecary|4|Throughout history, different cultures have devised remedies for a wide range of ailments. The character with an Apothecary skill is able to create non-magical, medicinal drugs from plants, minerals, and animal parts.
+Battlefield Tactics|4|This Skill gives a character the savvy to move troops and resources into optimal battle-field position. He knows when and where to fight to make the most of his available troops and resources, taking advantage of terrain and weather.
+Climbing|1|This Skill provides a character with the ability to climb many types of vertical surfaces.
+Customs|3|This Skill provides an understanding of other cultures’ customs. A character does not risk of offending people from a known culture, and is adept at quickly recognizing and reacting to the customs of newly encountered cultures.
+Dancing|1|The character knows the artistry of dancing, and is trained in the art of performing in front of an audience.
+Decipher|4|This Skill provides the ability to decipher unknown written words, codes or glyphs. When faced with an unknown text, a character uses this Skill to appraise the frequency and patterns of certain symbols, and to come up with theories of what he believes the communication to hold.
+Detect Sorcery|5|Successful use of this Skill allows a character to detect the presence and effects of sorcerous spells and the eldritch energies that are emitted by all sorcerous objects and supernatural beings.
+Disguise|5|This Skill endows a character with the ability to transform himself or someone else. A basic Check allows the character to appear different from his current self with changes of hair, clothing, sex, or social class, along with measurable changes such as weight and height.
+Etiquette|3|The character understands the social intricacies of encounters with the elite. He knows what and what not to talk about; how to greet others; which utensils to use when eating and how these should be held; which dance steps are in vogue; and any number of other verbal and non-verbal upper-class courtesies.
+Falsehood|3|Characters may use this Skill to tell lies, and resist the detection of their own lies. Success is automatic - unless the lie is outlandish enough for listeners to become suspicious.
+Falsehood|4|Characters may use this Skill to detect lies. Studying the various forms of dishonesty, one becomes necessarily both doubtful of people’s honesty and adept at behaving in a controlled way so as to give nothing away.
+Foreign Languages|4|This Skill provides a character the ability to speak one chosen non-native language that is in current use in his world. The level of the Skill determines the extent of his knowledge.
+Healing|4|In the event of injury, illness or disease, the Healing Skill endows a character with an understanding of medical procedures and medicines to help himself and others.
+Information Gathering|3|A character with this Skill is adept at tracking down the answers to questions and mysteries by finding the right person to talk to. Usually in a public location - perhaps a bar or a shop - the character is led step by step to the information he seeks through conversation, purchasing goods, or making small bribes.
+Light Step|5|A character can use this Skill to place less pressure upon any surface on which he steps. This allows him to leave no tracks in mud or snow, or even to walk across short distances of liquid.
+Lock Picking|5|A character with this Skill is able to pick or otherwise disable locks. Generally, two tools are needed to pick a lock: a flat-headed implement (called a “tension wrench”) used to turn the lock, and a pointed tool (the “pick”) used to manipulate the pins inside the lock.
+Music|3|The character is skilled at singing or playing a particular type of musical instrument. Those with a higher Skill rating can perform more complex music.
+Navigation|2|Navigation is the process of monitoring and controlling the movement of a ship from one place to another.
+Negotiation|3|The character with this Skill understands the procedures and tactics of negotiations between people, groups, and states.
+Occultism|4|This is the knowledge of the arcane, the supernatural and the sorcerous, the professional knowledge of sorcerers and those intimate with their ways.
+Omen Reading|3|Often performed for profit, Omen Reading allows a character to determine general information about his future or that of another person.
+Pick Pockets|5|This Skill allows a character to secretly palm an object or plant one onto another person, or to covertly manipulate objects in the presence of others.
+Precognition|5|A character with this Skill has the uncanny ability to sense danger a moment before it occurs.
+Prestidigitation|5|A character with Prestidigitation is skilled at sleight of hand and the creation of non-magic tricks and illusions.
+Riding|1|This Skill enables a character to control a mount of a specific type. If he wishes to control another type of mount, he will need time to familiarize himself with it.
+Seamanship|2|Skilled in operating ships and boats, a character with Seamanship is adept in all aspects of vessel management from stringing rigging; organizing the crew’s jobs; repairing canvas and hulls; to steering and rowing.
+Seduction|3|While it is possible for a character without Seduction to have a romantic relationship, one skilled in the arts of romance, enticement, and the seduction of those in whom he is interested is far more adept at successfully pursuing others, including those who may be hesitant.
+Sneaking|5|A character with this Skill has the ability to obfuscate himself and his movements and to survey his surroundings to find the best places to hide.
+Soldiering|2|This incorporates the professional skills of all soldiers, including low-level organizational decisions such as how and where best to set up camp; how and where to station guards; estimating the size of an enemy body by the size of its camp; judging the quality of a troop by watching it perform; executing drills; drawing up formations; etc.
+Survival|5|Survival provides the character with the ability to find food, water, and shelter in any environment. He has knowledge of the harsh conditions in all of them, and can plan ahead by packing the proper provisions.
+Swimming|1|Every hero of Blade can stay afloat - and even swim clumsily, if unencumbered in reasonably calm waters - but Swimming incorporates the skills to brave agitated waters under difficult conditions, to dive, to stay afloat for extended periods, and to move at speed while in and under water.
+Theology|4|With this skill a character has an intimate academic knowledge of his religion. Common areas of learning include religious beliefs, temples and cults of a chosen region and its surrounding area.
+Tracking|5|A character with this Skill has the ability to follow the trail left by another creature by observing clues in the environment – footprints, crushed grass, broken twigs, dropped items, bits of cloth or fur, and other signs.
+Trailing|5|A character with this Skill is proficient at covertly following another person or creature. (This is different from the Tracking Skill because the target must be within sight when the character begins following it.)
+Trapping|5|A character with this Skill can plan, set, find, and disable traps of all sorts.

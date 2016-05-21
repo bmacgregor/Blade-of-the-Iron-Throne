@@ -1,5 +1,3 @@
-﻿- Add descriptions to both Proficiencies and Skills
-- Add textfiles to Properties.Resources when they're finished
-- Make helper class to read in txt file data and load lists
+﻿- Make helper class to read in txt file data and load lists
 - Research character creation, and make appropriate classes and methods
 - Begin building UI

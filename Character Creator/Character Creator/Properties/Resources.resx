@@ -117,4 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Arcance_Secrets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\arcance_secrets.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Assets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\assets.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Mysteries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\mysteries.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Proficiencies_Melee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\proficiencies_melee.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Proficiencies_Ranged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\proficiencies_ranged.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Skills" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\skills.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>

@@ -59,5 +59,75 @@ namespace Character_Creator.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Abomination|1|5|This hours long extended ritual must be conducted, with slight alterations, every week during about the first third of the pregnancy over the body of a woman who is either a willing participant or else powerless to resist. It changes the embryo into some monstrosity, whose eventual birth will almost certainly kill the mother.
+        ///The Acolyte&apos;s Claw|1|5|This Arcane Secret is no sorcerous spell at all, but rather a supremely deadly martial art harnessing the sorcerer’s eldritch power into smooth  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Arcance_Secrets {
+            get {
+                return ResourceManager.GetString("Arcance_Secrets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Abrasive|1|1|0|You are difficult and demanding in conversation. This tends to oppress those around you.
+        ///Absent Minded|1|1|0|You are fascinated by knowledge and learning, and are capable of pursuing complex trains of thought quite quickly. However, your preoccupation with such thoughts makes you less aware of your surroundings.
+        ///Addiction|0|1|1|The character is addicted to a drug that has at least two out of the following three properties: highly illegal, very expensive, and/or debilitating.
+        ///Aggressive|1|1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Assets {
+            get {
+                return ResourceManager.GetString("Assets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Goety|1|This is the sorcery of conjuration, command, and banishment of supernatural creatures from beyond the boundaries of the world, those commonly called demons.
+        ///Necromancy|1|Necromancy deals with calling up the dead from the beyond, but not to revive them as undead – even though the art of Necromancy can also open the door to this unholy pursuit – but rather to question the shades of the deceased and thereby learn secrets beyond human ken.
+        ///Cursing|0|Cursing is the dark art of placing a doom on somebod [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Mysteries {
+            get {
+                return ResourceManager.GetString("Mysteries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Brawling|null|-2|-1|-4|null|-4|-4|-3|-4|-4|-1|The one weapon everyone has is his body. Variations of unarmed combat exist all over the world. This version is popular throughout the western half. Brawling involves, first and foremost, punching and kicking - delivered by means of the Bash Maneuver –and also grappling and plenty of dirty tricks. While mostly an unarmed Proficiency, the use of knuckledusters, saps and the like is also incorporated.
+        ///Cut and Thrust|-4|null|-4|-4|null|-3|-3|-4|-3|-2|-4|This Profi [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Proficiencies_Melee {
+            get {
+                return ResourceManager.GetString("Proficiencies_Melee", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Black Powder Weapons|null|-3|-2|null|null|null|null|null|null|null|null|null
+        ///Bow|null|null|-4|null|null|null|null|null|null|null|null|null
+        ///Crossbow|-2|-2|null|null|null|null|null|null|null|null|null|null
+        ///Sling|null|null|null|null|null|null|null|-4|null|null|null|null
+        ///Spear/Javelin|null|null|null|null|null|null|null|null|-3|-3|null|null
+        ///Thrown Knife|null|null|null|null|null|null|null|null|null|null|-4|null
+        ///Thrown Axe|null|null|null|null|null|null|null|null|null|null|null|-4
+        ///Thrown Rock|null|null|null| [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Proficiencies_Ranged {
+            get {
+                return ResourceManager.GetString("Proficiencies_Ranged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Acting|3|The character is skilled in all aspects of stage acting in front of crowds. Memorizing lines, voice projection, body control and voice mimicry are all within the range of the normal use of this Skill.
+        ///Ancient Languages|4|This Skill provides the ability to read, write, and eventually speak one chosen language from a long ago, lost civilization. Ancient Languages can only be used to learn languages from the past that are not typically spoken in the character’s modern world.
+        ///Animal Ken|3|A character [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Skills {
+            get {
+                return ResourceManager.GetString("Skills", resourceCulture);
+            }
+        }
     }
 }
