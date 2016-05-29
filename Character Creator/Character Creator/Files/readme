@@ -1,0 +1,56 @@
+These files are read-in at compile time and added as class-objects to
+the Character Creator.  Originally, this had been handled in a much less
+elegant fashion, with just a ton of massive lists, but I feel that my
+previous approach felt pretty clunky.  Below is a breakdown for how each
+file is set up for reading-in - keep in mind, the '|' character is used as
+a splitter, and the newline is used for different objects.  Unless otherwise
+stated, all enums are zero-based:
+
+---------------------
+
+Arcane_Secrets.txt
+[Secret Name]|[first enumerated int for mystery prereq]|[second enumerated int for mystery prereq]|[Description]
+  
+  The enum used is structured as follows:
+    { none, goety, necromancy, cursing, enslavement, mending, prophecy, scrying, witchfire }
+    
+---------------------
+    
+Assets.txt
+[Asset Name]|[int to determine if the asset has a good version (zero or one)]|
+  [int to determine if the asset has a poor version (zero or one]|
+  [enum for determining the culture this asset could be associated with]|[Description]
+    
+    The enum used is structured as follows:
+      { all, decadent, degenerate, restricted }
+    
+---------------------
+    
+Mystery.txt
+[Mystery Name]|[int to deternime if the mystery is greater or lesser (zero or one)]|[Description]
+
+---------------------
+
+Proficiencies_Melee.txt
+[Proficiency Name]|[Brawl default]|[Cut and Thrust default]|[Dagger default]|[Greatsword default]|[Lance default]|
+  [Longsword default]|[Mass Weapon and Shield default]|[Polearm default]|[Spear and Shield default]|
+  [Sword and Shield default]|[Wrestling default]|[Description]
+  
+  If the default of a weapon proficincy is listed as n/a in the rulebook, it is entered as a zero
+
+---------------------
+
+Proficiencies_Ranged.txt
+[Proficiency Name]|[Black Powder Weapons default]|[Bow default]|[Crossbow default]|[Sling default]|
+  [Spear/Javelin default]|[Thrown Knife default]|[Thrown Axe default]|[Thrown Rock default]|[Polearm default]|
+  [Spear and Shield default]|[Dagger default]|[Mass Weapon and Shield default]
+  
+  As with melee proficiencies, if a default is listed as n/a, it is entered as zero
+
+---------------------
+
+Skills.txt
+[Skill Name]|[enumerated int to determine Attribute used]|[Description]
+
+  The enum used is structured as follows:
+    { brawn, daring, tenacity, heart, sagacity, cunning }
