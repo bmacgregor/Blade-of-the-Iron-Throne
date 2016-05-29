@@ -1,0 +1,3 @@
+This folder holds character data, as specified by the user.
+
+Priority is set up using a set of enums to allow for easier character building, coding wise.
