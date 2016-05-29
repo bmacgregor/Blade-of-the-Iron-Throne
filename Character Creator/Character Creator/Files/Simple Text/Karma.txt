@@ -1,0 +1,13 @@
+﻿Choose Karma to Spend
+0
+11 - 30 (Bonus E)
+31 - 50 (Bonus D)
+51 - 70 (Bonus C)
+71 - 90 (Bonus B)
+91 - 110 (Bonus A)
+111 - 130 (Bonus A and C)
+131 - 150 (Bonus A and B)
+151 - 170 (Bonus A and A)
+171 - 190 (Bonus A, A, and C)
+191 - 210 (Bonus A, A, and B)
+211 + (Bonus A, A, and A)

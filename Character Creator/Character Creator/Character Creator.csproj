@@ -94,6 +94,8 @@
     <Content Include="Files\Mysteries.txt" />
     <Content Include="Files\Proficiencies_Melee.txt" />
     <Content Include="Files\Proficiencies_Ranged.txt" />
+    <Content Include="Files\Simple Text\Karma.txt" />
+    <Content Include="Files\Simple Text\Loot.txt" />
     <Content Include="Files\Skills.txt" />
     <Content Include="ToDo.txt" />
   </ItemGroup>

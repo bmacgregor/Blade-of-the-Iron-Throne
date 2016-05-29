@@ -1,1 +1,10 @@
 C:\Code\Blade of the Iron Throne\Character Creator\Character Creator\bin\Debug\Character Creator.exe.config
+C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\bin\Debug\Character Creator.exe.config
+C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\bin\Debug\Character Creator.exe
+C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\bin\Debug\Character Creator.pdb
+C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character Creator.csprojResolveAssemblyReference.cache
+C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character_Creator.Form1.resources
+C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character_Creator.Properties.Resources.resources
+C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character Creator.csproj.GenerateResource.Cache
+C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character Creator.exe
+C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character Creator.pdb

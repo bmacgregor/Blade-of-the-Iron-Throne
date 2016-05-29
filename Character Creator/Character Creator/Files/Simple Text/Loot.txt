@@ -1,0 +1,7 @@
+﻿Choose a Loot Level
+Dead Broke
+Poor
+Average
+Rich
+Filthy Rich
+Fantastically Rich

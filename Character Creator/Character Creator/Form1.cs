@@ -22,12 +22,13 @@ namespace Character_Creator
         private void Form1_Load(object sender, EventArgs e)
         {
             Loaded h = new Loaded();
-            List<string> extracted = new List<string>();
+            List<string> extracted = new List<string>();  // holds .txt entries to be converted
 
-            extracted = h.ReadText(Properties.Resources.Arcance_Secrets);
-            Loaded.GetSecrets(extracted);
-            extracted.Clear();
+            extracted = h.ReadText(Properties.Resources.Arcance_Secrets);  // read all secret info
+            Loaded.GetSecrets(extracted);  // extract strings into secret-object-form
+            extracted.Clear();  // clear down the list for the next entries
 
+            // all the loading works as described above, just alters the object-type
             extracted = h.ReadText(Properties.Resources.Assets);
             Loaded.GetAssets(extracted);
             extracted.Clear();
@@ -46,6 +47,7 @@ namespace Character_Creator
 
             extracted = h.ReadText(Properties.Resources.Skills);
             Loaded.GetSkills(extracted);
+            // all .txt info is now loaded into the program
         }
     }
 }
