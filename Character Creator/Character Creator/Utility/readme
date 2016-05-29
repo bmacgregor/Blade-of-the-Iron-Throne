@@ -1,0 +1,4 @@
+Utility classes to hold useful methods.
+
+Loaded.cs:
+  reads in txt datafiles and pops them into their appropriate classes
