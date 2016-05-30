@@ -12,9 +12,9 @@ using Character_Creator.Utility;
 
 namespace Character_Creator
 {
-    public partial class Form1 : Form
+    public partial class Character_Creator : Form
     {
-        public Form1()
+        public Character_Creator()
         {
             InitializeComponent();
         }

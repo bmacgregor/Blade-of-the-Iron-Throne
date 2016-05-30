@@ -1,10 +1,11 @@
-- Begin building UI
-	- Add required text-files Simple Text, provided its only loading a combo-box and doesn't require more data
-	- Added simple text files so far:
-		- Karma
-		- Loot
-			- Add text files to add descriptions for priority levels
-	- Add read-in functionality to simple text-files
+- Add required text-files Simple Text, provided its only loading a combo-box and doesn't require more data
+- Added simple text files so far:
+	- Karma
+	- Loot
+	- Focus
+		- Add text files to add descriptions for priority levels
+		- Make sure to add all simple text files to Properties.Resources!
+- Add read-in functionality to simple text-files
 
 - UI tabs to complete:
 	- Sorcery and Culture
@@ -15,3 +16,4 @@
 - Once UI is done, wire up tabs for character creation
 - Create karma functionality
 - Add a class to save character data
+- Add an application icon

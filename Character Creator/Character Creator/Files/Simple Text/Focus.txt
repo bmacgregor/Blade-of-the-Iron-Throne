@@ -1,0 +1,7 @@
+﻿Select a Focus
+Brawn
+Daring
+Tenacity
+Heart
+Sagacity
+Cunning
