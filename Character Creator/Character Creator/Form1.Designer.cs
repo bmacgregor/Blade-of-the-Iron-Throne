@@ -34,7 +34,7 @@
             this.GB_Passion = new System.Windows.Forms.GroupBox();
             this.LBL_Passion_Spent = new System.Windows.Forms.Label();
             this.CMB_Karma = new System.Windows.Forms.ComboBox();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Drama = new System.Windows.Forms.NumericUpDown();
             this.TXB_PassionDrama = new System.Windows.Forms.TextBox();
             this.NUD_PassionThree = new System.Windows.Forms.NumericUpDown();
             this.TXB_PassionThree = new System.Windows.Forms.TextBox();
@@ -60,17 +60,17 @@
             this.GB_Char_Proficiency = new System.Windows.Forms.GroupBox();
             this.LBL_Prof_PriLevel = new System.Windows.Forms.Label();
             this.LBL_ProfF = new System.Windows.Forms.Label();
-            this.CMB_ProfF = new System.Windows.Forms.RadioButton();
+            this.RDO_ProfF = new System.Windows.Forms.RadioButton();
             this.LBL_ProfE = new System.Windows.Forms.Label();
-            this.CMB_ProfE = new System.Windows.Forms.RadioButton();
+            this.RDO_ProfE = new System.Windows.Forms.RadioButton();
             this.LBL_ProfD = new System.Windows.Forms.Label();
-            this.CMB_ProfD = new System.Windows.Forms.RadioButton();
+            this.RDO_ProfD = new System.Windows.Forms.RadioButton();
             this.LBL_ProfC = new System.Windows.Forms.Label();
-            this.CMB_ProfC = new System.Windows.Forms.RadioButton();
+            this.RDO_ProfC = new System.Windows.Forms.RadioButton();
             this.LBL_ProfB = new System.Windows.Forms.Label();
-            this.CMB_ProfB = new System.Windows.Forms.RadioButton();
+            this.RDO_ProfB = new System.Windows.Forms.RadioButton();
             this.LBL_ProfA = new System.Windows.Forms.Label();
-            this.CMB_ProfA = new System.Windows.Forms.RadioButton();
+            this.RDO_ProfA = new System.Windows.Forms.RadioButton();
             this.GB_Char_Skill = new System.Windows.Forms.GroupBox();
             this.LBL_Skll_PriLevel = new System.Windows.Forms.Label();
             this.LBL_SkllF = new System.Windows.Forms.Label();
@@ -156,124 +156,86 @@
             this.LBL_CharName = new System.Windows.Forms.Label();
             this.TAB_Sorc_Cult = new System.Windows.Forms.TabPage();
             this.GB_Culture = new System.Windows.Forms.GroupBox();
-            this.GB_Sorcery = new System.Windows.Forms.GroupBox();
-            this.TAB_Attr_Asst = new System.Windows.Forms.TabPage();
-            this.GB_Assets = new System.Windows.Forms.GroupBox();
-            this.GB_Attributes = new System.Windows.Forms.GroupBox();
-            this.TAB_Skll = new System.Windows.Forms.TabPage();
-            this.TAB_Prof = new System.Windows.Forms.TabPage();
-            this.LBL_Sorc_Mastery = new System.Windows.Forms.Label();
-            this.LBL_Cult_Level = new System.Windows.Forms.Label();
-            this.TXB_Sorc_MstrDesc = new System.Windows.Forms.TextBox();
-            this.TXB_Cult_Description = new System.Windows.Forms.TextBox();
-            this.CMB_Sorc_Secret = new System.Windows.Forms.ComboBox();
-            this.TXB_Sorc_ScrtDesc = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.CHB_Cult_Brawn = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.BTN_Cult_Add = new System.Windows.Forms.Button();
+            this.LST_Cult_AsstAvailable = new System.Windows.Forms.ListBox();
+            this.BTN_Cult_Remove = new System.Windows.Forms.Button();
+            this.LST_Cult_AsstChosen = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.LST_Cult_AsstChosen = new System.Windows.Forms.ListBox();
-            this.BTN_Cult_Remove = new System.Windows.Forms.Button();
-            this.BTN_Cult_Add = new System.Windows.Forms.Button();
-            this.LST_Cult_AsstAvailable = new System.Windows.Forms.ListBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.CMB_Attr_Focus = new System.Windows.Forms.ComboBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.CHB_Cult_Brawn = new System.Windows.Forms.CheckBox();
+            this.TXB_Cult_Description = new System.Windows.Forms.TextBox();
+            this.LBL_Cult_Level = new System.Windows.Forms.Label();
+            this.GB_Sorcery = new System.Windows.Forms.GroupBox();
+            this.TXB_Sorc_ScrtDesc = new System.Windows.Forms.TextBox();
+            this.CMB_Sorc_Secret = new System.Windows.Forms.ComboBox();
+            this.TXB_Sorc_MstrDesc = new System.Windows.Forms.TextBox();
+            this.LBL_Sorc_Mastery = new System.Windows.Forms.Label();
+            this.TAB_Attr_Asst = new System.Windows.Forms.TabPage();
+            this.GB_Assets = new System.Windows.Forms.GroupBox();
+            this.TXB_Asst_Desc = new System.Windows.Forms.TextBox();
+            this.BTN_Asst_Add = new System.Windows.Forms.Button();
+            this.LSB_Asst_Available = new System.Windows.Forms.ListBox();
+            this.LBL_Asst_Available = new System.Windows.Forms.Label();
+            this.BTN_Asst_Remove = new System.Windows.Forms.Button();
+            this.LSB_Asst_Chosen = new System.Windows.Forms.ListBox();
+            this.LBL_Asst_Chosen = new System.Windows.Forms.Label();
+            this.LBL_Asst_Spent = new System.Windows.Forms.Label();
+            this.GB_Attributes = new System.Windows.Forms.GroupBox();
+            this.TXB_Attr_Desc = new System.Windows.Forms.TextBox();
+            this.GB_Attr_Pools = new System.Windows.Forms.GroupBox();
+            this.LBL_Attr_Ranged = new System.Windows.Forms.Label();
+            this.LBL_Attr_Sorcery = new System.Windows.Forms.Label();
+            this.LBL_Attr_Melee = new System.Windows.Forms.Label();
+            this.GB_Attr_Derived = new System.Windows.Forms.GroupBox();
+            this.LBL_Attr_Power = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.LBL_Attr_Reflex = new System.Windows.Forms.Label();
             this.GB_Attr_Basic = new System.Windows.Forms.GroupBox();
-            this.NUD_Attr_Brawn = new System.Windows.Forms.NumericUpDown();
-            this.LBL_Attr_Brawn = new System.Windows.Forms.Label();
-            this.LBL_Attr_Tenacity = new System.Windows.Forms.Label();
-            this.NUD_Attr_Tenacity = new System.Windows.Forms.NumericUpDown();
-            this.LBL_Attr_Sagacity = new System.Windows.Forms.Label();
-            this.NUD_Attr_Sagacity = new System.Windows.Forms.NumericUpDown();
             this.LBL_Attr_Cunning = new System.Windows.Forms.Label();
             this.NUD_Attr_Cunning = new System.Windows.Forms.NumericUpDown();
             this.LBL_Attr_Heart = new System.Windows.Forms.Label();
             this.NUD_Attr_Heart = new System.Windows.Forms.NumericUpDown();
             this.LBL_Attr_Daring = new System.Windows.Forms.Label();
             this.NUD_Attr_Daring = new System.Windows.Forms.NumericUpDown();
-            this.GB_Attr_Derived = new System.Windows.Forms.GroupBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.LBL_Attr_Reflex = new System.Windows.Forms.Label();
-            this.GB_Attr_Pools = new System.Windows.Forms.GroupBox();
-            this.LBL_Attr_Ranged = new System.Windows.Forms.Label();
-            this.LBL_Attr_Sorcery = new System.Windows.Forms.Label();
-            this.LBL_Attr_Melee = new System.Windows.Forms.Label();
-            this.TXB_Attr_Desc = new System.Windows.Forms.TextBox();
-            this.LBL_Asst_Spent = new System.Windows.Forms.Label();
-            this.LBL_Asst_Chosen = new System.Windows.Forms.Label();
-            this.LSB_Asst_Chosen = new System.Windows.Forms.ListBox();
-            this.BTN_Asst_Remove = new System.Windows.Forms.Button();
-            this.BTN_Asst_Add = new System.Windows.Forms.Button();
-            this.LSB_Asst_Available = new System.Windows.Forms.ListBox();
-            this.LBL_Asst_Available = new System.Windows.Forms.Label();
-            this.TXB_Asst_Desc = new System.Windows.Forms.TextBox();
-            this.GB_Skll_Basic = new System.Windows.Forms.GroupBox();
-            this.NUD_Skll_Acting = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_AncLanguages = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Apothecary = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_AniKen = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Dancing = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Customs = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Climbing = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_BtfTactics = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Decipher = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_LockPicking = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_LightStep = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_InfoGathering = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Healing = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_FrnLanguages = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Falsehood = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Etiquette = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Disguise = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Sneaking = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Seduction = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Seamanship = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Riding = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Prestidigitation = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_PickPockets = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Negotiation = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Navigation = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Music = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Trapping = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Trailing = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Tracking = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Theology = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Swimming = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Survival = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Soldiering = new System.Windows.Forms.NumericUpDown();
-            this.GB_Skll_Sorcerous = new System.Windows.Forms.GroupBox();
-            this.NUD_Skll_Precognition = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_OmenReading = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_Occultism = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Skll_DtcSorcery = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Attr_Sagacity = new System.Windows.Forms.Label();
+            this.NUD_Attr_Sagacity = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Attr_Tenacity = new System.Windows.Forms.Label();
+            this.NUD_Attr_Tenacity = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Attr_Brawn = new System.Windows.Forms.Label();
+            this.NUD_Attr_Brawn = new System.Windows.Forms.NumericUpDown();
+            this.CMB_Attr_Focus = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TAB_Skll = new System.Windows.Forms.TabPage();
+            this.LBL_Skll_Spent = new System.Windows.Forms.Label();
             this.TXB_Skll_Desc = new System.Windows.Forms.TextBox();
-            this.LBL_Skll_Acting = new System.Windows.Forms.Label();
-            this.LBL_Skll_AncLanguages = new System.Windows.Forms.Label();
-            this.LBL_Skll_Apothecary = new System.Windows.Forms.Label();
-            this.LBL_Skll_AniKen = new System.Windows.Forms.Label();
-            this.LBL_Skll_Dancing = new System.Windows.Forms.Label();
-            this.LBL_Skll_Customs = new System.Windows.Forms.Label();
-            this.LBL_Skll_Climbing = new System.Windows.Forms.Label();
-            this.LBL_Skll_BtfTactics = new System.Windows.Forms.Label();
-            this.LBL_Skll_Decipher = new System.Windows.Forms.Label();
-            this.LBL_Skll_LockPicking = new System.Windows.Forms.Label();
-            this.LBL_Skll_LightStep = new System.Windows.Forms.Label();
-            this.LBL_Skll_InfoGathering = new System.Windows.Forms.Label();
-            this.LBL_Skll_Healing = new System.Windows.Forms.Label();
-            this.LBL_Skll_FrnLanguages = new System.Windows.Forms.Label();
-            this.LBL_Skll_Falsehood = new System.Windows.Forms.Label();
-            this.LBL_Skll_Etiquette = new System.Windows.Forms.Label();
-            this.LBL_Skll_Disguise = new System.Windows.Forms.Label();
+            this.GB_Skll_Sorcerous = new System.Windows.Forms.GroupBox();
+            this.LBL_Skll_Precognition = new System.Windows.Forms.Label();
+            this.NUD_Skll_Precognition = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Skll_OmenReading = new System.Windows.Forms.Label();
+            this.NUD_Skll_DtcSorcery = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Skll_Occultism = new System.Windows.Forms.Label();
+            this.NUD_Skll_OmenReading = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Skll_DtcSorcery = new System.Windows.Forms.Label();
+            this.NUD_Skll_Occultism = new System.Windows.Forms.NumericUpDown();
+            this.GB_Skll_Basic = new System.Windows.Forms.GroupBox();
+            this.LBL_Skll_Trapping = new System.Windows.Forms.Label();
+            this.LBL_Skll_Trailing = new System.Windows.Forms.Label();
+            this.LBL_Skll_Tracking = new System.Windows.Forms.Label();
+            this.LBL_Skll_Theology = new System.Windows.Forms.Label();
+            this.LBL_Skll_Swimming = new System.Windows.Forms.Label();
+            this.LBL_Skll_Survival = new System.Windows.Forms.Label();
+            this.LBL_Skll_Soldiering = new System.Windows.Forms.Label();
             this.LBL_Skll_Sneaking = new System.Windows.Forms.Label();
             this.LBL_Skll_Music = new System.Windows.Forms.Label();
             this.LBL_Skll_Seduction = new System.Windows.Forms.Label();
@@ -283,22 +245,93 @@
             this.LBL_Skll_PickPockets = new System.Windows.Forms.Label();
             this.LBL_Skll_Negotiation = new System.Windows.Forms.Label();
             this.LBL_Skll_Navigation = new System.Windows.Forms.Label();
-            this.LBL_Skll_Trapping = new System.Windows.Forms.Label();
-            this.LBL_Skll_Trailing = new System.Windows.Forms.Label();
-            this.LBL_Skll_Tracking = new System.Windows.Forms.Label();
-            this.LBL_Skll_Theology = new System.Windows.Forms.Label();
-            this.LBL_Skll_Swimming = new System.Windows.Forms.Label();
-            this.LBL_Skll_Survival = new System.Windows.Forms.Label();
-            this.LBL_Skll_Soldiering = new System.Windows.Forms.Label();
-            this.LBL_Skll_Precognition = new System.Windows.Forms.Label();
-            this.LBL_Skll_OmenReading = new System.Windows.Forms.Label();
-            this.LBL_Skll_Occultism = new System.Windows.Forms.Label();
-            this.LBL_Skll_DtcSorcery = new System.Windows.Forms.Label();
-            this.LBL_Skll_Spent = new System.Windows.Forms.Label();
-            this.LBL_Prof_Spent = new System.Windows.Forms.Label();
-            this.GB_Prof_Melee = new System.Windows.Forms.GroupBox();
-            this.GB_Prof_Archery = new System.Windows.Forms.GroupBox();
+            this.LBL_Skll_LockPicking = new System.Windows.Forms.Label();
+            this.LBL_Skll_LightStep = new System.Windows.Forms.Label();
+            this.LBL_Skll_InfoGathering = new System.Windows.Forms.Label();
+            this.LBL_Skll_Healing = new System.Windows.Forms.Label();
+            this.LBL_Skll_FrnLanguages = new System.Windows.Forms.Label();
+            this.LBL_Skll_Falsehood = new System.Windows.Forms.Label();
+            this.LBL_Skll_Etiquette = new System.Windows.Forms.Label();
+            this.LBL_Skll_Disguise = new System.Windows.Forms.Label();
+            this.LBL_Skll_Decipher = new System.Windows.Forms.Label();
+            this.LBL_Skll_Dancing = new System.Windows.Forms.Label();
+            this.LBL_Skll_Customs = new System.Windows.Forms.Label();
+            this.LBL_Skll_Climbing = new System.Windows.Forms.Label();
+            this.LBL_Skll_BtfTactics = new System.Windows.Forms.Label();
+            this.LBL_Skll_Apothecary = new System.Windows.Forms.Label();
+            this.LBL_Skll_AniKen = new System.Windows.Forms.Label();
+            this.LBL_Skll_AncLanguages = new System.Windows.Forms.Label();
+            this.LBL_Skll_Acting = new System.Windows.Forms.Label();
+            this.NUD_Skll_Trapping = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Trailing = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Tracking = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Theology = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Swimming = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Survival = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Soldiering = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Sneaking = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Seduction = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Seamanship = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Riding = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Prestidigitation = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_PickPockets = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Negotiation = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Navigation = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Music = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_LockPicking = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_LightStep = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_InfoGathering = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Healing = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_FrnLanguages = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Falsehood = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Etiquette = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Disguise = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Decipher = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Dancing = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Customs = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Climbing = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_BtfTactics = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Apothecary = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_AniKen = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_AncLanguages = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Skll_Acting = new System.Windows.Forms.NumericUpDown();
+            this.TAB_Prof = new System.Windows.Forms.TabPage();
+            this.GB_Prof_Sorcery = new System.Windows.Forms.GroupBox();
+            this.LBL_Prof_Prophecy = new System.Windows.Forms.Label();
+            this.LBL_Prof_Goety = new System.Windows.Forms.Label();
+            this.NUD_Prof_Prophecy = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_Goety = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Prof_Witchfire = new System.Windows.Forms.Label();
+            this.LBL_Prof_Necromancy = new System.Windows.Forms.Label();
+            this.LBL_Prof_Enslavement = new System.Windows.Forms.Label();
+            this.NUD_Prof_Witchfire = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_Necromancy = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_Enslavement = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Prof_Scrying = new System.Windows.Forms.Label();
+            this.LBL_Prof_Mending = new System.Windows.Forms.Label();
+            this.LBL_Prof_Cursing = new System.Windows.Forms.Label();
+            this.NUD_Prof_Scrying = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_Mending = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_Cursing = new System.Windows.Forms.NumericUpDown();
             this.TXB_Prof_Desc = new System.Windows.Forms.TextBox();
+            this.GB_Prof_Archery = new System.Windows.Forms.GroupBox();
+            this.LBL_Prof_ThrownAxe = new System.Windows.Forms.Label();
+            this.LBL_Prof_Crossbow = new System.Windows.Forms.Label();
+            this.NUD_Prof_ThrownAxe = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_Crossbow = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Prof_ThrownRock = new System.Windows.Forms.Label();
+            this.LBL_Prof_SpearJavelin = new System.Windows.Forms.Label();
+            this.LBL_Prof_Bow = new System.Windows.Forms.Label();
+            this.NUD_Prof_ThrownRock = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_SpearJavelin = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_Bow = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Prof_ThrownKnife = new System.Windows.Forms.Label();
+            this.LBL_Prof_Sling = new System.Windows.Forms.Label();
+            this.LBL_Prof_BlackPowder = new System.Windows.Forms.Label();
+            this.NUD_Prof_ThrownKnife = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_Sling = new System.Windows.Forms.NumericUpDown();
+            this.NUD_Prof_BlackPowder = new System.Windows.Forms.NumericUpDown();
+            this.GB_Prof_Melee = new System.Windows.Forms.GroupBox();
             this.LBL_Prof_Wrestling = new System.Windows.Forms.Label();
             this.LBL_Prof_SwordShield = new System.Windows.Forms.Label();
             this.LBL_Prof_SpearShield = new System.Windows.Forms.Label();
@@ -321,44 +354,12 @@
             this.NUD_Prof_Dagger = new System.Windows.Forms.NumericUpDown();
             this.NUD_Prof_CutThrust = new System.Windows.Forms.NumericUpDown();
             this.NUD_Prof_Brawling = new System.Windows.Forms.NumericUpDown();
-            this.LBL_Prof_ThrownKnife = new System.Windows.Forms.Label();
-            this.LBL_Prof_Sling = new System.Windows.Forms.Label();
-            this.LBL_Prof_BlackPowder = new System.Windows.Forms.Label();
-            this.NUD_Prof_ThrownKnife = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_Sling = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_BlackPowder = new System.Windows.Forms.NumericUpDown();
-            this.LBL_Prof_ThrownRock = new System.Windows.Forms.Label();
-            this.LBL_Prof_SpearJavelin = new System.Windows.Forms.Label();
-            this.LBL_Prof_Bow = new System.Windows.Forms.Label();
-            this.NUD_Prof_ThrownRock = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_SpearJavelin = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_Bow = new System.Windows.Forms.NumericUpDown();
-            this.LBL_Prof_ThrownAxe = new System.Windows.Forms.Label();
-            this.LBL_Prof_Crossbow = new System.Windows.Forms.Label();
-            this.NUD_Prof_ThrownAxe = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_Crossbow = new System.Windows.Forms.NumericUpDown();
-            this.GB_Prof_Sorcery = new System.Windows.Forms.GroupBox();
-            this.LBL_Prof_Prophecy = new System.Windows.Forms.Label();
-            this.LBL_Prof_Goety = new System.Windows.Forms.Label();
-            this.NUD_Prof_Prophecy = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_Goety = new System.Windows.Forms.NumericUpDown();
-            this.LBL_Prof_Witchfire = new System.Windows.Forms.Label();
-            this.LBL_Prof_Necromancy = new System.Windows.Forms.Label();
-            this.LBL_Prof_Enslavement = new System.Windows.Forms.Label();
-            this.NUD_Prof_Witchfire = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_Necromancy = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_Enslavement = new System.Windows.Forms.NumericUpDown();
-            this.LBL_Prof_Scrying = new System.Windows.Forms.Label();
-            this.LBL_Prof_Mending = new System.Windows.Forms.Label();
-            this.LBL_Prof_Cursing = new System.Windows.Forms.Label();
-            this.NUD_Prof_Scrying = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_Mending = new System.Windows.Forms.NumericUpDown();
-            this.NUD_Prof_Cursing = new System.Windows.Forms.NumericUpDown();
+            this.LBL_Prof_Spent = new System.Windows.Forms.Label();
             this.TBC_Controller.SuspendLayout();
             this.TAB_CharInfo.SuspendLayout();
             this.GB_PriorityPassion.SuspendLayout();
             this.GB_Passion.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Drama)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_PassionThree)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_PassionTwo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_PassionOne)).BeginInit();
@@ -372,40 +373,34 @@
             this.GB_CharDescription.SuspendLayout();
             this.TAB_Sorc_Cult.SuspendLayout();
             this.GB_Culture.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.GB_Sorcery.SuspendLayout();
             this.TAB_Attr_Asst.SuspendLayout();
             this.GB_Assets.SuspendLayout();
             this.GB_Attributes.SuspendLayout();
-            this.TAB_Skll.SuspendLayout();
-            this.TAB_Prof.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.GB_Attr_Pools.SuspendLayout();
+            this.GB_Attr_Derived.SuspendLayout();
             this.GB_Attr_Basic.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Brawn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Tenacity)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Sagacity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Cunning)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Heart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Daring)).BeginInit();
-            this.GB_Attr_Derived.SuspendLayout();
-            this.GB_Attr_Pools.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Sagacity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Tenacity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Brawn)).BeginInit();
+            this.TAB_Skll.SuspendLayout();
+            this.GB_Skll_Sorcerous.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Precognition)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_DtcSorcery)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_OmenReading)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Occultism)).BeginInit();
             this.GB_Skll_Basic.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Acting)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_AncLanguages)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Apothecary)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_AniKen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Dancing)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Customs)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Climbing)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_BtfTactics)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Decipher)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_LockPicking)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_LightStep)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_InfoGathering)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Healing)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_FrnLanguages)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Falsehood)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Etiquette)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Disguise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Trapping)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Trailing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Tracking)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Theology)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Swimming)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Survival)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Soldiering)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Sneaking)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Seduction)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Seamanship)).BeginInit();
@@ -415,20 +410,43 @@
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Negotiation)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Navigation)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Music)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Trapping)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Trailing)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Tracking)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Theology)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Swimming)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Survival)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Soldiering)).BeginInit();
-            this.GB_Skll_Sorcerous.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Precognition)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_OmenReading)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Occultism)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_DtcSorcery)).BeginInit();
-            this.GB_Prof_Melee.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_LockPicking)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_LightStep)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_InfoGathering)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Healing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_FrnLanguages)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Falsehood)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Etiquette)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Disguise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Decipher)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Dancing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Customs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Climbing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_BtfTactics)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Apothecary)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_AniKen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_AncLanguages)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Acting)).BeginInit();
+            this.TAB_Prof.SuspendLayout();
+            this.GB_Prof_Sorcery.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Prophecy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Goety)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Witchfire)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Necromancy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Enslavement)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Scrying)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Mending)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Cursing)).BeginInit();
             this.GB_Prof_Archery.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownAxe)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Crossbow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownRock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_SpearJavelin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Bow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownKnife)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Sling)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_BlackPowder)).BeginInit();
+            this.GB_Prof_Melee.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Wrestling)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_SwordShield)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_SpearShield)).BeginInit();
@@ -440,23 +458,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Dagger)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_CutThrust)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Brawling)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownKnife)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Sling)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_BlackPowder)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownRock)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_SpearJavelin)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Bow)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownAxe)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Crossbow)).BeginInit();
-            this.GB_Prof_Sorcery.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Prophecy)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Goety)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Witchfire)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Necromancy)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Enslavement)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Scrying)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Mending)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Cursing)).BeginInit();
             this.SuspendLayout();
             // 
             // TBC_Controller
@@ -499,7 +500,7 @@
             // 
             this.GB_Passion.Controls.Add(this.LBL_Passion_Spent);
             this.GB_Passion.Controls.Add(this.CMB_Karma);
-            this.GB_Passion.Controls.Add(this.numericUpDown4);
+            this.GB_Passion.Controls.Add(this.NUD_Drama);
             this.GB_Passion.Controls.Add(this.TXB_PassionDrama);
             this.GB_Passion.Controls.Add(this.NUD_PassionThree);
             this.GB_Passion.Controls.Add(this.TXB_PassionThree);
@@ -531,18 +532,20 @@
             this.CMB_Karma.Name = "CMB_Karma";
             this.CMB_Karma.Size = new System.Drawing.Size(170, 21);
             this.CMB_Karma.TabIndex = 8;
+            this.CMB_Karma.SelectedIndexChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
-            // numericUpDown4
+            // NUD_Drama
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(53, 99);
-            this.numericUpDown4.Maximum = new decimal(new int[] {
+            this.NUD_Drama.Location = new System.Drawing.Point(53, 99);
+            this.NUD_Drama.Maximum = new decimal(new int[] {
             7,
             0,
             0,
             0});
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(42, 20);
-            this.numericUpDown4.TabIndex = 7;
+            this.NUD_Drama.Name = "NUD_Drama";
+            this.NUD_Drama.Size = new System.Drawing.Size(42, 20);
+            this.NUD_Drama.TabIndex = 7;
+            this.NUD_Drama.ValueChanged += new System.EventHandler(this.NUD_PassionOne_ValueChanged);
             // 
             // TXB_PassionDrama
             // 
@@ -564,6 +567,7 @@
             this.NUD_PassionThree.Name = "NUD_PassionThree";
             this.NUD_PassionThree.Size = new System.Drawing.Size(42, 20);
             this.NUD_PassionThree.TabIndex = 5;
+            this.NUD_PassionThree.ValueChanged += new System.EventHandler(this.NUD_PassionOne_ValueChanged);
             // 
             // TXB_PassionThree
             // 
@@ -571,6 +575,7 @@
             this.TXB_PassionThree.Name = "TXB_PassionThree";
             this.TXB_PassionThree.Size = new System.Drawing.Size(217, 20);
             this.TXB_PassionThree.TabIndex = 4;
+            this.TXB_PassionThree.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // NUD_PassionTwo
             // 
@@ -583,6 +588,7 @@
             this.NUD_PassionTwo.Name = "NUD_PassionTwo";
             this.NUD_PassionTwo.Size = new System.Drawing.Size(42, 20);
             this.NUD_PassionTwo.TabIndex = 3;
+            this.NUD_PassionTwo.ValueChanged += new System.EventHandler(this.NUD_PassionOne_ValueChanged);
             // 
             // TXB_PassionTwo
             // 
@@ -590,6 +596,7 @@
             this.TXB_PassionTwo.Name = "TXB_PassionTwo";
             this.TXB_PassionTwo.Size = new System.Drawing.Size(217, 20);
             this.TXB_PassionTwo.TabIndex = 2;
+            this.TXB_PassionTwo.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // NUD_PassionOne
             // 
@@ -602,6 +609,7 @@
             this.NUD_PassionOne.Name = "NUD_PassionOne";
             this.NUD_PassionOne.Size = new System.Drawing.Size(42, 20);
             this.NUD_PassionOne.TabIndex = 1;
+            this.NUD_PassionOne.ValueChanged += new System.EventHandler(this.NUD_PassionOne_ValueChanged);
             // 
             // TXB_PassionOne
             // 
@@ -609,6 +617,7 @@
             this.TXB_PassionOne.Name = "TXB_PassionOne";
             this.TXB_PassionOne.Size = new System.Drawing.Size(217, 20);
             this.TXB_PassionOne.TabIndex = 0;
+            this.TXB_PassionOne.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // GB_Priority
             // 
@@ -674,6 +683,7 @@
             this.RDO_AsstF.TabIndex = 10;
             this.RDO_AsstF.TabStop = true;
             this.RDO_AsstF.UseVisualStyleBackColor = true;
+            this.RDO_AsstF.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AsstE
             // 
@@ -693,6 +703,7 @@
             this.RDO_AsstE.TabIndex = 8;
             this.RDO_AsstE.TabStop = true;
             this.RDO_AsstE.UseVisualStyleBackColor = true;
+            this.RDO_AsstE.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AsstD
             // 
@@ -712,6 +723,7 @@
             this.RDO_AsstD.TabIndex = 6;
             this.RDO_AsstD.TabStop = true;
             this.RDO_AsstD.UseVisualStyleBackColor = true;
+            this.RDO_AsstD.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AsstC
             // 
@@ -731,6 +743,7 @@
             this.RDO_AsstC.TabIndex = 4;
             this.RDO_AsstC.TabStop = true;
             this.RDO_AsstC.UseVisualStyleBackColor = true;
+            this.RDO_AsstC.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AsstB
             // 
@@ -750,6 +763,7 @@
             this.RDO_AsstB.TabIndex = 2;
             this.RDO_AsstB.TabStop = true;
             this.RDO_AsstB.UseVisualStyleBackColor = true;
+            this.RDO_AsstB.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AsstA
             // 
@@ -769,22 +783,23 @@
             this.RDO_AsstA.TabIndex = 0;
             this.RDO_AsstA.TabStop = true;
             this.RDO_AsstA.UseVisualStyleBackColor = true;
+            this.RDO_AsstA.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // GB_Char_Proficiency
             // 
             this.GB_Char_Proficiency.Controls.Add(this.LBL_Prof_PriLevel);
             this.GB_Char_Proficiency.Controls.Add(this.LBL_ProfF);
-            this.GB_Char_Proficiency.Controls.Add(this.CMB_ProfF);
+            this.GB_Char_Proficiency.Controls.Add(this.RDO_ProfF);
             this.GB_Char_Proficiency.Controls.Add(this.LBL_ProfE);
-            this.GB_Char_Proficiency.Controls.Add(this.CMB_ProfE);
+            this.GB_Char_Proficiency.Controls.Add(this.RDO_ProfE);
             this.GB_Char_Proficiency.Controls.Add(this.LBL_ProfD);
-            this.GB_Char_Proficiency.Controls.Add(this.CMB_ProfD);
+            this.GB_Char_Proficiency.Controls.Add(this.RDO_ProfD);
             this.GB_Char_Proficiency.Controls.Add(this.LBL_ProfC);
-            this.GB_Char_Proficiency.Controls.Add(this.CMB_ProfC);
+            this.GB_Char_Proficiency.Controls.Add(this.RDO_ProfC);
             this.GB_Char_Proficiency.Controls.Add(this.LBL_ProfB);
-            this.GB_Char_Proficiency.Controls.Add(this.CMB_ProfB);
+            this.GB_Char_Proficiency.Controls.Add(this.RDO_ProfB);
             this.GB_Char_Proficiency.Controls.Add(this.LBL_ProfA);
-            this.GB_Char_Proficiency.Controls.Add(this.CMB_ProfA);
+            this.GB_Char_Proficiency.Controls.Add(this.RDO_ProfA);
             this.GB_Char_Proficiency.Location = new System.Drawing.Point(7, 181);
             this.GB_Char_Proficiency.Name = "GB_Char_Proficiency";
             this.GB_Char_Proficiency.Size = new System.Drawing.Size(128, 75);
@@ -810,15 +825,16 @@
             this.LBL_ProfF.TabIndex = 11;
             this.LBL_ProfF.Text = "F";
             // 
-            // CMB_ProfF
+            // RDO_ProfF
             // 
-            this.CMB_ProfF.AutoSize = true;
-            this.CMB_ProfF.Location = new System.Drawing.Point(106, 35);
-            this.CMB_ProfF.Name = "CMB_ProfF";
-            this.CMB_ProfF.Size = new System.Drawing.Size(14, 13);
-            this.CMB_ProfF.TabIndex = 10;
-            this.CMB_ProfF.TabStop = true;
-            this.CMB_ProfF.UseVisualStyleBackColor = true;
+            this.RDO_ProfF.AutoSize = true;
+            this.RDO_ProfF.Location = new System.Drawing.Point(106, 35);
+            this.RDO_ProfF.Name = "RDO_ProfF";
+            this.RDO_ProfF.Size = new System.Drawing.Size(14, 13);
+            this.RDO_ProfF.TabIndex = 10;
+            this.RDO_ProfF.TabStop = true;
+            this.RDO_ProfF.UseVisualStyleBackColor = true;
+            this.RDO_ProfF.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_ProfE
             // 
@@ -829,15 +845,16 @@
             this.LBL_ProfE.TabIndex = 9;
             this.LBL_ProfE.Text = "E";
             // 
-            // CMB_ProfE
+            // RDO_ProfE
             // 
-            this.CMB_ProfE.AutoSize = true;
-            this.CMB_ProfE.Location = new System.Drawing.Point(86, 35);
-            this.CMB_ProfE.Name = "CMB_ProfE";
-            this.CMB_ProfE.Size = new System.Drawing.Size(14, 13);
-            this.CMB_ProfE.TabIndex = 8;
-            this.CMB_ProfE.TabStop = true;
-            this.CMB_ProfE.UseVisualStyleBackColor = true;
+            this.RDO_ProfE.AutoSize = true;
+            this.RDO_ProfE.Location = new System.Drawing.Point(86, 35);
+            this.RDO_ProfE.Name = "RDO_ProfE";
+            this.RDO_ProfE.Size = new System.Drawing.Size(14, 13);
+            this.RDO_ProfE.TabIndex = 8;
+            this.RDO_ProfE.TabStop = true;
+            this.RDO_ProfE.UseVisualStyleBackColor = true;
+            this.RDO_ProfE.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_ProfD
             // 
@@ -848,15 +865,16 @@
             this.LBL_ProfD.TabIndex = 7;
             this.LBL_ProfD.Text = "D";
             // 
-            // CMB_ProfD
+            // RDO_ProfD
             // 
-            this.CMB_ProfD.AutoSize = true;
-            this.CMB_ProfD.Location = new System.Drawing.Point(66, 35);
-            this.CMB_ProfD.Name = "CMB_ProfD";
-            this.CMB_ProfD.Size = new System.Drawing.Size(14, 13);
-            this.CMB_ProfD.TabIndex = 6;
-            this.CMB_ProfD.TabStop = true;
-            this.CMB_ProfD.UseVisualStyleBackColor = true;
+            this.RDO_ProfD.AutoSize = true;
+            this.RDO_ProfD.Location = new System.Drawing.Point(66, 35);
+            this.RDO_ProfD.Name = "RDO_ProfD";
+            this.RDO_ProfD.Size = new System.Drawing.Size(14, 13);
+            this.RDO_ProfD.TabIndex = 6;
+            this.RDO_ProfD.TabStop = true;
+            this.RDO_ProfD.UseVisualStyleBackColor = true;
+            this.RDO_ProfD.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_ProfC
             // 
@@ -867,15 +885,16 @@
             this.LBL_ProfC.TabIndex = 5;
             this.LBL_ProfC.Text = "C";
             // 
-            // CMB_ProfC
+            // RDO_ProfC
             // 
-            this.CMB_ProfC.AutoSize = true;
-            this.CMB_ProfC.Location = new System.Drawing.Point(46, 35);
-            this.CMB_ProfC.Name = "CMB_ProfC";
-            this.CMB_ProfC.Size = new System.Drawing.Size(14, 13);
-            this.CMB_ProfC.TabIndex = 4;
-            this.CMB_ProfC.TabStop = true;
-            this.CMB_ProfC.UseVisualStyleBackColor = true;
+            this.RDO_ProfC.AutoSize = true;
+            this.RDO_ProfC.Location = new System.Drawing.Point(46, 35);
+            this.RDO_ProfC.Name = "RDO_ProfC";
+            this.RDO_ProfC.Size = new System.Drawing.Size(14, 13);
+            this.RDO_ProfC.TabIndex = 4;
+            this.RDO_ProfC.TabStop = true;
+            this.RDO_ProfC.UseVisualStyleBackColor = true;
+            this.RDO_ProfC.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_ProfB
             // 
@@ -886,15 +905,16 @@
             this.LBL_ProfB.TabIndex = 3;
             this.LBL_ProfB.Text = "B";
             // 
-            // CMB_ProfB
+            // RDO_ProfB
             // 
-            this.CMB_ProfB.AutoSize = true;
-            this.CMB_ProfB.Location = new System.Drawing.Point(26, 35);
-            this.CMB_ProfB.Name = "CMB_ProfB";
-            this.CMB_ProfB.Size = new System.Drawing.Size(14, 13);
-            this.CMB_ProfB.TabIndex = 2;
-            this.CMB_ProfB.TabStop = true;
-            this.CMB_ProfB.UseVisualStyleBackColor = true;
+            this.RDO_ProfB.AutoSize = true;
+            this.RDO_ProfB.Location = new System.Drawing.Point(26, 35);
+            this.RDO_ProfB.Name = "RDO_ProfB";
+            this.RDO_ProfB.Size = new System.Drawing.Size(14, 13);
+            this.RDO_ProfB.TabIndex = 2;
+            this.RDO_ProfB.TabStop = true;
+            this.RDO_ProfB.UseVisualStyleBackColor = true;
+            this.RDO_ProfB.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_ProfA
             // 
@@ -905,15 +925,16 @@
             this.LBL_ProfA.TabIndex = 1;
             this.LBL_ProfA.Text = "A";
             // 
-            // CMB_ProfA
+            // RDO_ProfA
             // 
-            this.CMB_ProfA.AutoSize = true;
-            this.CMB_ProfA.Location = new System.Drawing.Point(6, 35);
-            this.CMB_ProfA.Name = "CMB_ProfA";
-            this.CMB_ProfA.Size = new System.Drawing.Size(14, 13);
-            this.CMB_ProfA.TabIndex = 0;
-            this.CMB_ProfA.TabStop = true;
-            this.CMB_ProfA.UseVisualStyleBackColor = true;
+            this.RDO_ProfA.AutoSize = true;
+            this.RDO_ProfA.Location = new System.Drawing.Point(6, 35);
+            this.RDO_ProfA.Name = "RDO_ProfA";
+            this.RDO_ProfA.Size = new System.Drawing.Size(14, 13);
+            this.RDO_ProfA.TabIndex = 0;
+            this.RDO_ProfA.TabStop = true;
+            this.RDO_ProfA.UseVisualStyleBackColor = true;
+            this.RDO_ProfA.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // GB_Char_Skill
             // 
@@ -964,6 +985,7 @@
             this.RDO_SkllF.TabIndex = 10;
             this.RDO_SkllF.TabStop = true;
             this.RDO_SkllF.UseVisualStyleBackColor = true;
+            this.RDO_SkllF.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SkllE
             // 
@@ -983,6 +1005,7 @@
             this.RDO_SkllE.TabIndex = 8;
             this.RDO_SkllE.TabStop = true;
             this.RDO_SkllE.UseVisualStyleBackColor = true;
+            this.RDO_SkllE.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SkllD
             // 
@@ -1002,6 +1025,7 @@
             this.RDO_SkllD.TabIndex = 6;
             this.RDO_SkllD.TabStop = true;
             this.RDO_SkllD.UseVisualStyleBackColor = true;
+            this.RDO_SkllD.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SkllC
             // 
@@ -1021,6 +1045,7 @@
             this.RDO_SkllC.TabIndex = 4;
             this.RDO_SkllC.TabStop = true;
             this.RDO_SkllC.UseVisualStyleBackColor = true;
+            this.RDO_SkllC.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SkllB
             // 
@@ -1040,6 +1065,7 @@
             this.RDO_SkllB.TabIndex = 2;
             this.RDO_SkllB.TabStop = true;
             this.RDO_SkllB.UseVisualStyleBackColor = true;
+            this.RDO_SkllB.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SkllA
             // 
@@ -1059,6 +1085,7 @@
             this.RDO_SkllA.TabIndex = 0;
             this.RDO_SkllA.TabStop = true;
             this.RDO_SkllA.UseVisualStyleBackColor = true;
+            this.RDO_SkllA.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // GB_Char_Culture
             // 
@@ -1109,6 +1136,7 @@
             this.RDO_CultF.TabIndex = 10;
             this.RDO_CultF.TabStop = true;
             this.RDO_CultF.UseVisualStyleBackColor = true;
+            this.RDO_CultF.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_CultE
             // 
@@ -1128,6 +1156,7 @@
             this.RDO_CultE.TabIndex = 8;
             this.RDO_CultE.TabStop = true;
             this.RDO_CultE.UseVisualStyleBackColor = true;
+            this.RDO_CultE.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_CultD
             // 
@@ -1147,6 +1176,7 @@
             this.RDO_CultD.TabIndex = 6;
             this.RDO_CultD.TabStop = true;
             this.RDO_CultD.UseVisualStyleBackColor = true;
+            this.RDO_CultD.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_CultC
             // 
@@ -1166,6 +1196,7 @@
             this.RDO_CultC.TabIndex = 4;
             this.RDO_CultC.TabStop = true;
             this.RDO_CultC.UseVisualStyleBackColor = true;
+            this.RDO_CultC.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_CultB
             // 
@@ -1185,6 +1216,7 @@
             this.RDO_CultB.TabIndex = 2;
             this.RDO_CultB.TabStop = true;
             this.RDO_CultB.UseVisualStyleBackColor = true;
+            this.RDO_CultB.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_CultA
             // 
@@ -1204,6 +1236,7 @@
             this.RDO_CultA.TabIndex = 0;
             this.RDO_CultA.TabStop = true;
             this.RDO_CultA.UseVisualStyleBackColor = true;
+            this.RDO_CultA.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // GB_Char_Attribute
             // 
@@ -1254,6 +1287,7 @@
             this.RDO_AttrF.TabIndex = 10;
             this.RDO_AttrF.TabStop = true;
             this.RDO_AttrF.UseVisualStyleBackColor = true;
+            this.RDO_AttrF.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AttrE
             // 
@@ -1273,6 +1307,7 @@
             this.RDO_AttrE.TabIndex = 8;
             this.RDO_AttrE.TabStop = true;
             this.RDO_AttrE.UseVisualStyleBackColor = true;
+            this.RDO_AttrE.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AttrD
             // 
@@ -1292,6 +1327,7 @@
             this.RDO_AttrD.TabIndex = 6;
             this.RDO_AttrD.TabStop = true;
             this.RDO_AttrD.UseVisualStyleBackColor = true;
+            this.RDO_AttrD.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AttrC
             // 
@@ -1311,6 +1347,7 @@
             this.RDO_AttrC.TabIndex = 4;
             this.RDO_AttrC.TabStop = true;
             this.RDO_AttrC.UseVisualStyleBackColor = true;
+            this.RDO_AttrC.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AttrB
             // 
@@ -1330,6 +1367,7 @@
             this.RDO_AttrB.TabIndex = 2;
             this.RDO_AttrB.TabStop = true;
             this.RDO_AttrB.UseVisualStyleBackColor = true;
+            this.RDO_AttrB.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_AttrA
             // 
@@ -1349,6 +1387,7 @@
             this.RDO_AttrA.TabIndex = 0;
             this.RDO_AttrA.TabStop = true;
             this.RDO_AttrA.UseVisualStyleBackColor = true;
+            this.RDO_AttrA.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // GB_Char_Sorcery
             // 
@@ -1399,6 +1438,7 @@
             this.RDO_SorcF.TabIndex = 10;
             this.RDO_SorcF.TabStop = true;
             this.RDO_SorcF.UseVisualStyleBackColor = true;
+            this.RDO_SorcF.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SorcE
             // 
@@ -1418,6 +1458,7 @@
             this.RDO_SorcE.TabIndex = 8;
             this.RDO_SorcE.TabStop = true;
             this.RDO_SorcE.UseVisualStyleBackColor = true;
+            this.RDO_SorcE.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SorcD
             // 
@@ -1437,6 +1478,7 @@
             this.RDO_SorcD.TabIndex = 6;
             this.RDO_SorcD.TabStop = true;
             this.RDO_SorcD.UseVisualStyleBackColor = true;
+            this.RDO_SorcD.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SorcC
             // 
@@ -1456,6 +1498,7 @@
             this.RDO_SorcC.TabIndex = 4;
             this.RDO_SorcC.TabStop = true;
             this.RDO_SorcC.UseVisualStyleBackColor = true;
+            this.RDO_SorcC.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SorcB
             // 
@@ -1475,6 +1518,7 @@
             this.RDO_SorcB.TabIndex = 2;
             this.RDO_SorcB.TabStop = true;
             this.RDO_SorcB.UseVisualStyleBackColor = true;
+            this.RDO_SorcB.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // LBL_SorcA
             // 
@@ -1494,6 +1538,7 @@
             this.RDO_SorcA.TabIndex = 0;
             this.RDO_SorcA.TabStop = true;
             this.RDO_SorcA.UseVisualStyleBackColor = true;
+            this.RDO_SorcA.CheckedChanged += new System.EventHandler(this.RDO_SorcA_CheckedChanged);
             // 
             // GB_CharDescription
             // 
@@ -1537,6 +1582,7 @@
             this.TXB_CharOther.Name = "TXB_CharOther";
             this.TXB_CharOther.Size = new System.Drawing.Size(198, 72);
             this.TXB_CharOther.TabIndex = 25;
+            this.TXB_CharOther.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharEquip
             // 
@@ -1545,6 +1591,7 @@
             this.TXB_CharEquip.Name = "TXB_CharEquip";
             this.TXB_CharEquip.Size = new System.Drawing.Size(198, 67);
             this.TXB_CharEquip.TabIndex = 24;
+            this.TXB_CharEquip.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharAppearance
             // 
@@ -1553,6 +1600,7 @@
             this.TXB_CharAppearance.Name = "TXB_CharAppearance";
             this.TXB_CharAppearance.Size = new System.Drawing.Size(198, 67);
             this.TXB_CharAppearance.TabIndex = 23;
+            this.TXB_CharAppearance.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharContacts
             // 
@@ -1561,6 +1609,7 @@
             this.TXB_CharContacts.Name = "TXB_CharContacts";
             this.TXB_CharContacts.Size = new System.Drawing.Size(198, 45);
             this.TXB_CharContacts.TabIndex = 22;
+            this.TXB_CharContacts.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // CMB_CharLootLvl
             // 
@@ -1570,6 +1619,7 @@
             this.CMB_CharLootLvl.Name = "CMB_CharLootLvl";
             this.CMB_CharLootLvl.Size = new System.Drawing.Size(198, 21);
             this.CMB_CharLootLvl.TabIndex = 21;
+            this.CMB_CharLootLvl.SelectedIndexChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharEye
             // 
@@ -1577,6 +1627,7 @@
             this.TXB_CharEye.Name = "TXB_CharEye";
             this.TXB_CharEye.Size = new System.Drawing.Size(66, 20);
             this.TXB_CharEye.TabIndex = 20;
+            this.TXB_CharEye.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharWeight
             // 
@@ -1584,6 +1635,7 @@
             this.TXB_CharWeight.Name = "TXB_CharWeight";
             this.TXB_CharWeight.Size = new System.Drawing.Size(66, 20);
             this.TXB_CharWeight.TabIndex = 19;
+            this.TXB_CharWeight.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharHair
             // 
@@ -1591,6 +1643,7 @@
             this.TXB_CharHair.Name = "TXB_CharHair";
             this.TXB_CharHair.Size = new System.Drawing.Size(59, 20);
             this.TXB_CharHair.TabIndex = 18;
+            this.TXB_CharHair.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharHeight
             // 
@@ -1598,6 +1651,7 @@
             this.TXB_CharHeight.Name = "TXB_CharHeight";
             this.TXB_CharHeight.Size = new System.Drawing.Size(59, 20);
             this.TXB_CharHeight.TabIndex = 17;
+            this.TXB_CharHeight.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharAge
             // 
@@ -1605,6 +1659,7 @@
             this.TXB_CharAge.Name = "TXB_CharAge";
             this.TXB_CharAge.Size = new System.Drawing.Size(66, 20);
             this.TXB_CharAge.TabIndex = 16;
+            this.TXB_CharAge.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharGender
             // 
@@ -1612,6 +1667,7 @@
             this.TXB_CharGender.Name = "TXB_CharGender";
             this.TXB_CharGender.Size = new System.Drawing.Size(59, 20);
             this.TXB_CharGender.TabIndex = 15;
+            this.TXB_CharGender.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharNationality
             // 
@@ -1619,6 +1675,7 @@
             this.TXB_CharNationality.Name = "TXB_CharNationality";
             this.TXB_CharNationality.Size = new System.Drawing.Size(198, 20);
             this.TXB_CharNationality.TabIndex = 14;
+            this.TXB_CharNationality.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // TXB_CharName
             // 
@@ -1626,6 +1683,7 @@
             this.TXB_CharName.Name = "TXB_CharName";
             this.TXB_CharName.Size = new System.Drawing.Size(198, 20);
             this.TXB_CharName.TabIndex = 13;
+            this.TXB_CharName.TextChanged += new System.EventHandler(this.TXB_CharName_TextChanged);
             // 
             // LBL_CharOther
             // 
@@ -1768,150 +1826,6 @@
             this.GB_Culture.TabStop = false;
             this.GB_Culture.Text = "Culture";
             // 
-            // GB_Sorcery
-            // 
-            this.GB_Sorcery.Controls.Add(this.TXB_Sorc_ScrtDesc);
-            this.GB_Sorcery.Controls.Add(this.CMB_Sorc_Secret);
-            this.GB_Sorcery.Controls.Add(this.TXB_Sorc_MstrDesc);
-            this.GB_Sorcery.Controls.Add(this.LBL_Sorc_Mastery);
-            this.GB_Sorcery.Location = new System.Drawing.Point(6, 6);
-            this.GB_Sorcery.Name = "GB_Sorcery";
-            this.GB_Sorcery.Size = new System.Drawing.Size(282, 452);
-            this.GB_Sorcery.TabIndex = 0;
-            this.GB_Sorcery.TabStop = false;
-            this.GB_Sorcery.Text = "Sorcery";
-            // 
-            // TAB_Attr_Asst
-            // 
-            this.TAB_Attr_Asst.Controls.Add(this.GB_Assets);
-            this.TAB_Attr_Asst.Controls.Add(this.GB_Attributes);
-            this.TAB_Attr_Asst.Location = new System.Drawing.Point(4, 22);
-            this.TAB_Attr_Asst.Name = "TAB_Attr_Asst";
-            this.TAB_Attr_Asst.Padding = new System.Windows.Forms.Padding(3);
-            this.TAB_Attr_Asst.Size = new System.Drawing.Size(598, 466);
-            this.TAB_Attr_Asst.TabIndex = 2;
-            this.TAB_Attr_Asst.Text = "Attributes and Assets";
-            this.TAB_Attr_Asst.UseVisualStyleBackColor = true;
-            // 
-            // GB_Assets
-            // 
-            this.GB_Assets.Controls.Add(this.TXB_Asst_Desc);
-            this.GB_Assets.Controls.Add(this.BTN_Asst_Add);
-            this.GB_Assets.Controls.Add(this.LSB_Asst_Available);
-            this.GB_Assets.Controls.Add(this.LBL_Asst_Available);
-            this.GB_Assets.Controls.Add(this.BTN_Asst_Remove);
-            this.GB_Assets.Controls.Add(this.LSB_Asst_Chosen);
-            this.GB_Assets.Controls.Add(this.LBL_Asst_Chosen);
-            this.GB_Assets.Controls.Add(this.LBL_Asst_Spent);
-            this.GB_Assets.Location = new System.Drawing.Point(294, 6);
-            this.GB_Assets.Name = "GB_Assets";
-            this.GB_Assets.Size = new System.Drawing.Size(294, 452);
-            this.GB_Assets.TabIndex = 3;
-            this.GB_Assets.TabStop = false;
-            this.GB_Assets.Text = "Assets";
-            // 
-            // GB_Attributes
-            // 
-            this.GB_Attributes.Controls.Add(this.TXB_Attr_Desc);
-            this.GB_Attributes.Controls.Add(this.GB_Attr_Pools);
-            this.GB_Attributes.Controls.Add(this.GB_Attr_Derived);
-            this.GB_Attributes.Controls.Add(this.GB_Attr_Basic);
-            this.GB_Attributes.Controls.Add(this.CMB_Attr_Focus);
-            this.GB_Attributes.Controls.Add(this.label1);
-            this.GB_Attributes.Location = new System.Drawing.Point(6, 6);
-            this.GB_Attributes.Name = "GB_Attributes";
-            this.GB_Attributes.Size = new System.Drawing.Size(282, 452);
-            this.GB_Attributes.TabIndex = 2;
-            this.GB_Attributes.TabStop = false;
-            this.GB_Attributes.Text = "Attributes";
-            // 
-            // TAB_Skll
-            // 
-            this.TAB_Skll.Controls.Add(this.LBL_Skll_Spent);
-            this.TAB_Skll.Controls.Add(this.TXB_Skll_Desc);
-            this.TAB_Skll.Controls.Add(this.GB_Skll_Sorcerous);
-            this.TAB_Skll.Controls.Add(this.GB_Skll_Basic);
-            this.TAB_Skll.Location = new System.Drawing.Point(4, 22);
-            this.TAB_Skll.Name = "TAB_Skll";
-            this.TAB_Skll.Padding = new System.Windows.Forms.Padding(3);
-            this.TAB_Skll.Size = new System.Drawing.Size(598, 466);
-            this.TAB_Skll.TabIndex = 3;
-            this.TAB_Skll.Text = "Skills";
-            this.TAB_Skll.UseVisualStyleBackColor = true;
-            // 
-            // TAB_Prof
-            // 
-            this.TAB_Prof.Controls.Add(this.GB_Prof_Sorcery);
-            this.TAB_Prof.Controls.Add(this.TXB_Prof_Desc);
-            this.TAB_Prof.Controls.Add(this.GB_Prof_Archery);
-            this.TAB_Prof.Controls.Add(this.GB_Prof_Melee);
-            this.TAB_Prof.Controls.Add(this.LBL_Prof_Spent);
-            this.TAB_Prof.Location = new System.Drawing.Point(4, 22);
-            this.TAB_Prof.Name = "TAB_Prof";
-            this.TAB_Prof.Padding = new System.Windows.Forms.Padding(3);
-            this.TAB_Prof.Size = new System.Drawing.Size(598, 466);
-            this.TAB_Prof.TabIndex = 4;
-            this.TAB_Prof.Text = "Proficiencies";
-            this.TAB_Prof.UseVisualStyleBackColor = true;
-            // 
-            // LBL_Sorc_Mastery
-            // 
-            this.LBL_Sorc_Mastery.AutoSize = true;
-            this.LBL_Sorc_Mastery.Location = new System.Drawing.Point(111, 20);
-            this.LBL_Sorc_Mastery.Name = "LBL_Sorc_Mastery";
-            this.LBL_Sorc_Mastery.Size = new System.Drawing.Size(61, 13);
-            this.LBL_Sorc_Mastery.TabIndex = 0;
-            this.LBL_Sorc_Mastery.Text = "No Mastery";
-            // 
-            // LBL_Cult_Level
-            // 
-            this.LBL_Cult_Level.AutoSize = true;
-            this.LBL_Cult_Level.Location = new System.Drawing.Point(119, 19);
-            this.LBL_Cult_Level.Name = "LBL_Cult_Level";
-            this.LBL_Cult_Level.Size = new System.Drawing.Size(57, 13);
-            this.LBL_Cult_Level.TabIndex = 0;
-            this.LBL_Cult_Level.Text = "No Culture";
-            // 
-            // TXB_Sorc_MstrDesc
-            // 
-            this.TXB_Sorc_MstrDesc.Location = new System.Drawing.Point(7, 44);
-            this.TXB_Sorc_MstrDesc.Multiline = true;
-            this.TXB_Sorc_MstrDesc.Name = "TXB_Sorc_MstrDesc";
-            this.TXB_Sorc_MstrDesc.ReadOnly = true;
-            this.TXB_Sorc_MstrDesc.Size = new System.Drawing.Size(269, 174);
-            this.TXB_Sorc_MstrDesc.TabIndex = 1;
-            this.TXB_Sorc_MstrDesc.Text = "No Sorcery priority chosen!  Choose a Sorcery level before proceeding.";
-            // 
-            // TXB_Cult_Description
-            // 
-            this.TXB_Cult_Description.Location = new System.Drawing.Point(6, 44);
-            this.TXB_Cult_Description.Multiline = true;
-            this.TXB_Cult_Description.Name = "TXB_Cult_Description";
-            this.TXB_Cult_Description.ReadOnly = true;
-            this.TXB_Cult_Description.Size = new System.Drawing.Size(282, 157);
-            this.TXB_Cult_Description.TabIndex = 2;
-            this.TXB_Cult_Description.Text = "No Culture priority chosen!  Choose a Culture level before proceeding.";
-            // 
-            // CMB_Sorc_Secret
-            // 
-            this.CMB_Sorc_Secret.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CMB_Sorc_Secret.Enabled = false;
-            this.CMB_Sorc_Secret.FormattingEnabled = true;
-            this.CMB_Sorc_Secret.Location = new System.Drawing.Point(7, 224);
-            this.CMB_Sorc_Secret.Name = "CMB_Sorc_Secret";
-            this.CMB_Sorc_Secret.Size = new System.Drawing.Size(269, 21);
-            this.CMB_Sorc_Secret.TabIndex = 2;
-            // 
-            // TXB_Sorc_ScrtDesc
-            // 
-            this.TXB_Sorc_ScrtDesc.Location = new System.Drawing.Point(7, 253);
-            this.TXB_Sorc_ScrtDesc.Multiline = true;
-            this.TXB_Sorc_ScrtDesc.Name = "TXB_Sorc_ScrtDesc";
-            this.TXB_Sorc_ScrtDesc.ReadOnly = true;
-            this.TXB_Sorc_ScrtDesc.Size = new System.Drawing.Size(269, 193);
-            this.TXB_Sorc_ScrtDesc.TabIndex = 3;
-            this.TXB_Sorc_ScrtDesc.Text = "No Secret chosen.";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label5);
@@ -1936,49 +1850,70 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Culture Bonus / Penalty";
             // 
-            // CHB_Cult_Brawn
+            // label5
             // 
-            this.CHB_Cult_Brawn.AutoSize = true;
-            this.CHB_Cult_Brawn.Enabled = false;
-            this.CHB_Cult_Brawn.Location = new System.Drawing.Point(6, 23);
-            this.CHB_Cult_Brawn.Name = "CHB_Cult_Brawn";
-            this.CHB_Cult_Brawn.Size = new System.Drawing.Size(56, 17);
-            this.CHB_Cult_Brawn.TabIndex = 0;
-            this.CHB_Cult_Brawn.Text = "Brawn";
-            this.CHB_Cult_Brawn.UseVisualStyleBackColor = true;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 203);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(33, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Other";
+            this.label5.Visible = false;
             // 
-            // checkBox2
+            // label4
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Enabled = false;
-            this.checkBox2.Location = new System.Drawing.Point(6, 46);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(57, 17);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Daring";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 184);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(58, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Skill Points";
+            this.label4.Visible = false;
             // 
-            // checkBox3
+            // BTN_Cult_Add
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Enabled = false;
-            this.checkBox3.Location = new System.Drawing.Point(6, 92);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(52, 17);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "Heart";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.BTN_Cult_Add.Enabled = false;
+            this.BTN_Cult_Add.Location = new System.Drawing.Point(155, 203);
+            this.BTN_Cult_Add.Name = "BTN_Cult_Add";
+            this.BTN_Cult_Add.Size = new System.Drawing.Size(120, 23);
+            this.BTN_Cult_Add.TabIndex = 11;
+            this.BTN_Cult_Add.Text = "Add";
+            this.BTN_Cult_Add.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // LST_Cult_AsstAvailable
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Enabled = false;
-            this.checkBox4.Location = new System.Drawing.Point(6, 69);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(67, 17);
-            this.checkBox4.TabIndex = 2;
-            this.checkBox4.Text = "Tenacity";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.LST_Cult_AsstAvailable.FormattingEnabled = true;
+            this.LST_Cult_AsstAvailable.Location = new System.Drawing.Point(155, 115);
+            this.LST_Cult_AsstAvailable.Name = "LST_Cult_AsstAvailable";
+            this.LST_Cult_AsstAvailable.Size = new System.Drawing.Size(120, 82);
+            this.LST_Cult_AsstAvailable.TabIndex = 10;
+            // 
+            // BTN_Cult_Remove
+            // 
+            this.BTN_Cult_Remove.Enabled = false;
+            this.BTN_Cult_Remove.Location = new System.Drawing.Point(155, 86);
+            this.BTN_Cult_Remove.Name = "BTN_Cult_Remove";
+            this.BTN_Cult_Remove.Size = new System.Drawing.Size(120, 23);
+            this.BTN_Cult_Remove.TabIndex = 9;
+            this.BTN_Cult_Remove.Text = "Remove";
+            this.BTN_Cult_Remove.UseVisualStyleBackColor = true;
+            // 
+            // LST_Cult_AsstChosen
+            // 
+            this.LST_Cult_AsstChosen.FormattingEnabled = true;
+            this.LST_Cult_AsstChosen.Location = new System.Drawing.Point(155, 36);
+            this.LST_Cult_AsstChosen.Name = "LST_Cult_AsstChosen";
+            this.LST_Cult_AsstChosen.Size = new System.Drawing.Size(120, 43);
+            this.LST_Cult_AsstChosen.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(159, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(113, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Assets Available: 0 / 0";
             // 
             // checkBox5
             // 
@@ -2013,89 +1948,357 @@
             this.checkBox7.Text = "Sagacity";
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // checkBox3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(159, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Assets Available: 0 / 0";
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Enabled = false;
+            this.checkBox3.Location = new System.Drawing.Point(6, 92);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(52, 17);
+            this.checkBox3.TabIndex = 3;
+            this.checkBox3.Text = "Heart";
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // LST_Cult_AsstChosen
+            // checkBox4
             // 
-            this.LST_Cult_AsstChosen.FormattingEnabled = true;
-            this.LST_Cult_AsstChosen.Location = new System.Drawing.Point(155, 36);
-            this.LST_Cult_AsstChosen.Name = "LST_Cult_AsstChosen";
-            this.LST_Cult_AsstChosen.Size = new System.Drawing.Size(120, 43);
-            this.LST_Cult_AsstChosen.TabIndex = 8;
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Enabled = false;
+            this.checkBox4.Location = new System.Drawing.Point(6, 69);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(67, 17);
+            this.checkBox4.TabIndex = 2;
+            this.checkBox4.Text = "Tenacity";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
-            // BTN_Cult_Remove
+            // checkBox2
             // 
-            this.BTN_Cult_Remove.Enabled = false;
-            this.BTN_Cult_Remove.Location = new System.Drawing.Point(155, 86);
-            this.BTN_Cult_Remove.Name = "BTN_Cult_Remove";
-            this.BTN_Cult_Remove.Size = new System.Drawing.Size(120, 23);
-            this.BTN_Cult_Remove.TabIndex = 9;
-            this.BTN_Cult_Remove.Text = "Remove";
-            this.BTN_Cult_Remove.UseVisualStyleBackColor = true;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Enabled = false;
+            this.checkBox2.Location = new System.Drawing.Point(6, 46);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(57, 17);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "Daring";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // BTN_Cult_Add
+            // CHB_Cult_Brawn
             // 
-            this.BTN_Cult_Add.Enabled = false;
-            this.BTN_Cult_Add.Location = new System.Drawing.Point(155, 203);
-            this.BTN_Cult_Add.Name = "BTN_Cult_Add";
-            this.BTN_Cult_Add.Size = new System.Drawing.Size(120, 23);
-            this.BTN_Cult_Add.TabIndex = 11;
-            this.BTN_Cult_Add.Text = "Add";
-            this.BTN_Cult_Add.UseVisualStyleBackColor = true;
+            this.CHB_Cult_Brawn.AutoSize = true;
+            this.CHB_Cult_Brawn.Enabled = false;
+            this.CHB_Cult_Brawn.Location = new System.Drawing.Point(6, 23);
+            this.CHB_Cult_Brawn.Name = "CHB_Cult_Brawn";
+            this.CHB_Cult_Brawn.Size = new System.Drawing.Size(56, 17);
+            this.CHB_Cult_Brawn.TabIndex = 0;
+            this.CHB_Cult_Brawn.Text = "Brawn";
+            this.CHB_Cult_Brawn.UseVisualStyleBackColor = true;
             // 
-            // LST_Cult_AsstAvailable
+            // TXB_Cult_Description
             // 
-            this.LST_Cult_AsstAvailable.FormattingEnabled = true;
-            this.LST_Cult_AsstAvailable.Location = new System.Drawing.Point(155, 115);
-            this.LST_Cult_AsstAvailable.Name = "LST_Cult_AsstAvailable";
-            this.LST_Cult_AsstAvailable.Size = new System.Drawing.Size(120, 82);
-            this.LST_Cult_AsstAvailable.TabIndex = 10;
+            this.TXB_Cult_Description.Location = new System.Drawing.Point(6, 44);
+            this.TXB_Cult_Description.Multiline = true;
+            this.TXB_Cult_Description.Name = "TXB_Cult_Description";
+            this.TXB_Cult_Description.ReadOnly = true;
+            this.TXB_Cult_Description.Size = new System.Drawing.Size(282, 157);
+            this.TXB_Cult_Description.TabIndex = 2;
+            this.TXB_Cult_Description.Text = "No Culture priority chosen!  Choose a Culture level before proceeding.";
             // 
-            // label4
+            // LBL_Cult_Level
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 184);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 13);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Skill Points";
-            this.label4.Visible = false;
+            this.LBL_Cult_Level.AutoSize = true;
+            this.LBL_Cult_Level.Location = new System.Drawing.Point(119, 19);
+            this.LBL_Cult_Level.Name = "LBL_Cult_Level";
+            this.LBL_Cult_Level.Size = new System.Drawing.Size(57, 13);
+            this.LBL_Cult_Level.TabIndex = 0;
+            this.LBL_Cult_Level.Text = "No Culture";
             // 
-            // label5
+            // GB_Sorcery
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 203);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 13);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Other";
-            this.label5.Visible = false;
+            this.GB_Sorcery.Controls.Add(this.TXB_Sorc_ScrtDesc);
+            this.GB_Sorcery.Controls.Add(this.CMB_Sorc_Secret);
+            this.GB_Sorcery.Controls.Add(this.TXB_Sorc_MstrDesc);
+            this.GB_Sorcery.Controls.Add(this.LBL_Sorc_Mastery);
+            this.GB_Sorcery.Location = new System.Drawing.Point(6, 6);
+            this.GB_Sorcery.Name = "GB_Sorcery";
+            this.GB_Sorcery.Size = new System.Drawing.Size(282, 452);
+            this.GB_Sorcery.TabIndex = 0;
+            this.GB_Sorcery.TabStop = false;
+            this.GB_Sorcery.Text = "Sorcery";
             // 
-            // label1
+            // TXB_Sorc_ScrtDesc
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(93, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Points Spent: 6 / 6";
+            this.TXB_Sorc_ScrtDesc.Location = new System.Drawing.Point(7, 253);
+            this.TXB_Sorc_ScrtDesc.Multiline = true;
+            this.TXB_Sorc_ScrtDesc.Name = "TXB_Sorc_ScrtDesc";
+            this.TXB_Sorc_ScrtDesc.ReadOnly = true;
+            this.TXB_Sorc_ScrtDesc.Size = new System.Drawing.Size(269, 193);
+            this.TXB_Sorc_ScrtDesc.TabIndex = 3;
+            this.TXB_Sorc_ScrtDesc.Text = "No Secret chosen.";
             // 
-            // CMB_Attr_Focus
+            // CMB_Sorc_Secret
             // 
-            this.CMB_Attr_Focus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CMB_Attr_Focus.Enabled = false;
-            this.CMB_Attr_Focus.FormattingEnabled = true;
-            this.CMB_Attr_Focus.Location = new System.Drawing.Point(81, 37);
-            this.CMB_Attr_Focus.Name = "CMB_Attr_Focus";
-            this.CMB_Attr_Focus.Size = new System.Drawing.Size(121, 21);
-            this.CMB_Attr_Focus.TabIndex = 1;
+            this.CMB_Sorc_Secret.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CMB_Sorc_Secret.Enabled = false;
+            this.CMB_Sorc_Secret.FormattingEnabled = true;
+            this.CMB_Sorc_Secret.Location = new System.Drawing.Point(7, 224);
+            this.CMB_Sorc_Secret.Name = "CMB_Sorc_Secret";
+            this.CMB_Sorc_Secret.Size = new System.Drawing.Size(269, 21);
+            this.CMB_Sorc_Secret.TabIndex = 2;
+            // 
+            // TXB_Sorc_MstrDesc
+            // 
+            this.TXB_Sorc_MstrDesc.Location = new System.Drawing.Point(7, 44);
+            this.TXB_Sorc_MstrDesc.Multiline = true;
+            this.TXB_Sorc_MstrDesc.Name = "TXB_Sorc_MstrDesc";
+            this.TXB_Sorc_MstrDesc.ReadOnly = true;
+            this.TXB_Sorc_MstrDesc.Size = new System.Drawing.Size(269, 174);
+            this.TXB_Sorc_MstrDesc.TabIndex = 1;
+            this.TXB_Sorc_MstrDesc.Text = "No Sorcery priority chosen!  Choose a Sorcery level before proceeding.";
+            // 
+            // LBL_Sorc_Mastery
+            // 
+            this.LBL_Sorc_Mastery.AutoSize = true;
+            this.LBL_Sorc_Mastery.Location = new System.Drawing.Point(111, 20);
+            this.LBL_Sorc_Mastery.Name = "LBL_Sorc_Mastery";
+            this.LBL_Sorc_Mastery.Size = new System.Drawing.Size(61, 13);
+            this.LBL_Sorc_Mastery.TabIndex = 0;
+            this.LBL_Sorc_Mastery.Text = "No Mastery";
+            // 
+            // TAB_Attr_Asst
+            // 
+            this.TAB_Attr_Asst.Controls.Add(this.GB_Assets);
+            this.TAB_Attr_Asst.Controls.Add(this.GB_Attributes);
+            this.TAB_Attr_Asst.Location = new System.Drawing.Point(4, 22);
+            this.TAB_Attr_Asst.Name = "TAB_Attr_Asst";
+            this.TAB_Attr_Asst.Padding = new System.Windows.Forms.Padding(3);
+            this.TAB_Attr_Asst.Size = new System.Drawing.Size(598, 466);
+            this.TAB_Attr_Asst.TabIndex = 2;
+            this.TAB_Attr_Asst.Text = "Attributes and Assets";
+            this.TAB_Attr_Asst.UseVisualStyleBackColor = true;
+            // 
+            // GB_Assets
+            // 
+            this.GB_Assets.Controls.Add(this.TXB_Asst_Desc);
+            this.GB_Assets.Controls.Add(this.BTN_Asst_Add);
+            this.GB_Assets.Controls.Add(this.LSB_Asst_Available);
+            this.GB_Assets.Controls.Add(this.LBL_Asst_Available);
+            this.GB_Assets.Controls.Add(this.BTN_Asst_Remove);
+            this.GB_Assets.Controls.Add(this.LSB_Asst_Chosen);
+            this.GB_Assets.Controls.Add(this.LBL_Asst_Chosen);
+            this.GB_Assets.Controls.Add(this.LBL_Asst_Spent);
+            this.GB_Assets.Location = new System.Drawing.Point(294, 6);
+            this.GB_Assets.Name = "GB_Assets";
+            this.GB_Assets.Size = new System.Drawing.Size(294, 452);
+            this.GB_Assets.TabIndex = 3;
+            this.GB_Assets.TabStop = false;
+            this.GB_Assets.Text = "Assets";
+            // 
+            // TXB_Asst_Desc
+            // 
+            this.TXB_Asst_Desc.Location = new System.Drawing.Point(6, 327);
+            this.TXB_Asst_Desc.Multiline = true;
+            this.TXB_Asst_Desc.Name = "TXB_Asst_Desc";
+            this.TXB_Asst_Desc.ReadOnly = true;
+            this.TXB_Asst_Desc.Size = new System.Drawing.Size(282, 119);
+            this.TXB_Asst_Desc.TabIndex = 15;
+            this.TXB_Asst_Desc.Text = "No Asset priority chosen!  Choose an Asset level before proceeding.";
+            // 
+            // BTN_Asst_Add
+            // 
+            this.BTN_Asst_Add.Enabled = false;
+            this.BTN_Asst_Add.Location = new System.Drawing.Point(6, 298);
+            this.BTN_Asst_Add.Name = "BTN_Asst_Add";
+            this.BTN_Asst_Add.Size = new System.Drawing.Size(282, 23);
+            this.BTN_Asst_Add.TabIndex = 6;
+            this.BTN_Asst_Add.Text = "Add Asset";
+            this.BTN_Asst_Add.UseVisualStyleBackColor = true;
+            // 
+            // LSB_Asst_Available
+            // 
+            this.LSB_Asst_Available.Enabled = false;
+            this.LSB_Asst_Available.FormattingEnabled = true;
+            this.LSB_Asst_Available.Location = new System.Drawing.Point(6, 197);
+            this.LSB_Asst_Available.Name = "LSB_Asst_Available";
+            this.LSB_Asst_Available.Size = new System.Drawing.Size(282, 95);
+            this.LSB_Asst_Available.TabIndex = 5;
+            // 
+            // LBL_Asst_Available
+            // 
+            this.LBL_Asst_Available.AutoSize = true;
+            this.LBL_Asst_Available.Location = new System.Drawing.Point(105, 181);
+            this.LBL_Asst_Available.Name = "LBL_Asst_Available";
+            this.LBL_Asst_Available.Size = new System.Drawing.Size(84, 13);
+            this.LBL_Asst_Available.TabIndex = 4;
+            this.LBL_Asst_Available.Text = "Available Assets";
+            // 
+            // BTN_Asst_Remove
+            // 
+            this.BTN_Asst_Remove.Enabled = false;
+            this.BTN_Asst_Remove.Location = new System.Drawing.Point(6, 155);
+            this.BTN_Asst_Remove.Name = "BTN_Asst_Remove";
+            this.BTN_Asst_Remove.Size = new System.Drawing.Size(282, 23);
+            this.BTN_Asst_Remove.TabIndex = 3;
+            this.BTN_Asst_Remove.Text = "Remove Asset";
+            this.BTN_Asst_Remove.UseVisualStyleBackColor = true;
+            // 
+            // LSB_Asst_Chosen
+            // 
+            this.LSB_Asst_Chosen.Enabled = false;
+            this.LSB_Asst_Chosen.FormattingEnabled = true;
+            this.LSB_Asst_Chosen.Location = new System.Drawing.Point(6, 56);
+            this.LSB_Asst_Chosen.Name = "LSB_Asst_Chosen";
+            this.LSB_Asst_Chosen.Size = new System.Drawing.Size(282, 95);
+            this.LSB_Asst_Chosen.TabIndex = 2;
+            // 
+            // LBL_Asst_Chosen
+            // 
+            this.LBL_Asst_Chosen.AutoSize = true;
+            this.LBL_Asst_Chosen.Location = new System.Drawing.Point(109, 40);
+            this.LBL_Asst_Chosen.Name = "LBL_Asst_Chosen";
+            this.LBL_Asst_Chosen.Size = new System.Drawing.Size(77, 13);
+            this.LBL_Asst_Chosen.TabIndex = 1;
+            this.LBL_Asst_Chosen.Text = "Chosen Assets";
+            // 
+            // LBL_Asst_Spent
+            // 
+            this.LBL_Asst_Spent.AutoSize = true;
+            this.LBL_Asst_Spent.Location = new System.Drawing.Point(91, 20);
+            this.LBL_Asst_Spent.Name = "LBL_Asst_Spent";
+            this.LBL_Asst_Spent.Size = new System.Drawing.Size(113, 13);
+            this.LBL_Asst_Spent.TabIndex = 0;
+            this.LBL_Asst_Spent.Text = "Assets Available: 0 / 0";
+            // 
+            // GB_Attributes
+            // 
+            this.GB_Attributes.Controls.Add(this.TXB_Attr_Desc);
+            this.GB_Attributes.Controls.Add(this.GB_Attr_Pools);
+            this.GB_Attributes.Controls.Add(this.GB_Attr_Derived);
+            this.GB_Attributes.Controls.Add(this.GB_Attr_Basic);
+            this.GB_Attributes.Controls.Add(this.CMB_Attr_Focus);
+            this.GB_Attributes.Controls.Add(this.label1);
+            this.GB_Attributes.Location = new System.Drawing.Point(6, 6);
+            this.GB_Attributes.Name = "GB_Attributes";
+            this.GB_Attributes.Size = new System.Drawing.Size(282, 452);
+            this.GB_Attributes.TabIndex = 2;
+            this.GB_Attributes.TabStop = false;
+            this.GB_Attributes.Text = "Attributes";
+            // 
+            // TXB_Attr_Desc
+            // 
+            this.TXB_Attr_Desc.Location = new System.Drawing.Point(7, 327);
+            this.TXB_Attr_Desc.Multiline = true;
+            this.TXB_Attr_Desc.Name = "TXB_Attr_Desc";
+            this.TXB_Attr_Desc.ReadOnly = true;
+            this.TXB_Attr_Desc.Size = new System.Drawing.Size(269, 119);
+            this.TXB_Attr_Desc.TabIndex = 14;
+            this.TXB_Attr_Desc.Text = "No Attribute priority chosen!  Choose an Attribute level before proceeding.";
+            // 
+            // GB_Attr_Pools
+            // 
+            this.GB_Attr_Pools.Controls.Add(this.LBL_Attr_Ranged);
+            this.GB_Attr_Pools.Controls.Add(this.LBL_Attr_Sorcery);
+            this.GB_Attr_Pools.Controls.Add(this.LBL_Attr_Melee);
+            this.GB_Attr_Pools.Location = new System.Drawing.Point(7, 268);
+            this.GB_Attr_Pools.Name = "GB_Attr_Pools";
+            this.GB_Attr_Pools.Size = new System.Drawing.Size(270, 53);
+            this.GB_Attr_Pools.TabIndex = 13;
+            this.GB_Attr_Pools.TabStop = false;
+            this.GB_Attr_Pools.Text = "Base Combat Pools";
+            // 
+            // LBL_Attr_Ranged
+            // 
+            this.LBL_Attr_Ranged.AutoSize = true;
+            this.LBL_Attr_Ranged.Location = new System.Drawing.Point(92, 25);
+            this.LBL_Attr_Ranged.Name = "LBL_Attr_Ranged";
+            this.LBL_Attr_Ranged.Size = new System.Drawing.Size(79, 13);
+            this.LBL_Attr_Ranged.TabIndex = 7;
+            this.LBL_Attr_Ranged.Text = "Archery Pool: 1";
+            // 
+            // LBL_Attr_Sorcery
+            // 
+            this.LBL_Attr_Sorcery.AutoSize = true;
+            this.LBL_Attr_Sorcery.Location = new System.Drawing.Point(180, 25);
+            this.LBL_Attr_Sorcery.Name = "LBL_Attr_Sorcery";
+            this.LBL_Attr_Sorcery.Size = new System.Drawing.Size(79, 13);
+            this.LBL_Attr_Sorcery.TabIndex = 3;
+            this.LBL_Attr_Sorcery.Text = "Sorcery Pool: 1";
+            // 
+            // LBL_Attr_Melee
+            // 
+            this.LBL_Attr_Melee.AutoSize = true;
+            this.LBL_Attr_Melee.Location = new System.Drawing.Point(11, 25);
+            this.LBL_Attr_Melee.Name = "LBL_Attr_Melee";
+            this.LBL_Attr_Melee.Size = new System.Drawing.Size(72, 13);
+            this.LBL_Attr_Melee.TabIndex = 1;
+            this.LBL_Attr_Melee.Text = "Melee Pool: 1";
+            // 
+            // GB_Attr_Derived
+            // 
+            this.GB_Attr_Derived.Controls.Add(this.LBL_Attr_Power);
+            this.GB_Attr_Derived.Controls.Add(this.label12);
+            this.GB_Attr_Derived.Controls.Add(this.label13);
+            this.GB_Attr_Derived.Controls.Add(this.label14);
+            this.GB_Attr_Derived.Controls.Add(this.label15);
+            this.GB_Attr_Derived.Controls.Add(this.LBL_Attr_Reflex);
+            this.GB_Attr_Derived.Location = new System.Drawing.Point(6, 186);
+            this.GB_Attr_Derived.Name = "GB_Attr_Derived";
+            this.GB_Attr_Derived.Size = new System.Drawing.Size(270, 76);
+            this.GB_Attr_Derived.TabIndex = 12;
+            this.GB_Attr_Derived.TabStop = false;
+            this.GB_Attr_Derived.Text = "Derived Attributes";
+            // 
+            // LBL_Attr_Power
+            // 
+            this.LBL_Attr_Power.AutoSize = true;
+            this.LBL_Attr_Power.Location = new System.Drawing.Point(113, 45);
+            this.LBL_Attr_Power.Name = "LBL_Attr_Power";
+            this.LBL_Attr_Power.Size = new System.Drawing.Size(49, 13);
+            this.LBL_Attr_Power.TabIndex = 10;
+            this.LBL_Attr_Power.Text = "Power: 1";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(177, 45);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(65, 13);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "Knockout: 1";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(119, 19);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(36, 13);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "Aim: 1";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(24, 45);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(76, 13);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "Knockdown: 1";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(186, 19);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(46, 13);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "Move: 1";
+            // 
+            // LBL_Attr_Reflex
+            // 
+            this.LBL_Attr_Reflex.AutoSize = true;
+            this.LBL_Attr_Reflex.Location = new System.Drawing.Point(38, 19);
+            this.LBL_Attr_Reflex.Name = "LBL_Attr_Reflex";
+            this.LBL_Attr_Reflex.Size = new System.Drawing.Size(49, 13);
+            this.LBL_Attr_Reflex.TabIndex = 1;
+            this.LBL_Attr_Reflex.Text = "Reflex: 1";
             // 
             // GB_Attr_Basic
             // 
@@ -2118,84 +2321,6 @@
             this.GB_Attr_Basic.TabIndex = 2;
             this.GB_Attr_Basic.TabStop = false;
             this.GB_Attr_Basic.Text = "Basic Attributes";
-            // 
-            // NUD_Attr_Brawn
-            // 
-            this.NUD_Attr_Brawn.Location = new System.Drawing.Point(23, 20);
-            this.NUD_Attr_Brawn.Maximum = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            this.NUD_Attr_Brawn.Name = "NUD_Attr_Brawn";
-            this.NUD_Attr_Brawn.Size = new System.Drawing.Size(37, 20);
-            this.NUD_Attr_Brawn.TabIndex = 0;
-            this.NUD_Attr_Brawn.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // LBL_Attr_Brawn
-            // 
-            this.LBL_Attr_Brawn.AutoSize = true;
-            this.LBL_Attr_Brawn.Location = new System.Drawing.Point(66, 22);
-            this.LBL_Attr_Brawn.Name = "LBL_Attr_Brawn";
-            this.LBL_Attr_Brawn.Size = new System.Drawing.Size(37, 13);
-            this.LBL_Attr_Brawn.TabIndex = 1;
-            this.LBL_Attr_Brawn.Text = "Brawn";
-            // 
-            // LBL_Attr_Tenacity
-            // 
-            this.LBL_Attr_Tenacity.AutoSize = true;
-            this.LBL_Attr_Tenacity.Location = new System.Drawing.Point(66, 48);
-            this.LBL_Attr_Tenacity.Name = "LBL_Attr_Tenacity";
-            this.LBL_Attr_Tenacity.Size = new System.Drawing.Size(48, 13);
-            this.LBL_Attr_Tenacity.TabIndex = 3;
-            this.LBL_Attr_Tenacity.Text = "Tenacity";
-            // 
-            // NUD_Attr_Tenacity
-            // 
-            this.NUD_Attr_Tenacity.Location = new System.Drawing.Point(23, 46);
-            this.NUD_Attr_Tenacity.Maximum = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            this.NUD_Attr_Tenacity.Name = "NUD_Attr_Tenacity";
-            this.NUD_Attr_Tenacity.Size = new System.Drawing.Size(37, 20);
-            this.NUD_Attr_Tenacity.TabIndex = 2;
-            this.NUD_Attr_Tenacity.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // LBL_Attr_Sagacity
-            // 
-            this.LBL_Attr_Sagacity.AutoSize = true;
-            this.LBL_Attr_Sagacity.Location = new System.Drawing.Point(66, 74);
-            this.LBL_Attr_Sagacity.Name = "LBL_Attr_Sagacity";
-            this.LBL_Attr_Sagacity.Size = new System.Drawing.Size(48, 13);
-            this.LBL_Attr_Sagacity.TabIndex = 5;
-            this.LBL_Attr_Sagacity.Text = "Sagacity";
-            // 
-            // NUD_Attr_Sagacity
-            // 
-            this.NUD_Attr_Sagacity.Location = new System.Drawing.Point(23, 72);
-            this.NUD_Attr_Sagacity.Maximum = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            this.NUD_Attr_Sagacity.Name = "NUD_Attr_Sagacity";
-            this.NUD_Attr_Sagacity.Size = new System.Drawing.Size(37, 20);
-            this.NUD_Attr_Sagacity.TabIndex = 4;
-            this.NUD_Attr_Sagacity.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
             // 
             // LBL_Attr_Cunning
             // 
@@ -2275,188 +2400,217 @@
             0,
             0});
             // 
-            // GB_Attr_Derived
+            // LBL_Attr_Sagacity
             // 
-            this.GB_Attr_Derived.Controls.Add(this.label12);
-            this.GB_Attr_Derived.Controls.Add(this.label13);
-            this.GB_Attr_Derived.Controls.Add(this.label14);
-            this.GB_Attr_Derived.Controls.Add(this.label15);
-            this.GB_Attr_Derived.Controls.Add(this.LBL_Attr_Reflex);
-            this.GB_Attr_Derived.Location = new System.Drawing.Point(6, 186);
-            this.GB_Attr_Derived.Name = "GB_Attr_Derived";
-            this.GB_Attr_Derived.Size = new System.Drawing.Size(270, 76);
-            this.GB_Attr_Derived.TabIndex = 12;
-            this.GB_Attr_Derived.TabStop = false;
-            this.GB_Attr_Derived.Text = "Derived Attributes";
+            this.LBL_Attr_Sagacity.AutoSize = true;
+            this.LBL_Attr_Sagacity.Location = new System.Drawing.Point(66, 74);
+            this.LBL_Attr_Sagacity.Name = "LBL_Attr_Sagacity";
+            this.LBL_Attr_Sagacity.Size = new System.Drawing.Size(48, 13);
+            this.LBL_Attr_Sagacity.TabIndex = 5;
+            this.LBL_Attr_Sagacity.Text = "Sagacity";
             // 
-            // label12
+            // NUD_Attr_Sagacity
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(167, 45);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(65, 13);
-            this.label12.TabIndex = 9;
-            this.label12.Text = "Knockout: 1";
+            this.NUD_Attr_Sagacity.Location = new System.Drawing.Point(23, 72);
+            this.NUD_Attr_Sagacity.Maximum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            this.NUD_Attr_Sagacity.Name = "NUD_Attr_Sagacity";
+            this.NUD_Attr_Sagacity.Size = new System.Drawing.Size(37, 20);
+            this.NUD_Attr_Sagacity.TabIndex = 4;
+            this.NUD_Attr_Sagacity.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // label13
+            // LBL_Attr_Tenacity
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(119, 19);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(36, 13);
-            this.label13.TabIndex = 7;
-            this.label13.Text = "Aim: 1";
+            this.LBL_Attr_Tenacity.AutoSize = true;
+            this.LBL_Attr_Tenacity.Location = new System.Drawing.Point(66, 48);
+            this.LBL_Attr_Tenacity.Name = "LBL_Attr_Tenacity";
+            this.LBL_Attr_Tenacity.Size = new System.Drawing.Size(48, 13);
+            this.LBL_Attr_Tenacity.TabIndex = 3;
+            this.LBL_Attr_Tenacity.Text = "Tenacity";
             // 
-            // label14
+            // NUD_Attr_Tenacity
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(38, 45);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(76, 13);
-            this.label14.TabIndex = 5;
-            this.label14.Text = "Knockdown: 1";
+            this.NUD_Attr_Tenacity.Location = new System.Drawing.Point(23, 46);
+            this.NUD_Attr_Tenacity.Maximum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            this.NUD_Attr_Tenacity.Name = "NUD_Attr_Tenacity";
+            this.NUD_Attr_Tenacity.Size = new System.Drawing.Size(37, 20);
+            this.NUD_Attr_Tenacity.TabIndex = 2;
+            this.NUD_Attr_Tenacity.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // label15
+            // LBL_Attr_Brawn
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(186, 19);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(46, 13);
-            this.label15.TabIndex = 3;
-            this.label15.Text = "Move: 1";
+            this.LBL_Attr_Brawn.AutoSize = true;
+            this.LBL_Attr_Brawn.Location = new System.Drawing.Point(66, 22);
+            this.LBL_Attr_Brawn.Name = "LBL_Attr_Brawn";
+            this.LBL_Attr_Brawn.Size = new System.Drawing.Size(37, 13);
+            this.LBL_Attr_Brawn.TabIndex = 1;
+            this.LBL_Attr_Brawn.Text = "Brawn";
             // 
-            // LBL_Attr_Reflex
+            // NUD_Attr_Brawn
             // 
-            this.LBL_Attr_Reflex.AutoSize = true;
-            this.LBL_Attr_Reflex.Location = new System.Drawing.Point(38, 19);
-            this.LBL_Attr_Reflex.Name = "LBL_Attr_Reflex";
-            this.LBL_Attr_Reflex.Size = new System.Drawing.Size(49, 13);
-            this.LBL_Attr_Reflex.TabIndex = 1;
-            this.LBL_Attr_Reflex.Text = "Reflex: 1";
+            this.NUD_Attr_Brawn.Location = new System.Drawing.Point(23, 20);
+            this.NUD_Attr_Brawn.Maximum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            this.NUD_Attr_Brawn.Name = "NUD_Attr_Brawn";
+            this.NUD_Attr_Brawn.Size = new System.Drawing.Size(37, 20);
+            this.NUD_Attr_Brawn.TabIndex = 0;
+            this.NUD_Attr_Brawn.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // GB_Attr_Pools
+            // CMB_Attr_Focus
             // 
-            this.GB_Attr_Pools.Controls.Add(this.LBL_Attr_Ranged);
-            this.GB_Attr_Pools.Controls.Add(this.LBL_Attr_Sorcery);
-            this.GB_Attr_Pools.Controls.Add(this.LBL_Attr_Melee);
-            this.GB_Attr_Pools.Location = new System.Drawing.Point(7, 268);
-            this.GB_Attr_Pools.Name = "GB_Attr_Pools";
-            this.GB_Attr_Pools.Size = new System.Drawing.Size(270, 53);
-            this.GB_Attr_Pools.TabIndex = 13;
-            this.GB_Attr_Pools.TabStop = false;
-            this.GB_Attr_Pools.Text = "Base Combat Pools";
+            this.CMB_Attr_Focus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CMB_Attr_Focus.Enabled = false;
+            this.CMB_Attr_Focus.FormattingEnabled = true;
+            this.CMB_Attr_Focus.Location = new System.Drawing.Point(81, 37);
+            this.CMB_Attr_Focus.Name = "CMB_Attr_Focus";
+            this.CMB_Attr_Focus.Size = new System.Drawing.Size(121, 21);
+            this.CMB_Attr_Focus.TabIndex = 1;
             // 
-            // LBL_Attr_Ranged
+            // label1
             // 
-            this.LBL_Attr_Ranged.AutoSize = true;
-            this.LBL_Attr_Ranged.Location = new System.Drawing.Point(92, 25);
-            this.LBL_Attr_Ranged.Name = "LBL_Attr_Ranged";
-            this.LBL_Attr_Ranged.Size = new System.Drawing.Size(79, 13);
-            this.LBL_Attr_Ranged.TabIndex = 7;
-            this.LBL_Attr_Ranged.Text = "Archery Pool: 1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(93, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Points Spent: 6 / 6";
             // 
-            // LBL_Attr_Sorcery
+            // TAB_Skll
             // 
-            this.LBL_Attr_Sorcery.AutoSize = true;
-            this.LBL_Attr_Sorcery.Location = new System.Drawing.Point(180, 25);
-            this.LBL_Attr_Sorcery.Name = "LBL_Attr_Sorcery";
-            this.LBL_Attr_Sorcery.Size = new System.Drawing.Size(79, 13);
-            this.LBL_Attr_Sorcery.TabIndex = 3;
-            this.LBL_Attr_Sorcery.Text = "Sorcery Pool: 1";
+            this.TAB_Skll.Controls.Add(this.LBL_Skll_Spent);
+            this.TAB_Skll.Controls.Add(this.TXB_Skll_Desc);
+            this.TAB_Skll.Controls.Add(this.GB_Skll_Sorcerous);
+            this.TAB_Skll.Controls.Add(this.GB_Skll_Basic);
+            this.TAB_Skll.Location = new System.Drawing.Point(4, 22);
+            this.TAB_Skll.Name = "TAB_Skll";
+            this.TAB_Skll.Padding = new System.Windows.Forms.Padding(3);
+            this.TAB_Skll.Size = new System.Drawing.Size(598, 466);
+            this.TAB_Skll.TabIndex = 3;
+            this.TAB_Skll.Text = "Skills";
+            this.TAB_Skll.UseVisualStyleBackColor = true;
             // 
-            // LBL_Attr_Melee
+            // LBL_Skll_Spent
             // 
-            this.LBL_Attr_Melee.AutoSize = true;
-            this.LBL_Attr_Melee.Location = new System.Drawing.Point(11, 25);
-            this.LBL_Attr_Melee.Name = "LBL_Attr_Melee";
-            this.LBL_Attr_Melee.Size = new System.Drawing.Size(72, 13);
-            this.LBL_Attr_Melee.TabIndex = 1;
-            this.LBL_Attr_Melee.Text = "Melee Pool: 1";
+            this.LBL_Skll_Spent.AutoSize = true;
+            this.LBL_Skll_Spent.Location = new System.Drawing.Point(251, 5);
+            this.LBL_Skll_Spent.Name = "LBL_Skll_Spent";
+            this.LBL_Skll_Spent.Size = new System.Drawing.Size(96, 13);
+            this.LBL_Skll_Spent.TabIndex = 3;
+            this.LBL_Skll_Spent.Text = "Points Spent: 0 / 0";
             // 
-            // TXB_Attr_Desc
+            // TXB_Skll_Desc
             // 
-            this.TXB_Attr_Desc.Location = new System.Drawing.Point(7, 327);
-            this.TXB_Attr_Desc.Multiline = true;
-            this.TXB_Attr_Desc.Name = "TXB_Attr_Desc";
-            this.TXB_Attr_Desc.ReadOnly = true;
-            this.TXB_Attr_Desc.Size = new System.Drawing.Size(269, 119);
-            this.TXB_Attr_Desc.TabIndex = 14;
-            this.TXB_Attr_Desc.Text = "No Attribute priority chosen!  Choose an Attribute level before proceeding.";
+            this.TXB_Skll_Desc.Location = new System.Drawing.Point(7, 347);
+            this.TXB_Skll_Desc.Multiline = true;
+            this.TXB_Skll_Desc.Name = "TXB_Skll_Desc";
+            this.TXB_Skll_Desc.ReadOnly = true;
+            this.TXB_Skll_Desc.Size = new System.Drawing.Size(585, 113);
+            this.TXB_Skll_Desc.TabIndex = 2;
+            this.TXB_Skll_Desc.Text = "No Skill priority chosen!  Choose a Skill level before proceeding.";
             // 
-            // LBL_Asst_Spent
+            // GB_Skll_Sorcerous
             // 
-            this.LBL_Asst_Spent.AutoSize = true;
-            this.LBL_Asst_Spent.Location = new System.Drawing.Point(91, 20);
-            this.LBL_Asst_Spent.Name = "LBL_Asst_Spent";
-            this.LBL_Asst_Spent.Size = new System.Drawing.Size(113, 13);
-            this.LBL_Asst_Spent.TabIndex = 0;
-            this.LBL_Asst_Spent.Text = "Assets Available: 0 / 0";
+            this.GB_Skll_Sorcerous.Controls.Add(this.LBL_Skll_Precognition);
+            this.GB_Skll_Sorcerous.Controls.Add(this.NUD_Skll_Precognition);
+            this.GB_Skll_Sorcerous.Controls.Add(this.LBL_Skll_OmenReading);
+            this.GB_Skll_Sorcerous.Controls.Add(this.NUD_Skll_DtcSorcery);
+            this.GB_Skll_Sorcerous.Controls.Add(this.LBL_Skll_Occultism);
+            this.GB_Skll_Sorcerous.Controls.Add(this.NUD_Skll_OmenReading);
+            this.GB_Skll_Sorcerous.Controls.Add(this.LBL_Skll_DtcSorcery);
+            this.GB_Skll_Sorcerous.Controls.Add(this.NUD_Skll_Occultism);
+            this.GB_Skll_Sorcerous.Enabled = false;
+            this.GB_Skll_Sorcerous.Location = new System.Drawing.Point(6, 281);
+            this.GB_Skll_Sorcerous.Name = "GB_Skll_Sorcerous";
+            this.GB_Skll_Sorcerous.Size = new System.Drawing.Size(586, 60);
+            this.GB_Skll_Sorcerous.TabIndex = 1;
+            this.GB_Skll_Sorcerous.TabStop = false;
+            this.GB_Skll_Sorcerous.Text = "Sorcerous Skills";
             // 
-            // LBL_Asst_Chosen
+            // LBL_Skll_Precognition
             // 
-            this.LBL_Asst_Chosen.AutoSize = true;
-            this.LBL_Asst_Chosen.Location = new System.Drawing.Point(109, 40);
-            this.LBL_Asst_Chosen.Name = "LBL_Asst_Chosen";
-            this.LBL_Asst_Chosen.Size = new System.Drawing.Size(77, 13);
-            this.LBL_Asst_Chosen.TabIndex = 1;
-            this.LBL_Asst_Chosen.Text = "Chosen Assets";
+            this.LBL_Skll_Precognition.AutoSize = true;
+            this.LBL_Skll_Precognition.Location = new System.Drawing.Point(512, 22);
+            this.LBL_Skll_Precognition.Name = "LBL_Skll_Precognition";
+            this.LBL_Skll_Precognition.Size = new System.Drawing.Size(66, 13);
+            this.LBL_Skll_Precognition.TabIndex = 71;
+            this.LBL_Skll_Precognition.Text = "Precognition";
             // 
-            // LSB_Asst_Chosen
+            // NUD_Skll_Precognition
             // 
-            this.LSB_Asst_Chosen.Enabled = false;
-            this.LSB_Asst_Chosen.FormattingEnabled = true;
-            this.LSB_Asst_Chosen.Location = new System.Drawing.Point(6, 56);
-            this.LSB_Asst_Chosen.Name = "LSB_Asst_Chosen";
-            this.LSB_Asst_Chosen.Size = new System.Drawing.Size(282, 95);
-            this.LSB_Asst_Chosen.TabIndex = 2;
+            this.NUD_Skll_Precognition.Location = new System.Drawing.Point(462, 20);
+            this.NUD_Skll_Precognition.Name = "NUD_Skll_Precognition";
+            this.NUD_Skll_Precognition.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Precognition.TabIndex = 37;
             // 
-            // BTN_Asst_Remove
+            // LBL_Skll_OmenReading
             // 
-            this.BTN_Asst_Remove.Enabled = false;
-            this.BTN_Asst_Remove.Location = new System.Drawing.Point(6, 155);
-            this.BTN_Asst_Remove.Name = "BTN_Asst_Remove";
-            this.BTN_Asst_Remove.Size = new System.Drawing.Size(282, 23);
-            this.BTN_Asst_Remove.TabIndex = 3;
-            this.BTN_Asst_Remove.Text = "Remove Asset";
-            this.BTN_Asst_Remove.UseVisualStyleBackColor = true;
+            this.LBL_Skll_OmenReading.AutoSize = true;
+            this.LBL_Skll_OmenReading.Location = new System.Drawing.Point(375, 22);
+            this.LBL_Skll_OmenReading.Name = "LBL_Skll_OmenReading";
+            this.LBL_Skll_OmenReading.Size = new System.Drawing.Size(78, 13);
+            this.LBL_Skll_OmenReading.TabIndex = 70;
+            this.LBL_Skll_OmenReading.Text = "Omen Reading";
             // 
-            // BTN_Asst_Add
+            // NUD_Skll_DtcSorcery
             // 
-            this.BTN_Asst_Add.Enabled = false;
-            this.BTN_Asst_Add.Location = new System.Drawing.Point(6, 298);
-            this.BTN_Asst_Add.Name = "BTN_Asst_Add";
-            this.BTN_Asst_Add.Size = new System.Drawing.Size(282, 23);
-            this.BTN_Asst_Add.TabIndex = 6;
-            this.BTN_Asst_Add.Text = "Add Asset";
-            this.BTN_Asst_Add.UseVisualStyleBackColor = true;
+            this.NUD_Skll_DtcSorcery.Location = new System.Drawing.Point(6, 20);
+            this.NUD_Skll_DtcSorcery.Name = "NUD_Skll_DtcSorcery";
+            this.NUD_Skll_DtcSorcery.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_DtcSorcery.TabIndex = 34;
             // 
-            // LSB_Asst_Available
+            // LBL_Skll_Occultism
             // 
-            this.LSB_Asst_Available.Enabled = false;
-            this.LSB_Asst_Available.FormattingEnabled = true;
-            this.LSB_Asst_Available.Location = new System.Drawing.Point(6, 197);
-            this.LSB_Asst_Available.Name = "LSB_Asst_Available";
-            this.LSB_Asst_Available.Size = new System.Drawing.Size(282, 95);
-            this.LSB_Asst_Available.TabIndex = 5;
+            this.LBL_Skll_Occultism.AutoSize = true;
+            this.LBL_Skll_Occultism.Location = new System.Drawing.Point(211, 22);
+            this.LBL_Skll_Occultism.Name = "LBL_Skll_Occultism";
+            this.LBL_Skll_Occultism.Size = new System.Drawing.Size(53, 13);
+            this.LBL_Skll_Occultism.TabIndex = 69;
+            this.LBL_Skll_Occultism.Text = "Occultism";
             // 
-            // LBL_Asst_Available
+            // NUD_Skll_OmenReading
             // 
-            this.LBL_Asst_Available.AutoSize = true;
-            this.LBL_Asst_Available.Location = new System.Drawing.Point(105, 181);
-            this.LBL_Asst_Available.Name = "LBL_Asst_Available";
-            this.LBL_Asst_Available.Size = new System.Drawing.Size(84, 13);
-            this.LBL_Asst_Available.TabIndex = 4;
-            this.LBL_Asst_Available.Text = "Available Assets";
+            this.NUD_Skll_OmenReading.Location = new System.Drawing.Point(325, 20);
+            this.NUD_Skll_OmenReading.Name = "NUD_Skll_OmenReading";
+            this.NUD_Skll_OmenReading.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_OmenReading.TabIndex = 36;
             // 
-            // TXB_Asst_Desc
+            // LBL_Skll_DtcSorcery
             // 
-            this.TXB_Asst_Desc.Location = new System.Drawing.Point(6, 327);
-            this.TXB_Asst_Desc.Multiline = true;
-            this.TXB_Asst_Desc.Name = "TXB_Asst_Desc";
-            this.TXB_Asst_Desc.ReadOnly = true;
-            this.TXB_Asst_Desc.Size = new System.Drawing.Size(282, 119);
-            this.TXB_Asst_Desc.TabIndex = 15;
-            this.TXB_Asst_Desc.Text = "No Asset priority chosen!  Choose an Asset level before proceeding.";
+            this.LBL_Skll_DtcSorcery.AutoSize = true;
+            this.LBL_Skll_DtcSorcery.Location = new System.Drawing.Point(56, 22);
+            this.LBL_Skll_DtcSorcery.Name = "LBL_Skll_DtcSorcery";
+            this.LBL_Skll_DtcSorcery.Size = new System.Drawing.Size(78, 13);
+            this.LBL_Skll_DtcSorcery.TabIndex = 68;
+            this.LBL_Skll_DtcSorcery.Text = "Detect Sorcery";
+            // 
+            // NUD_Skll_Occultism
+            // 
+            this.NUD_Skll_Occultism.Location = new System.Drawing.Point(161, 20);
+            this.NUD_Skll_Occultism.Name = "NUD_Skll_Occultism";
+            this.NUD_Skll_Occultism.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Occultism.TabIndex = 35;
             // 
             // GB_Skll_Basic
             // 
@@ -2534,445 +2688,68 @@
             this.GB_Skll_Basic.TabStop = false;
             this.GB_Skll_Basic.Text = "Basic Skills";
             // 
-            // NUD_Skll_Acting
-            // 
-            this.NUD_Skll_Acting.Location = new System.Drawing.Point(6, 20);
-            this.NUD_Skll_Acting.Name = "NUD_Skll_Acting";
-            this.NUD_Skll_Acting.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Acting.TabIndex = 0;
-            // 
-            // NUD_Skll_AncLanguages
-            // 
-            this.NUD_Skll_AncLanguages.Location = new System.Drawing.Point(6, 46);
-            this.NUD_Skll_AncLanguages.Name = "NUD_Skll_AncLanguages";
-            this.NUD_Skll_AncLanguages.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_AncLanguages.TabIndex = 1;
-            // 
-            // NUD_Skll_Apothecary
-            // 
-            this.NUD_Skll_Apothecary.Location = new System.Drawing.Point(6, 98);
-            this.NUD_Skll_Apothecary.Name = "NUD_Skll_Apothecary";
-            this.NUD_Skll_Apothecary.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Apothecary.TabIndex = 3;
-            // 
-            // NUD_Skll_AniKen
-            // 
-            this.NUD_Skll_AniKen.Location = new System.Drawing.Point(6, 72);
-            this.NUD_Skll_AniKen.Name = "NUD_Skll_AniKen";
-            this.NUD_Skll_AniKen.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_AniKen.TabIndex = 2;
-            // 
-            // NUD_Skll_Dancing
-            // 
-            this.NUD_Skll_Dancing.Location = new System.Drawing.Point(6, 202);
-            this.NUD_Skll_Dancing.Name = "NUD_Skll_Dancing";
-            this.NUD_Skll_Dancing.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Dancing.TabIndex = 7;
-            // 
-            // NUD_Skll_Customs
-            // 
-            this.NUD_Skll_Customs.Location = new System.Drawing.Point(6, 176);
-            this.NUD_Skll_Customs.Name = "NUD_Skll_Customs";
-            this.NUD_Skll_Customs.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Customs.TabIndex = 6;
-            // 
-            // NUD_Skll_Climbing
-            // 
-            this.NUD_Skll_Climbing.Location = new System.Drawing.Point(6, 150);
-            this.NUD_Skll_Climbing.Name = "NUD_Skll_Climbing";
-            this.NUD_Skll_Climbing.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Climbing.TabIndex = 5;
-            // 
-            // NUD_Skll_BtfTactics
-            // 
-            this.NUD_Skll_BtfTactics.Location = new System.Drawing.Point(6, 124);
-            this.NUD_Skll_BtfTactics.Name = "NUD_Skll_BtfTactics";
-            this.NUD_Skll_BtfTactics.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_BtfTactics.TabIndex = 4;
-            // 
-            // NUD_Skll_Decipher
-            // 
-            this.NUD_Skll_Decipher.Location = new System.Drawing.Point(6, 228);
-            this.NUD_Skll_Decipher.Name = "NUD_Skll_Decipher";
-            this.NUD_Skll_Decipher.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Decipher.TabIndex = 8;
-            // 
-            // NUD_Skll_LockPicking
-            // 
-            this.NUD_Skll_LockPicking.Location = new System.Drawing.Point(161, 202);
-            this.NUD_Skll_LockPicking.Name = "NUD_Skll_LockPicking";
-            this.NUD_Skll_LockPicking.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_LockPicking.TabIndex = 17;
-            // 
-            // NUD_Skll_LightStep
-            // 
-            this.NUD_Skll_LightStep.Location = new System.Drawing.Point(161, 176);
-            this.NUD_Skll_LightStep.Name = "NUD_Skll_LightStep";
-            this.NUD_Skll_LightStep.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_LightStep.TabIndex = 16;
-            // 
-            // NUD_Skll_InfoGathering
-            // 
-            this.NUD_Skll_InfoGathering.Location = new System.Drawing.Point(161, 150);
-            this.NUD_Skll_InfoGathering.Name = "NUD_Skll_InfoGathering";
-            this.NUD_Skll_InfoGathering.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_InfoGathering.TabIndex = 15;
-            // 
-            // NUD_Skll_Healing
-            // 
-            this.NUD_Skll_Healing.Location = new System.Drawing.Point(161, 124);
-            this.NUD_Skll_Healing.Name = "NUD_Skll_Healing";
-            this.NUD_Skll_Healing.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Healing.TabIndex = 14;
-            // 
-            // NUD_Skll_FrnLanguages
-            // 
-            this.NUD_Skll_FrnLanguages.Location = new System.Drawing.Point(161, 98);
-            this.NUD_Skll_FrnLanguages.Name = "NUD_Skll_FrnLanguages";
-            this.NUD_Skll_FrnLanguages.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_FrnLanguages.TabIndex = 13;
-            // 
-            // NUD_Skll_Falsehood
-            // 
-            this.NUD_Skll_Falsehood.Location = new System.Drawing.Point(161, 72);
-            this.NUD_Skll_Falsehood.Name = "NUD_Skll_Falsehood";
-            this.NUD_Skll_Falsehood.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Falsehood.TabIndex = 11;
-            // 
-            // NUD_Skll_Etiquette
-            // 
-            this.NUD_Skll_Etiquette.Location = new System.Drawing.Point(161, 46);
-            this.NUD_Skll_Etiquette.Name = "NUD_Skll_Etiquette";
-            this.NUD_Skll_Etiquette.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Etiquette.TabIndex = 10;
-            // 
-            // NUD_Skll_Disguise
-            // 
-            this.NUD_Skll_Disguise.Location = new System.Drawing.Point(161, 20);
-            this.NUD_Skll_Disguise.Name = "NUD_Skll_Disguise";
-            this.NUD_Skll_Disguise.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Disguise.TabIndex = 9;
-            // 
-            // NUD_Skll_Sneaking
-            // 
-            this.NUD_Skll_Sneaking.Location = new System.Drawing.Point(325, 202);
-            this.NUD_Skll_Sneaking.Name = "NUD_Skll_Sneaking";
-            this.NUD_Skll_Sneaking.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Sneaking.TabIndex = 26;
-            // 
-            // NUD_Skll_Seduction
-            // 
-            this.NUD_Skll_Seduction.Location = new System.Drawing.Point(325, 176);
-            this.NUD_Skll_Seduction.Name = "NUD_Skll_Seduction";
-            this.NUD_Skll_Seduction.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Seduction.TabIndex = 25;
-            // 
-            // NUD_Skll_Seamanship
-            // 
-            this.NUD_Skll_Seamanship.Location = new System.Drawing.Point(325, 150);
-            this.NUD_Skll_Seamanship.Name = "NUD_Skll_Seamanship";
-            this.NUD_Skll_Seamanship.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Seamanship.TabIndex = 24;
-            // 
-            // NUD_Skll_Riding
-            // 
-            this.NUD_Skll_Riding.Location = new System.Drawing.Point(325, 124);
-            this.NUD_Skll_Riding.Name = "NUD_Skll_Riding";
-            this.NUD_Skll_Riding.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Riding.TabIndex = 23;
-            // 
-            // NUD_Skll_Prestidigitation
-            // 
-            this.NUD_Skll_Prestidigitation.Location = new System.Drawing.Point(325, 98);
-            this.NUD_Skll_Prestidigitation.Name = "NUD_Skll_Prestidigitation";
-            this.NUD_Skll_Prestidigitation.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Prestidigitation.TabIndex = 22;
-            // 
-            // NUD_Skll_PickPockets
-            // 
-            this.NUD_Skll_PickPockets.Location = new System.Drawing.Point(325, 72);
-            this.NUD_Skll_PickPockets.Name = "NUD_Skll_PickPockets";
-            this.NUD_Skll_PickPockets.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_PickPockets.TabIndex = 21;
-            // 
-            // NUD_Skll_Negotiation
-            // 
-            this.NUD_Skll_Negotiation.Location = new System.Drawing.Point(325, 46);
-            this.NUD_Skll_Negotiation.Name = "NUD_Skll_Negotiation";
-            this.NUD_Skll_Negotiation.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Negotiation.TabIndex = 20;
-            // 
-            // NUD_Skll_Navigation
-            // 
-            this.NUD_Skll_Navigation.Location = new System.Drawing.Point(325, 20);
-            this.NUD_Skll_Navigation.Name = "NUD_Skll_Navigation";
-            this.NUD_Skll_Navigation.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Navigation.TabIndex = 19;
-            // 
-            // NUD_Skll_Music
-            // 
-            this.NUD_Skll_Music.Location = new System.Drawing.Point(161, 228);
-            this.NUD_Skll_Music.Name = "NUD_Skll_Music";
-            this.NUD_Skll_Music.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Music.TabIndex = 18;
-            // 
-            // NUD_Skll_Trapping
-            // 
-            this.NUD_Skll_Trapping.Location = new System.Drawing.Point(462, 150);
-            this.NUD_Skll_Trapping.Name = "NUD_Skll_Trapping";
-            this.NUD_Skll_Trapping.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Trapping.TabIndex = 33;
-            // 
-            // NUD_Skll_Trailing
-            // 
-            this.NUD_Skll_Trailing.Location = new System.Drawing.Point(462, 124);
-            this.NUD_Skll_Trailing.Name = "NUD_Skll_Trailing";
-            this.NUD_Skll_Trailing.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Trailing.TabIndex = 32;
-            // 
-            // NUD_Skll_Tracking
-            // 
-            this.NUD_Skll_Tracking.Location = new System.Drawing.Point(462, 98);
-            this.NUD_Skll_Tracking.Name = "NUD_Skll_Tracking";
-            this.NUD_Skll_Tracking.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Tracking.TabIndex = 31;
-            // 
-            // NUD_Skll_Theology
-            // 
-            this.NUD_Skll_Theology.Location = new System.Drawing.Point(462, 72);
-            this.NUD_Skll_Theology.Name = "NUD_Skll_Theology";
-            this.NUD_Skll_Theology.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Theology.TabIndex = 30;
-            // 
-            // NUD_Skll_Swimming
-            // 
-            this.NUD_Skll_Swimming.Location = new System.Drawing.Point(462, 46);
-            this.NUD_Skll_Swimming.Name = "NUD_Skll_Swimming";
-            this.NUD_Skll_Swimming.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Swimming.TabIndex = 29;
-            // 
-            // NUD_Skll_Survival
-            // 
-            this.NUD_Skll_Survival.Location = new System.Drawing.Point(462, 20);
-            this.NUD_Skll_Survival.Name = "NUD_Skll_Survival";
-            this.NUD_Skll_Survival.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Survival.TabIndex = 28;
-            // 
-            // NUD_Skll_Soldiering
-            // 
-            this.NUD_Skll_Soldiering.Location = new System.Drawing.Point(325, 228);
-            this.NUD_Skll_Soldiering.Name = "NUD_Skll_Soldiering";
-            this.NUD_Skll_Soldiering.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Soldiering.TabIndex = 27;
-            // 
-            // GB_Skll_Sorcerous
-            // 
-            this.GB_Skll_Sorcerous.Controls.Add(this.LBL_Skll_Precognition);
-            this.GB_Skll_Sorcerous.Controls.Add(this.NUD_Skll_Precognition);
-            this.GB_Skll_Sorcerous.Controls.Add(this.LBL_Skll_OmenReading);
-            this.GB_Skll_Sorcerous.Controls.Add(this.NUD_Skll_DtcSorcery);
-            this.GB_Skll_Sorcerous.Controls.Add(this.LBL_Skll_Occultism);
-            this.GB_Skll_Sorcerous.Controls.Add(this.NUD_Skll_OmenReading);
-            this.GB_Skll_Sorcerous.Controls.Add(this.LBL_Skll_DtcSorcery);
-            this.GB_Skll_Sorcerous.Controls.Add(this.NUD_Skll_Occultism);
-            this.GB_Skll_Sorcerous.Enabled = false;
-            this.GB_Skll_Sorcerous.Location = new System.Drawing.Point(6, 281);
-            this.GB_Skll_Sorcerous.Name = "GB_Skll_Sorcerous";
-            this.GB_Skll_Sorcerous.Size = new System.Drawing.Size(586, 60);
-            this.GB_Skll_Sorcerous.TabIndex = 1;
-            this.GB_Skll_Sorcerous.TabStop = false;
-            this.GB_Skll_Sorcerous.Text = "Sorcerous Skills";
-            // 
-            // NUD_Skll_Precognition
-            // 
-            this.NUD_Skll_Precognition.Location = new System.Drawing.Point(462, 20);
-            this.NUD_Skll_Precognition.Name = "NUD_Skll_Precognition";
-            this.NUD_Skll_Precognition.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Precognition.TabIndex = 37;
-            // 
-            // NUD_Skll_OmenReading
-            // 
-            this.NUD_Skll_OmenReading.Location = new System.Drawing.Point(325, 20);
-            this.NUD_Skll_OmenReading.Name = "NUD_Skll_OmenReading";
-            this.NUD_Skll_OmenReading.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_OmenReading.TabIndex = 36;
-            // 
-            // NUD_Skll_Occultism
-            // 
-            this.NUD_Skll_Occultism.Location = new System.Drawing.Point(161, 20);
-            this.NUD_Skll_Occultism.Name = "NUD_Skll_Occultism";
-            this.NUD_Skll_Occultism.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_Occultism.TabIndex = 35;
-            // 
-            // NUD_Skll_DtcSorcery
-            // 
-            this.NUD_Skll_DtcSorcery.Location = new System.Drawing.Point(6, 20);
-            this.NUD_Skll_DtcSorcery.Name = "NUD_Skll_DtcSorcery";
-            this.NUD_Skll_DtcSorcery.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Skll_DtcSorcery.TabIndex = 34;
-            // 
-            // TXB_Skll_Desc
-            // 
-            this.TXB_Skll_Desc.Location = new System.Drawing.Point(7, 347);
-            this.TXB_Skll_Desc.Multiline = true;
-            this.TXB_Skll_Desc.Name = "TXB_Skll_Desc";
-            this.TXB_Skll_Desc.ReadOnly = true;
-            this.TXB_Skll_Desc.Size = new System.Drawing.Size(585, 113);
-            this.TXB_Skll_Desc.TabIndex = 2;
-            this.TXB_Skll_Desc.Text = "No Skill priority chosen!  Choose a Skill level before proceeding.";
-            // 
-            // LBL_Skll_Acting
-            // 
-            this.LBL_Skll_Acting.AutoSize = true;
-            this.LBL_Skll_Acting.Location = new System.Drawing.Point(56, 22);
-            this.LBL_Skll_Acting.Name = "LBL_Skll_Acting";
-            this.LBL_Skll_Acting.Size = new System.Drawing.Size(37, 13);
-            this.LBL_Skll_Acting.TabIndex = 34;
-            this.LBL_Skll_Acting.Text = "Acting";
-            // 
-            // LBL_Skll_AncLanguages
-            // 
-            this.LBL_Skll_AncLanguages.AutoSize = true;
-            this.LBL_Skll_AncLanguages.Location = new System.Drawing.Point(56, 48);
-            this.LBL_Skll_AncLanguages.Name = "LBL_Skll_AncLanguages";
-            this.LBL_Skll_AncLanguages.Size = new System.Drawing.Size(99, 13);
-            this.LBL_Skll_AncLanguages.TabIndex = 35;
-            this.LBL_Skll_AncLanguages.Text = "Ancient Languages";
-            // 
-            // LBL_Skll_Apothecary
-            // 
-            this.LBL_Skll_Apothecary.AutoSize = true;
-            this.LBL_Skll_Apothecary.Location = new System.Drawing.Point(56, 100);
-            this.LBL_Skll_Apothecary.Name = "LBL_Skll_Apothecary";
-            this.LBL_Skll_Apothecary.Size = new System.Drawing.Size(61, 13);
-            this.LBL_Skll_Apothecary.TabIndex = 37;
-            this.LBL_Skll_Apothecary.Text = "Apothecary";
-            // 
-            // LBL_Skll_AniKen
-            // 
-            this.LBL_Skll_AniKen.AutoSize = true;
-            this.LBL_Skll_AniKen.Location = new System.Drawing.Point(56, 74);
-            this.LBL_Skll_AniKen.Name = "LBL_Skll_AniKen";
-            this.LBL_Skll_AniKen.Size = new System.Drawing.Size(60, 13);
-            this.LBL_Skll_AniKen.TabIndex = 36;
-            this.LBL_Skll_AniKen.Text = "Animal Ken";
-            // 
-            // LBL_Skll_Dancing
-            // 
-            this.LBL_Skll_Dancing.AutoSize = true;
-            this.LBL_Skll_Dancing.Location = new System.Drawing.Point(56, 204);
-            this.LBL_Skll_Dancing.Name = "LBL_Skll_Dancing";
-            this.LBL_Skll_Dancing.Size = new System.Drawing.Size(47, 13);
-            this.LBL_Skll_Dancing.TabIndex = 41;
-            this.LBL_Skll_Dancing.Text = "Dancing";
-            // 
-            // LBL_Skll_Customs
-            // 
-            this.LBL_Skll_Customs.AutoSize = true;
-            this.LBL_Skll_Customs.Location = new System.Drawing.Point(56, 178);
-            this.LBL_Skll_Customs.Name = "LBL_Skll_Customs";
-            this.LBL_Skll_Customs.Size = new System.Drawing.Size(47, 13);
-            this.LBL_Skll_Customs.TabIndex = 40;
-            this.LBL_Skll_Customs.Text = "Customs";
-            // 
-            // LBL_Skll_Climbing
-            // 
-            this.LBL_Skll_Climbing.AutoSize = true;
-            this.LBL_Skll_Climbing.Location = new System.Drawing.Point(56, 152);
-            this.LBL_Skll_Climbing.Name = "LBL_Skll_Climbing";
-            this.LBL_Skll_Climbing.Size = new System.Drawing.Size(46, 13);
-            this.LBL_Skll_Climbing.TabIndex = 39;
-            this.LBL_Skll_Climbing.Text = "Climbing";
-            // 
-            // LBL_Skll_BtfTactics
-            // 
-            this.LBL_Skll_BtfTactics.AutoSize = true;
-            this.LBL_Skll_BtfTactics.Location = new System.Drawing.Point(56, 126);
-            this.LBL_Skll_BtfTactics.Name = "LBL_Skll_BtfTactics";
-            this.LBL_Skll_BtfTactics.Size = new System.Drawing.Size(91, 13);
-            this.LBL_Skll_BtfTactics.TabIndex = 38;
-            this.LBL_Skll_BtfTactics.Text = "Battlefield Tactics";
-            // 
-            // LBL_Skll_Decipher
-            // 
-            this.LBL_Skll_Decipher.AutoSize = true;
-            this.LBL_Skll_Decipher.Location = new System.Drawing.Point(56, 230);
-            this.LBL_Skll_Decipher.Name = "LBL_Skll_Decipher";
-            this.LBL_Skll_Decipher.Size = new System.Drawing.Size(50, 13);
-            this.LBL_Skll_Decipher.TabIndex = 42;
-            this.LBL_Skll_Decipher.Text = "Decipher";
-            // 
-            // LBL_Skll_LockPicking
-            // 
-            this.LBL_Skll_LockPicking.AutoSize = true;
-            this.LBL_Skll_LockPicking.Location = new System.Drawing.Point(211, 204);
-            this.LBL_Skll_LockPicking.Name = "LBL_Skll_LockPicking";
-            this.LBL_Skll_LockPicking.Size = new System.Drawing.Size(69, 13);
-            this.LBL_Skll_LockPicking.TabIndex = 51;
-            this.LBL_Skll_LockPicking.Text = "Lock Picking";
-            // 
-            // LBL_Skll_LightStep
-            // 
-            this.LBL_Skll_LightStep.AutoSize = true;
-            this.LBL_Skll_LightStep.Location = new System.Drawing.Point(211, 178);
-            this.LBL_Skll_LightStep.Name = "LBL_Skll_LightStep";
-            this.LBL_Skll_LightStep.Size = new System.Drawing.Size(55, 13);
-            this.LBL_Skll_LightStep.TabIndex = 50;
-            this.LBL_Skll_LightStep.Text = "Light Step";
-            // 
-            // LBL_Skll_InfoGathering
-            // 
-            this.LBL_Skll_InfoGathering.AutoSize = true;
-            this.LBL_Skll_InfoGathering.Location = new System.Drawing.Point(211, 152);
-            this.LBL_Skll_InfoGathering.Name = "LBL_Skll_InfoGathering";
-            this.LBL_Skll_InfoGathering.Size = new System.Drawing.Size(108, 13);
-            this.LBL_Skll_InfoGathering.TabIndex = 49;
-            this.LBL_Skll_InfoGathering.Text = "Information Gathering";
-            // 
-            // LBL_Skll_Healing
-            // 
-            this.LBL_Skll_Healing.AutoSize = true;
-            this.LBL_Skll_Healing.Location = new System.Drawing.Point(211, 126);
-            this.LBL_Skll_Healing.Name = "LBL_Skll_Healing";
-            this.LBL_Skll_Healing.Size = new System.Drawing.Size(43, 13);
-            this.LBL_Skll_Healing.TabIndex = 48;
-            this.LBL_Skll_Healing.Text = "Healing";
-            // 
-            // LBL_Skll_FrnLanguages
-            // 
-            this.LBL_Skll_FrnLanguages.AutoSize = true;
-            this.LBL_Skll_FrnLanguages.Location = new System.Drawing.Point(211, 100);
-            this.LBL_Skll_FrnLanguages.Name = "LBL_Skll_FrnLanguages";
-            this.LBL_Skll_FrnLanguages.Size = new System.Drawing.Size(98, 13);
-            this.LBL_Skll_FrnLanguages.TabIndex = 47;
-            this.LBL_Skll_FrnLanguages.Text = "Foreign Languages";
-            // 
-            // LBL_Skll_Falsehood
-            // 
-            this.LBL_Skll_Falsehood.AutoSize = true;
-            this.LBL_Skll_Falsehood.Location = new System.Drawing.Point(211, 74);
-            this.LBL_Skll_Falsehood.Name = "LBL_Skll_Falsehood";
-            this.LBL_Skll_Falsehood.Size = new System.Drawing.Size(56, 13);
-            this.LBL_Skll_Falsehood.TabIndex = 45;
-            this.LBL_Skll_Falsehood.Text = "Falsehood";
-            // 
-            // LBL_Skll_Etiquette
-            // 
-            this.LBL_Skll_Etiquette.AutoSize = true;
-            this.LBL_Skll_Etiquette.Location = new System.Drawing.Point(211, 48);
-            this.LBL_Skll_Etiquette.Name = "LBL_Skll_Etiquette";
-            this.LBL_Skll_Etiquette.Size = new System.Drawing.Size(49, 13);
-            this.LBL_Skll_Etiquette.TabIndex = 44;
-            this.LBL_Skll_Etiquette.Text = "Etiquette";
-            // 
-            // LBL_Skll_Disguise
-            // 
-            this.LBL_Skll_Disguise.AutoSize = true;
-            this.LBL_Skll_Disguise.Location = new System.Drawing.Point(211, 22);
-            this.LBL_Skll_Disguise.Name = "LBL_Skll_Disguise";
-            this.LBL_Skll_Disguise.Size = new System.Drawing.Size(47, 13);
-            this.LBL_Skll_Disguise.TabIndex = 43;
-            this.LBL_Skll_Disguise.Text = "Disguise";
+            // LBL_Skll_Trapping
+            // 
+            this.LBL_Skll_Trapping.AutoSize = true;
+            this.LBL_Skll_Trapping.Location = new System.Drawing.Point(512, 152);
+            this.LBL_Skll_Trapping.Name = "LBL_Skll_Trapping";
+            this.LBL_Skll_Trapping.Size = new System.Drawing.Size(49, 13);
+            this.LBL_Skll_Trapping.TabIndex = 67;
+            this.LBL_Skll_Trapping.Text = "Trapping";
+            // 
+            // LBL_Skll_Trailing
+            // 
+            this.LBL_Skll_Trailing.AutoSize = true;
+            this.LBL_Skll_Trailing.Location = new System.Drawing.Point(512, 126);
+            this.LBL_Skll_Trailing.Name = "LBL_Skll_Trailing";
+            this.LBL_Skll_Trailing.Size = new System.Drawing.Size(41, 13);
+            this.LBL_Skll_Trailing.TabIndex = 66;
+            this.LBL_Skll_Trailing.Text = "Trailing";
+            // 
+            // LBL_Skll_Tracking
+            // 
+            this.LBL_Skll_Tracking.AutoSize = true;
+            this.LBL_Skll_Tracking.Location = new System.Drawing.Point(512, 100);
+            this.LBL_Skll_Tracking.Name = "LBL_Skll_Tracking";
+            this.LBL_Skll_Tracking.Size = new System.Drawing.Size(49, 13);
+            this.LBL_Skll_Tracking.TabIndex = 65;
+            this.LBL_Skll_Tracking.Text = "Tracking";
+            // 
+            // LBL_Skll_Theology
+            // 
+            this.LBL_Skll_Theology.AutoSize = true;
+            this.LBL_Skll_Theology.Location = new System.Drawing.Point(512, 74);
+            this.LBL_Skll_Theology.Name = "LBL_Skll_Theology";
+            this.LBL_Skll_Theology.Size = new System.Drawing.Size(51, 13);
+            this.LBL_Skll_Theology.TabIndex = 64;
+            this.LBL_Skll_Theology.Text = "Theology";
+            // 
+            // LBL_Skll_Swimming
+            // 
+            this.LBL_Skll_Swimming.AutoSize = true;
+            this.LBL_Skll_Swimming.Location = new System.Drawing.Point(512, 48);
+            this.LBL_Skll_Swimming.Name = "LBL_Skll_Swimming";
+            this.LBL_Skll_Swimming.Size = new System.Drawing.Size(54, 13);
+            this.LBL_Skll_Swimming.TabIndex = 63;
+            this.LBL_Skll_Swimming.Text = "Swimming";
+            // 
+            // LBL_Skll_Survival
+            // 
+            this.LBL_Skll_Survival.AutoSize = true;
+            this.LBL_Skll_Survival.Location = new System.Drawing.Point(512, 22);
+            this.LBL_Skll_Survival.Name = "LBL_Skll_Survival";
+            this.LBL_Skll_Survival.Size = new System.Drawing.Size(45, 13);
+            this.LBL_Skll_Survival.TabIndex = 62;
+            this.LBL_Skll_Survival.Text = "Survival";
+            // 
+            // LBL_Skll_Soldiering
+            // 
+            this.LBL_Skll_Soldiering.AutoSize = true;
+            this.LBL_Skll_Soldiering.Location = new System.Drawing.Point(375, 230);
+            this.LBL_Skll_Soldiering.Name = "LBL_Skll_Soldiering";
+            this.LBL_Skll_Soldiering.Size = new System.Drawing.Size(53, 13);
+            this.LBL_Skll_Soldiering.TabIndex = 61;
+            this.LBL_Skll_Soldiering.Text = "Soldiering";
             // 
             // LBL_Skll_Sneaking
             // 
@@ -3055,122 +2832,722 @@
             this.LBL_Skll_Navigation.TabIndex = 52;
             this.LBL_Skll_Navigation.Text = "Navigation";
             // 
-            // LBL_Skll_Trapping
+            // LBL_Skll_LockPicking
             // 
-            this.LBL_Skll_Trapping.AutoSize = true;
-            this.LBL_Skll_Trapping.Location = new System.Drawing.Point(512, 152);
-            this.LBL_Skll_Trapping.Name = "LBL_Skll_Trapping";
-            this.LBL_Skll_Trapping.Size = new System.Drawing.Size(49, 13);
-            this.LBL_Skll_Trapping.TabIndex = 67;
-            this.LBL_Skll_Trapping.Text = "Trapping";
+            this.LBL_Skll_LockPicking.AutoSize = true;
+            this.LBL_Skll_LockPicking.Location = new System.Drawing.Point(211, 204);
+            this.LBL_Skll_LockPicking.Name = "LBL_Skll_LockPicking";
+            this.LBL_Skll_LockPicking.Size = new System.Drawing.Size(69, 13);
+            this.LBL_Skll_LockPicking.TabIndex = 51;
+            this.LBL_Skll_LockPicking.Text = "Lock Picking";
             // 
-            // LBL_Skll_Trailing
+            // LBL_Skll_LightStep
             // 
-            this.LBL_Skll_Trailing.AutoSize = true;
-            this.LBL_Skll_Trailing.Location = new System.Drawing.Point(512, 126);
-            this.LBL_Skll_Trailing.Name = "LBL_Skll_Trailing";
-            this.LBL_Skll_Trailing.Size = new System.Drawing.Size(41, 13);
-            this.LBL_Skll_Trailing.TabIndex = 66;
-            this.LBL_Skll_Trailing.Text = "Trailing";
+            this.LBL_Skll_LightStep.AutoSize = true;
+            this.LBL_Skll_LightStep.Location = new System.Drawing.Point(211, 178);
+            this.LBL_Skll_LightStep.Name = "LBL_Skll_LightStep";
+            this.LBL_Skll_LightStep.Size = new System.Drawing.Size(55, 13);
+            this.LBL_Skll_LightStep.TabIndex = 50;
+            this.LBL_Skll_LightStep.Text = "Light Step";
             // 
-            // LBL_Skll_Tracking
+            // LBL_Skll_InfoGathering
             // 
-            this.LBL_Skll_Tracking.AutoSize = true;
-            this.LBL_Skll_Tracking.Location = new System.Drawing.Point(512, 100);
-            this.LBL_Skll_Tracking.Name = "LBL_Skll_Tracking";
-            this.LBL_Skll_Tracking.Size = new System.Drawing.Size(49, 13);
-            this.LBL_Skll_Tracking.TabIndex = 65;
-            this.LBL_Skll_Tracking.Text = "Tracking";
+            this.LBL_Skll_InfoGathering.AutoSize = true;
+            this.LBL_Skll_InfoGathering.Location = new System.Drawing.Point(211, 152);
+            this.LBL_Skll_InfoGathering.Name = "LBL_Skll_InfoGathering";
+            this.LBL_Skll_InfoGathering.Size = new System.Drawing.Size(108, 13);
+            this.LBL_Skll_InfoGathering.TabIndex = 49;
+            this.LBL_Skll_InfoGathering.Text = "Information Gathering";
             // 
-            // LBL_Skll_Theology
+            // LBL_Skll_Healing
             // 
-            this.LBL_Skll_Theology.AutoSize = true;
-            this.LBL_Skll_Theology.Location = new System.Drawing.Point(512, 74);
-            this.LBL_Skll_Theology.Name = "LBL_Skll_Theology";
-            this.LBL_Skll_Theology.Size = new System.Drawing.Size(51, 13);
-            this.LBL_Skll_Theology.TabIndex = 64;
-            this.LBL_Skll_Theology.Text = "Theology";
+            this.LBL_Skll_Healing.AutoSize = true;
+            this.LBL_Skll_Healing.Location = new System.Drawing.Point(211, 126);
+            this.LBL_Skll_Healing.Name = "LBL_Skll_Healing";
+            this.LBL_Skll_Healing.Size = new System.Drawing.Size(43, 13);
+            this.LBL_Skll_Healing.TabIndex = 48;
+            this.LBL_Skll_Healing.Text = "Healing";
             // 
-            // LBL_Skll_Swimming
+            // LBL_Skll_FrnLanguages
             // 
-            this.LBL_Skll_Swimming.AutoSize = true;
-            this.LBL_Skll_Swimming.Location = new System.Drawing.Point(512, 48);
-            this.LBL_Skll_Swimming.Name = "LBL_Skll_Swimming";
-            this.LBL_Skll_Swimming.Size = new System.Drawing.Size(54, 13);
-            this.LBL_Skll_Swimming.TabIndex = 63;
-            this.LBL_Skll_Swimming.Text = "Swimming";
+            this.LBL_Skll_FrnLanguages.AutoSize = true;
+            this.LBL_Skll_FrnLanguages.Location = new System.Drawing.Point(211, 100);
+            this.LBL_Skll_FrnLanguages.Name = "LBL_Skll_FrnLanguages";
+            this.LBL_Skll_FrnLanguages.Size = new System.Drawing.Size(98, 13);
+            this.LBL_Skll_FrnLanguages.TabIndex = 47;
+            this.LBL_Skll_FrnLanguages.Text = "Foreign Languages";
             // 
-            // LBL_Skll_Survival
+            // LBL_Skll_Falsehood
             // 
-            this.LBL_Skll_Survival.AutoSize = true;
-            this.LBL_Skll_Survival.Location = new System.Drawing.Point(512, 22);
-            this.LBL_Skll_Survival.Name = "LBL_Skll_Survival";
-            this.LBL_Skll_Survival.Size = new System.Drawing.Size(45, 13);
-            this.LBL_Skll_Survival.TabIndex = 62;
-            this.LBL_Skll_Survival.Text = "Survival";
+            this.LBL_Skll_Falsehood.AutoSize = true;
+            this.LBL_Skll_Falsehood.Location = new System.Drawing.Point(211, 74);
+            this.LBL_Skll_Falsehood.Name = "LBL_Skll_Falsehood";
+            this.LBL_Skll_Falsehood.Size = new System.Drawing.Size(56, 13);
+            this.LBL_Skll_Falsehood.TabIndex = 45;
+            this.LBL_Skll_Falsehood.Text = "Falsehood";
             // 
-            // LBL_Skll_Soldiering
+            // LBL_Skll_Etiquette
             // 
-            this.LBL_Skll_Soldiering.AutoSize = true;
-            this.LBL_Skll_Soldiering.Location = new System.Drawing.Point(375, 230);
-            this.LBL_Skll_Soldiering.Name = "LBL_Skll_Soldiering";
-            this.LBL_Skll_Soldiering.Size = new System.Drawing.Size(53, 13);
-            this.LBL_Skll_Soldiering.TabIndex = 61;
-            this.LBL_Skll_Soldiering.Text = "Soldiering";
+            this.LBL_Skll_Etiquette.AutoSize = true;
+            this.LBL_Skll_Etiquette.Location = new System.Drawing.Point(211, 48);
+            this.LBL_Skll_Etiquette.Name = "LBL_Skll_Etiquette";
+            this.LBL_Skll_Etiquette.Size = new System.Drawing.Size(49, 13);
+            this.LBL_Skll_Etiquette.TabIndex = 44;
+            this.LBL_Skll_Etiquette.Text = "Etiquette";
             // 
-            // LBL_Skll_Precognition
+            // LBL_Skll_Disguise
             // 
-            this.LBL_Skll_Precognition.AutoSize = true;
-            this.LBL_Skll_Precognition.Location = new System.Drawing.Point(512, 22);
-            this.LBL_Skll_Precognition.Name = "LBL_Skll_Precognition";
-            this.LBL_Skll_Precognition.Size = new System.Drawing.Size(66, 13);
-            this.LBL_Skll_Precognition.TabIndex = 71;
-            this.LBL_Skll_Precognition.Text = "Precognition";
+            this.LBL_Skll_Disguise.AutoSize = true;
+            this.LBL_Skll_Disguise.Location = new System.Drawing.Point(211, 22);
+            this.LBL_Skll_Disguise.Name = "LBL_Skll_Disguise";
+            this.LBL_Skll_Disguise.Size = new System.Drawing.Size(47, 13);
+            this.LBL_Skll_Disguise.TabIndex = 43;
+            this.LBL_Skll_Disguise.Text = "Disguise";
             // 
-            // LBL_Skll_OmenReading
+            // LBL_Skll_Decipher
             // 
-            this.LBL_Skll_OmenReading.AutoSize = true;
-            this.LBL_Skll_OmenReading.Location = new System.Drawing.Point(375, 22);
-            this.LBL_Skll_OmenReading.Name = "LBL_Skll_OmenReading";
-            this.LBL_Skll_OmenReading.Size = new System.Drawing.Size(78, 13);
-            this.LBL_Skll_OmenReading.TabIndex = 70;
-            this.LBL_Skll_OmenReading.Text = "Omen Reading";
+            this.LBL_Skll_Decipher.AutoSize = true;
+            this.LBL_Skll_Decipher.Location = new System.Drawing.Point(56, 230);
+            this.LBL_Skll_Decipher.Name = "LBL_Skll_Decipher";
+            this.LBL_Skll_Decipher.Size = new System.Drawing.Size(50, 13);
+            this.LBL_Skll_Decipher.TabIndex = 42;
+            this.LBL_Skll_Decipher.Text = "Decipher";
             // 
-            // LBL_Skll_Occultism
+            // LBL_Skll_Dancing
             // 
-            this.LBL_Skll_Occultism.AutoSize = true;
-            this.LBL_Skll_Occultism.Location = new System.Drawing.Point(211, 22);
-            this.LBL_Skll_Occultism.Name = "LBL_Skll_Occultism";
-            this.LBL_Skll_Occultism.Size = new System.Drawing.Size(53, 13);
-            this.LBL_Skll_Occultism.TabIndex = 69;
-            this.LBL_Skll_Occultism.Text = "Occultism";
+            this.LBL_Skll_Dancing.AutoSize = true;
+            this.LBL_Skll_Dancing.Location = new System.Drawing.Point(56, 204);
+            this.LBL_Skll_Dancing.Name = "LBL_Skll_Dancing";
+            this.LBL_Skll_Dancing.Size = new System.Drawing.Size(47, 13);
+            this.LBL_Skll_Dancing.TabIndex = 41;
+            this.LBL_Skll_Dancing.Text = "Dancing";
             // 
-            // LBL_Skll_DtcSorcery
+            // LBL_Skll_Customs
             // 
-            this.LBL_Skll_DtcSorcery.AutoSize = true;
-            this.LBL_Skll_DtcSorcery.Location = new System.Drawing.Point(56, 22);
-            this.LBL_Skll_DtcSorcery.Name = "LBL_Skll_DtcSorcery";
-            this.LBL_Skll_DtcSorcery.Size = new System.Drawing.Size(78, 13);
-            this.LBL_Skll_DtcSorcery.TabIndex = 68;
-            this.LBL_Skll_DtcSorcery.Text = "Detect Sorcery";
+            this.LBL_Skll_Customs.AutoSize = true;
+            this.LBL_Skll_Customs.Location = new System.Drawing.Point(56, 178);
+            this.LBL_Skll_Customs.Name = "LBL_Skll_Customs";
+            this.LBL_Skll_Customs.Size = new System.Drawing.Size(47, 13);
+            this.LBL_Skll_Customs.TabIndex = 40;
+            this.LBL_Skll_Customs.Text = "Customs";
             // 
-            // LBL_Skll_Spent
+            // LBL_Skll_Climbing
             // 
-            this.LBL_Skll_Spent.AutoSize = true;
-            this.LBL_Skll_Spent.Location = new System.Drawing.Point(251, 5);
-            this.LBL_Skll_Spent.Name = "LBL_Skll_Spent";
-            this.LBL_Skll_Spent.Size = new System.Drawing.Size(96, 13);
-            this.LBL_Skll_Spent.TabIndex = 3;
-            this.LBL_Skll_Spent.Text = "Points Spent: 0 / 0";
+            this.LBL_Skll_Climbing.AutoSize = true;
+            this.LBL_Skll_Climbing.Location = new System.Drawing.Point(56, 152);
+            this.LBL_Skll_Climbing.Name = "LBL_Skll_Climbing";
+            this.LBL_Skll_Climbing.Size = new System.Drawing.Size(46, 13);
+            this.LBL_Skll_Climbing.TabIndex = 39;
+            this.LBL_Skll_Climbing.Text = "Climbing";
             // 
-            // LBL_Prof_Spent
+            // LBL_Skll_BtfTactics
             // 
-            this.LBL_Prof_Spent.AutoSize = true;
-            this.LBL_Prof_Spent.Location = new System.Drawing.Point(251, 7);
-            this.LBL_Prof_Spent.Name = "LBL_Prof_Spent";
-            this.LBL_Prof_Spent.Size = new System.Drawing.Size(96, 13);
-            this.LBL_Prof_Spent.TabIndex = 0;
-            this.LBL_Prof_Spent.Text = "Points Spent: 0 / 0";
+            this.LBL_Skll_BtfTactics.AutoSize = true;
+            this.LBL_Skll_BtfTactics.Location = new System.Drawing.Point(56, 126);
+            this.LBL_Skll_BtfTactics.Name = "LBL_Skll_BtfTactics";
+            this.LBL_Skll_BtfTactics.Size = new System.Drawing.Size(91, 13);
+            this.LBL_Skll_BtfTactics.TabIndex = 38;
+            this.LBL_Skll_BtfTactics.Text = "Battlefield Tactics";
+            // 
+            // LBL_Skll_Apothecary
+            // 
+            this.LBL_Skll_Apothecary.AutoSize = true;
+            this.LBL_Skll_Apothecary.Location = new System.Drawing.Point(56, 100);
+            this.LBL_Skll_Apothecary.Name = "LBL_Skll_Apothecary";
+            this.LBL_Skll_Apothecary.Size = new System.Drawing.Size(61, 13);
+            this.LBL_Skll_Apothecary.TabIndex = 37;
+            this.LBL_Skll_Apothecary.Text = "Apothecary";
+            // 
+            // LBL_Skll_AniKen
+            // 
+            this.LBL_Skll_AniKen.AutoSize = true;
+            this.LBL_Skll_AniKen.Location = new System.Drawing.Point(56, 74);
+            this.LBL_Skll_AniKen.Name = "LBL_Skll_AniKen";
+            this.LBL_Skll_AniKen.Size = new System.Drawing.Size(60, 13);
+            this.LBL_Skll_AniKen.TabIndex = 36;
+            this.LBL_Skll_AniKen.Text = "Animal Ken";
+            // 
+            // LBL_Skll_AncLanguages
+            // 
+            this.LBL_Skll_AncLanguages.AutoSize = true;
+            this.LBL_Skll_AncLanguages.Location = new System.Drawing.Point(56, 48);
+            this.LBL_Skll_AncLanguages.Name = "LBL_Skll_AncLanguages";
+            this.LBL_Skll_AncLanguages.Size = new System.Drawing.Size(99, 13);
+            this.LBL_Skll_AncLanguages.TabIndex = 35;
+            this.LBL_Skll_AncLanguages.Text = "Ancient Languages";
+            // 
+            // LBL_Skll_Acting
+            // 
+            this.LBL_Skll_Acting.AutoSize = true;
+            this.LBL_Skll_Acting.Location = new System.Drawing.Point(56, 22);
+            this.LBL_Skll_Acting.Name = "LBL_Skll_Acting";
+            this.LBL_Skll_Acting.Size = new System.Drawing.Size(37, 13);
+            this.LBL_Skll_Acting.TabIndex = 34;
+            this.LBL_Skll_Acting.Text = "Acting";
+            // 
+            // NUD_Skll_Trapping
+            // 
+            this.NUD_Skll_Trapping.Location = new System.Drawing.Point(462, 150);
+            this.NUD_Skll_Trapping.Name = "NUD_Skll_Trapping";
+            this.NUD_Skll_Trapping.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Trapping.TabIndex = 33;
+            // 
+            // NUD_Skll_Trailing
+            // 
+            this.NUD_Skll_Trailing.Location = new System.Drawing.Point(462, 124);
+            this.NUD_Skll_Trailing.Name = "NUD_Skll_Trailing";
+            this.NUD_Skll_Trailing.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Trailing.TabIndex = 32;
+            // 
+            // NUD_Skll_Tracking
+            // 
+            this.NUD_Skll_Tracking.Location = new System.Drawing.Point(462, 98);
+            this.NUD_Skll_Tracking.Name = "NUD_Skll_Tracking";
+            this.NUD_Skll_Tracking.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Tracking.TabIndex = 31;
+            // 
+            // NUD_Skll_Theology
+            // 
+            this.NUD_Skll_Theology.Location = new System.Drawing.Point(462, 72);
+            this.NUD_Skll_Theology.Name = "NUD_Skll_Theology";
+            this.NUD_Skll_Theology.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Theology.TabIndex = 30;
+            // 
+            // NUD_Skll_Swimming
+            // 
+            this.NUD_Skll_Swimming.Location = new System.Drawing.Point(462, 46);
+            this.NUD_Skll_Swimming.Name = "NUD_Skll_Swimming";
+            this.NUD_Skll_Swimming.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Swimming.TabIndex = 29;
+            // 
+            // NUD_Skll_Survival
+            // 
+            this.NUD_Skll_Survival.Location = new System.Drawing.Point(462, 20);
+            this.NUD_Skll_Survival.Name = "NUD_Skll_Survival";
+            this.NUD_Skll_Survival.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Survival.TabIndex = 28;
+            // 
+            // NUD_Skll_Soldiering
+            // 
+            this.NUD_Skll_Soldiering.Location = new System.Drawing.Point(325, 228);
+            this.NUD_Skll_Soldiering.Name = "NUD_Skll_Soldiering";
+            this.NUD_Skll_Soldiering.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Soldiering.TabIndex = 27;
+            // 
+            // NUD_Skll_Sneaking
+            // 
+            this.NUD_Skll_Sneaking.Location = new System.Drawing.Point(325, 202);
+            this.NUD_Skll_Sneaking.Name = "NUD_Skll_Sneaking";
+            this.NUD_Skll_Sneaking.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Sneaking.TabIndex = 26;
+            // 
+            // NUD_Skll_Seduction
+            // 
+            this.NUD_Skll_Seduction.Location = new System.Drawing.Point(325, 176);
+            this.NUD_Skll_Seduction.Name = "NUD_Skll_Seduction";
+            this.NUD_Skll_Seduction.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Seduction.TabIndex = 25;
+            // 
+            // NUD_Skll_Seamanship
+            // 
+            this.NUD_Skll_Seamanship.Location = new System.Drawing.Point(325, 150);
+            this.NUD_Skll_Seamanship.Name = "NUD_Skll_Seamanship";
+            this.NUD_Skll_Seamanship.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Seamanship.TabIndex = 24;
+            // 
+            // NUD_Skll_Riding
+            // 
+            this.NUD_Skll_Riding.Location = new System.Drawing.Point(325, 124);
+            this.NUD_Skll_Riding.Name = "NUD_Skll_Riding";
+            this.NUD_Skll_Riding.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Riding.TabIndex = 23;
+            // 
+            // NUD_Skll_Prestidigitation
+            // 
+            this.NUD_Skll_Prestidigitation.Location = new System.Drawing.Point(325, 98);
+            this.NUD_Skll_Prestidigitation.Name = "NUD_Skll_Prestidigitation";
+            this.NUD_Skll_Prestidigitation.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Prestidigitation.TabIndex = 22;
+            // 
+            // NUD_Skll_PickPockets
+            // 
+            this.NUD_Skll_PickPockets.Location = new System.Drawing.Point(325, 72);
+            this.NUD_Skll_PickPockets.Name = "NUD_Skll_PickPockets";
+            this.NUD_Skll_PickPockets.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_PickPockets.TabIndex = 21;
+            // 
+            // NUD_Skll_Negotiation
+            // 
+            this.NUD_Skll_Negotiation.Location = new System.Drawing.Point(325, 46);
+            this.NUD_Skll_Negotiation.Name = "NUD_Skll_Negotiation";
+            this.NUD_Skll_Negotiation.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Negotiation.TabIndex = 20;
+            // 
+            // NUD_Skll_Navigation
+            // 
+            this.NUD_Skll_Navigation.Location = new System.Drawing.Point(325, 20);
+            this.NUD_Skll_Navigation.Name = "NUD_Skll_Navigation";
+            this.NUD_Skll_Navigation.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Navigation.TabIndex = 19;
+            // 
+            // NUD_Skll_Music
+            // 
+            this.NUD_Skll_Music.Location = new System.Drawing.Point(161, 228);
+            this.NUD_Skll_Music.Name = "NUD_Skll_Music";
+            this.NUD_Skll_Music.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Music.TabIndex = 18;
+            // 
+            // NUD_Skll_LockPicking
+            // 
+            this.NUD_Skll_LockPicking.Location = new System.Drawing.Point(161, 202);
+            this.NUD_Skll_LockPicking.Name = "NUD_Skll_LockPicking";
+            this.NUD_Skll_LockPicking.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_LockPicking.TabIndex = 17;
+            // 
+            // NUD_Skll_LightStep
+            // 
+            this.NUD_Skll_LightStep.Location = new System.Drawing.Point(161, 176);
+            this.NUD_Skll_LightStep.Name = "NUD_Skll_LightStep";
+            this.NUD_Skll_LightStep.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_LightStep.TabIndex = 16;
+            // 
+            // NUD_Skll_InfoGathering
+            // 
+            this.NUD_Skll_InfoGathering.Location = new System.Drawing.Point(161, 150);
+            this.NUD_Skll_InfoGathering.Name = "NUD_Skll_InfoGathering";
+            this.NUD_Skll_InfoGathering.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_InfoGathering.TabIndex = 15;
+            // 
+            // NUD_Skll_Healing
+            // 
+            this.NUD_Skll_Healing.Location = new System.Drawing.Point(161, 124);
+            this.NUD_Skll_Healing.Name = "NUD_Skll_Healing";
+            this.NUD_Skll_Healing.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Healing.TabIndex = 14;
+            // 
+            // NUD_Skll_FrnLanguages
+            // 
+            this.NUD_Skll_FrnLanguages.Location = new System.Drawing.Point(161, 98);
+            this.NUD_Skll_FrnLanguages.Name = "NUD_Skll_FrnLanguages";
+            this.NUD_Skll_FrnLanguages.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_FrnLanguages.TabIndex = 13;
+            // 
+            // NUD_Skll_Falsehood
+            // 
+            this.NUD_Skll_Falsehood.Location = new System.Drawing.Point(161, 72);
+            this.NUD_Skll_Falsehood.Name = "NUD_Skll_Falsehood";
+            this.NUD_Skll_Falsehood.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Falsehood.TabIndex = 11;
+            // 
+            // NUD_Skll_Etiquette
+            // 
+            this.NUD_Skll_Etiquette.Location = new System.Drawing.Point(161, 46);
+            this.NUD_Skll_Etiquette.Name = "NUD_Skll_Etiquette";
+            this.NUD_Skll_Etiquette.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Etiquette.TabIndex = 10;
+            // 
+            // NUD_Skll_Disguise
+            // 
+            this.NUD_Skll_Disguise.Location = new System.Drawing.Point(161, 20);
+            this.NUD_Skll_Disguise.Name = "NUD_Skll_Disguise";
+            this.NUD_Skll_Disguise.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Disguise.TabIndex = 9;
+            // 
+            // NUD_Skll_Decipher
+            // 
+            this.NUD_Skll_Decipher.Location = new System.Drawing.Point(6, 228);
+            this.NUD_Skll_Decipher.Name = "NUD_Skll_Decipher";
+            this.NUD_Skll_Decipher.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Decipher.TabIndex = 8;
+            // 
+            // NUD_Skll_Dancing
+            // 
+            this.NUD_Skll_Dancing.Location = new System.Drawing.Point(6, 202);
+            this.NUD_Skll_Dancing.Name = "NUD_Skll_Dancing";
+            this.NUD_Skll_Dancing.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Dancing.TabIndex = 7;
+            // 
+            // NUD_Skll_Customs
+            // 
+            this.NUD_Skll_Customs.Location = new System.Drawing.Point(6, 176);
+            this.NUD_Skll_Customs.Name = "NUD_Skll_Customs";
+            this.NUD_Skll_Customs.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Customs.TabIndex = 6;
+            // 
+            // NUD_Skll_Climbing
+            // 
+            this.NUD_Skll_Climbing.Location = new System.Drawing.Point(6, 150);
+            this.NUD_Skll_Climbing.Name = "NUD_Skll_Climbing";
+            this.NUD_Skll_Climbing.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Climbing.TabIndex = 5;
+            // 
+            // NUD_Skll_BtfTactics
+            // 
+            this.NUD_Skll_BtfTactics.Location = new System.Drawing.Point(6, 124);
+            this.NUD_Skll_BtfTactics.Name = "NUD_Skll_BtfTactics";
+            this.NUD_Skll_BtfTactics.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_BtfTactics.TabIndex = 4;
+            // 
+            // NUD_Skll_Apothecary
+            // 
+            this.NUD_Skll_Apothecary.Location = new System.Drawing.Point(6, 98);
+            this.NUD_Skll_Apothecary.Name = "NUD_Skll_Apothecary";
+            this.NUD_Skll_Apothecary.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Apothecary.TabIndex = 3;
+            // 
+            // NUD_Skll_AniKen
+            // 
+            this.NUD_Skll_AniKen.Location = new System.Drawing.Point(6, 72);
+            this.NUD_Skll_AniKen.Name = "NUD_Skll_AniKen";
+            this.NUD_Skll_AniKen.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_AniKen.TabIndex = 2;
+            // 
+            // NUD_Skll_AncLanguages
+            // 
+            this.NUD_Skll_AncLanguages.Location = new System.Drawing.Point(6, 46);
+            this.NUD_Skll_AncLanguages.Name = "NUD_Skll_AncLanguages";
+            this.NUD_Skll_AncLanguages.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_AncLanguages.TabIndex = 1;
+            // 
+            // NUD_Skll_Acting
+            // 
+            this.NUD_Skll_Acting.Location = new System.Drawing.Point(6, 20);
+            this.NUD_Skll_Acting.Name = "NUD_Skll_Acting";
+            this.NUD_Skll_Acting.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Skll_Acting.TabIndex = 0;
+            // 
+            // TAB_Prof
+            // 
+            this.TAB_Prof.Controls.Add(this.GB_Prof_Sorcery);
+            this.TAB_Prof.Controls.Add(this.TXB_Prof_Desc);
+            this.TAB_Prof.Controls.Add(this.GB_Prof_Archery);
+            this.TAB_Prof.Controls.Add(this.GB_Prof_Melee);
+            this.TAB_Prof.Controls.Add(this.LBL_Prof_Spent);
+            this.TAB_Prof.Location = new System.Drawing.Point(4, 22);
+            this.TAB_Prof.Name = "TAB_Prof";
+            this.TAB_Prof.Padding = new System.Windows.Forms.Padding(3);
+            this.TAB_Prof.Size = new System.Drawing.Size(598, 466);
+            this.TAB_Prof.TabIndex = 4;
+            this.TAB_Prof.Text = "Proficiencies";
+            this.TAB_Prof.UseVisualStyleBackColor = true;
+            // 
+            // GB_Prof_Sorcery
+            // 
+            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Prophecy);
+            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Goety);
+            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Prophecy);
+            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Goety);
+            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Witchfire);
+            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Necromancy);
+            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Enslavement);
+            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Witchfire);
+            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Necromancy);
+            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Enslavement);
+            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Scrying);
+            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Mending);
+            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Cursing);
+            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Scrying);
+            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Mending);
+            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Cursing);
+            this.GB_Prof_Sorcery.Enabled = false;
+            this.GB_Prof_Sorcery.Location = new System.Drawing.Point(6, 255);
+            this.GB_Prof_Sorcery.Name = "GB_Prof_Sorcery";
+            this.GB_Prof_Sorcery.Size = new System.Drawing.Size(585, 104);
+            this.GB_Prof_Sorcery.TabIndex = 98;
+            this.GB_Prof_Sorcery.TabStop = false;
+            this.GB_Prof_Sorcery.Text = "Sorcery Proficiencies";
+            // 
+            // LBL_Prof_Prophecy
+            // 
+            this.LBL_Prof_Prophecy.AutoSize = true;
+            this.LBL_Prof_Prophecy.Location = new System.Drawing.Point(253, 69);
+            this.LBL_Prof_Prophecy.Name = "LBL_Prof_Prophecy";
+            this.LBL_Prof_Prophecy.Size = new System.Drawing.Size(52, 13);
+            this.LBL_Prof_Prophecy.TabIndex = 97;
+            this.LBL_Prof_Prophecy.Text = "Prophecy";
+            // 
+            // LBL_Prof_Goety
+            // 
+            this.LBL_Prof_Goety.AutoSize = true;
+            this.LBL_Prof_Goety.Location = new System.Drawing.Point(56, 69);
+            this.LBL_Prof_Goety.Name = "LBL_Prof_Goety";
+            this.LBL_Prof_Goety.Size = new System.Drawing.Size(35, 13);
+            this.LBL_Prof_Goety.TabIndex = 96;
+            this.LBL_Prof_Goety.Text = "Goety";
+            // 
+            // NUD_Prof_Prophecy
+            // 
+            this.NUD_Prof_Prophecy.Location = new System.Drawing.Point(203, 67);
+            this.NUD_Prof_Prophecy.Name = "NUD_Prof_Prophecy";
+            this.NUD_Prof_Prophecy.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Prophecy.TabIndex = 94;
+            // 
+            // NUD_Prof_Goety
+            // 
+            this.NUD_Prof_Goety.Location = new System.Drawing.Point(6, 67);
+            this.NUD_Prof_Goety.Name = "NUD_Prof_Goety";
+            this.NUD_Prof_Goety.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Goety.TabIndex = 93;
+            // 
+            // LBL_Prof_Witchfire
+            // 
+            this.LBL_Prof_Witchfire.AutoSize = true;
+            this.LBL_Prof_Witchfire.Location = new System.Drawing.Point(489, 45);
+            this.LBL_Prof_Witchfire.Name = "LBL_Prof_Witchfire";
+            this.LBL_Prof_Witchfire.Size = new System.Drawing.Size(49, 13);
+            this.LBL_Prof_Witchfire.TabIndex = 92;
+            this.LBL_Prof_Witchfire.Text = "Witchfire";
+            // 
+            // LBL_Prof_Necromancy
+            // 
+            this.LBL_Prof_Necromancy.AutoSize = true;
+            this.LBL_Prof_Necromancy.Location = new System.Drawing.Point(253, 45);
+            this.LBL_Prof_Necromancy.Name = "LBL_Prof_Necromancy";
+            this.LBL_Prof_Necromancy.Size = new System.Drawing.Size(67, 13);
+            this.LBL_Prof_Necromancy.TabIndex = 91;
+            this.LBL_Prof_Necromancy.Text = "Necromancy";
+            // 
+            // LBL_Prof_Enslavement
+            // 
+            this.LBL_Prof_Enslavement.AutoSize = true;
+            this.LBL_Prof_Enslavement.Location = new System.Drawing.Point(56, 45);
+            this.LBL_Prof_Enslavement.Name = "LBL_Prof_Enslavement";
+            this.LBL_Prof_Enslavement.Size = new System.Drawing.Size(68, 13);
+            this.LBL_Prof_Enslavement.TabIndex = 90;
+            this.LBL_Prof_Enslavement.Text = "Enslavement";
+            // 
+            // NUD_Prof_Witchfire
+            // 
+            this.NUD_Prof_Witchfire.Location = new System.Drawing.Point(439, 43);
+            this.NUD_Prof_Witchfire.Name = "NUD_Prof_Witchfire";
+            this.NUD_Prof_Witchfire.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Witchfire.TabIndex = 89;
+            // 
+            // NUD_Prof_Necromancy
+            // 
+            this.NUD_Prof_Necromancy.Location = new System.Drawing.Point(203, 43);
+            this.NUD_Prof_Necromancy.Name = "NUD_Prof_Necromancy";
+            this.NUD_Prof_Necromancy.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Necromancy.TabIndex = 88;
+            // 
+            // NUD_Prof_Enslavement
+            // 
+            this.NUD_Prof_Enslavement.Location = new System.Drawing.Point(6, 43);
+            this.NUD_Prof_Enslavement.Name = "NUD_Prof_Enslavement";
+            this.NUD_Prof_Enslavement.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Enslavement.TabIndex = 87;
+            // 
+            // LBL_Prof_Scrying
+            // 
+            this.LBL_Prof_Scrying.AutoSize = true;
+            this.LBL_Prof_Scrying.Location = new System.Drawing.Point(489, 21);
+            this.LBL_Prof_Scrying.Name = "LBL_Prof_Scrying";
+            this.LBL_Prof_Scrying.Size = new System.Drawing.Size(42, 13);
+            this.LBL_Prof_Scrying.TabIndex = 86;
+            this.LBL_Prof_Scrying.Text = "Scrying";
+            // 
+            // LBL_Prof_Mending
+            // 
+            this.LBL_Prof_Mending.AutoSize = true;
+            this.LBL_Prof_Mending.Location = new System.Drawing.Point(253, 21);
+            this.LBL_Prof_Mending.Name = "LBL_Prof_Mending";
+            this.LBL_Prof_Mending.Size = new System.Drawing.Size(48, 13);
+            this.LBL_Prof_Mending.TabIndex = 85;
+            this.LBL_Prof_Mending.Text = "Mending";
+            // 
+            // LBL_Prof_Cursing
+            // 
+            this.LBL_Prof_Cursing.AutoSize = true;
+            this.LBL_Prof_Cursing.Location = new System.Drawing.Point(56, 21);
+            this.LBL_Prof_Cursing.Name = "LBL_Prof_Cursing";
+            this.LBL_Prof_Cursing.Size = new System.Drawing.Size(42, 13);
+            this.LBL_Prof_Cursing.TabIndex = 84;
+            this.LBL_Prof_Cursing.Text = "Cursing";
+            // 
+            // NUD_Prof_Scrying
+            // 
+            this.NUD_Prof_Scrying.Location = new System.Drawing.Point(439, 19);
+            this.NUD_Prof_Scrying.Name = "NUD_Prof_Scrying";
+            this.NUD_Prof_Scrying.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Scrying.TabIndex = 83;
+            // 
+            // NUD_Prof_Mending
+            // 
+            this.NUD_Prof_Mending.Location = new System.Drawing.Point(203, 19);
+            this.NUD_Prof_Mending.Name = "NUD_Prof_Mending";
+            this.NUD_Prof_Mending.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Mending.TabIndex = 82;
+            // 
+            // NUD_Prof_Cursing
+            // 
+            this.NUD_Prof_Cursing.Location = new System.Drawing.Point(6, 19);
+            this.NUD_Prof_Cursing.Name = "NUD_Prof_Cursing";
+            this.NUD_Prof_Cursing.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Cursing.TabIndex = 81;
+            // 
+            // TXB_Prof_Desc
+            // 
+            this.TXB_Prof_Desc.Location = new System.Drawing.Point(7, 365);
+            this.TXB_Prof_Desc.Multiline = true;
+            this.TXB_Prof_Desc.Name = "TXB_Prof_Desc";
+            this.TXB_Prof_Desc.ReadOnly = true;
+            this.TXB_Prof_Desc.Size = new System.Drawing.Size(584, 98);
+            this.TXB_Prof_Desc.TabIndex = 5;
+            this.TXB_Prof_Desc.Text = "No Proficiency priority chosen!  Choose a Proficiency level before proceeding.";
+            // 
+            // GB_Prof_Archery
+            // 
+            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_ThrownAxe);
+            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_Crossbow);
+            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_ThrownAxe);
+            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_Crossbow);
+            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_ThrownRock);
+            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_SpearJavelin);
+            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_Bow);
+            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_ThrownRock);
+            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_SpearJavelin);
+            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_Bow);
+            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_ThrownKnife);
+            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_Sling);
+            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_BlackPowder);
+            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_ThrownKnife);
+            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_Sling);
+            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_BlackPowder);
+            this.GB_Prof_Archery.Enabled = false;
+            this.GB_Prof_Archery.Location = new System.Drawing.Point(6, 145);
+            this.GB_Prof_Archery.Name = "GB_Prof_Archery";
+            this.GB_Prof_Archery.Size = new System.Drawing.Size(585, 104);
+            this.GB_Prof_Archery.TabIndex = 2;
+            this.GB_Prof_Archery.TabStop = false;
+            this.GB_Prof_Archery.Text = "Archery Proficiencies";
+            // 
+            // LBL_Prof_ThrownAxe
+            // 
+            this.LBL_Prof_ThrownAxe.AutoSize = true;
+            this.LBL_Prof_ThrownAxe.Location = new System.Drawing.Point(253, 69);
+            this.LBL_Prof_ThrownAxe.Name = "LBL_Prof_ThrownAxe";
+            this.LBL_Prof_ThrownAxe.Size = new System.Drawing.Size(64, 13);
+            this.LBL_Prof_ThrownAxe.TabIndex = 97;
+            this.LBL_Prof_ThrownAxe.Text = "Thrown Axe";
+            // 
+            // LBL_Prof_Crossbow
+            // 
+            this.LBL_Prof_Crossbow.AutoSize = true;
+            this.LBL_Prof_Crossbow.Location = new System.Drawing.Point(56, 69);
+            this.LBL_Prof_Crossbow.Name = "LBL_Prof_Crossbow";
+            this.LBL_Prof_Crossbow.Size = new System.Drawing.Size(53, 13);
+            this.LBL_Prof_Crossbow.TabIndex = 96;
+            this.LBL_Prof_Crossbow.Text = "Crossbow";
+            // 
+            // NUD_Prof_ThrownAxe
+            // 
+            this.NUD_Prof_ThrownAxe.Location = new System.Drawing.Point(203, 67);
+            this.NUD_Prof_ThrownAxe.Name = "NUD_Prof_ThrownAxe";
+            this.NUD_Prof_ThrownAxe.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_ThrownAxe.TabIndex = 94;
+            // 
+            // NUD_Prof_Crossbow
+            // 
+            this.NUD_Prof_Crossbow.Location = new System.Drawing.Point(6, 67);
+            this.NUD_Prof_Crossbow.Name = "NUD_Prof_Crossbow";
+            this.NUD_Prof_Crossbow.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Crossbow.TabIndex = 93;
+            // 
+            // LBL_Prof_ThrownRock
+            // 
+            this.LBL_Prof_ThrownRock.AutoSize = true;
+            this.LBL_Prof_ThrownRock.Location = new System.Drawing.Point(489, 45);
+            this.LBL_Prof_ThrownRock.Name = "LBL_Prof_ThrownRock";
+            this.LBL_Prof_ThrownRock.Size = new System.Drawing.Size(72, 13);
+            this.LBL_Prof_ThrownRock.TabIndex = 92;
+            this.LBL_Prof_ThrownRock.Text = "Thrown Rock";
+            // 
+            // LBL_Prof_SpearJavelin
+            // 
+            this.LBL_Prof_SpearJavelin.AutoSize = true;
+            this.LBL_Prof_SpearJavelin.Location = new System.Drawing.Point(253, 45);
+            this.LBL_Prof_SpearJavelin.Name = "LBL_Prof_SpearJavelin";
+            this.LBL_Prof_SpearJavelin.Size = new System.Drawing.Size(79, 13);
+            this.LBL_Prof_SpearJavelin.TabIndex = 91;
+            this.LBL_Prof_SpearJavelin.Text = "Spear / Javelin";
+            // 
+            // LBL_Prof_Bow
+            // 
+            this.LBL_Prof_Bow.AutoSize = true;
+            this.LBL_Prof_Bow.Location = new System.Drawing.Point(56, 45);
+            this.LBL_Prof_Bow.Name = "LBL_Prof_Bow";
+            this.LBL_Prof_Bow.Size = new System.Drawing.Size(28, 13);
+            this.LBL_Prof_Bow.TabIndex = 90;
+            this.LBL_Prof_Bow.Text = "Bow";
+            // 
+            // NUD_Prof_ThrownRock
+            // 
+            this.NUD_Prof_ThrownRock.Location = new System.Drawing.Point(439, 43);
+            this.NUD_Prof_ThrownRock.Name = "NUD_Prof_ThrownRock";
+            this.NUD_Prof_ThrownRock.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_ThrownRock.TabIndex = 89;
+            // 
+            // NUD_Prof_SpearJavelin
+            // 
+            this.NUD_Prof_SpearJavelin.Location = new System.Drawing.Point(203, 43);
+            this.NUD_Prof_SpearJavelin.Name = "NUD_Prof_SpearJavelin";
+            this.NUD_Prof_SpearJavelin.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_SpearJavelin.TabIndex = 88;
+            // 
+            // NUD_Prof_Bow
+            // 
+            this.NUD_Prof_Bow.Location = new System.Drawing.Point(6, 43);
+            this.NUD_Prof_Bow.Name = "NUD_Prof_Bow";
+            this.NUD_Prof_Bow.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Bow.TabIndex = 87;
+            // 
+            // LBL_Prof_ThrownKnife
+            // 
+            this.LBL_Prof_ThrownKnife.AutoSize = true;
+            this.LBL_Prof_ThrownKnife.Location = new System.Drawing.Point(489, 21);
+            this.LBL_Prof_ThrownKnife.Name = "LBL_Prof_ThrownKnife";
+            this.LBL_Prof_ThrownKnife.Size = new System.Drawing.Size(70, 13);
+            this.LBL_Prof_ThrownKnife.TabIndex = 86;
+            this.LBL_Prof_ThrownKnife.Text = "Thrown Knife";
+            // 
+            // LBL_Prof_Sling
+            // 
+            this.LBL_Prof_Sling.AutoSize = true;
+            this.LBL_Prof_Sling.Location = new System.Drawing.Point(253, 21);
+            this.LBL_Prof_Sling.Name = "LBL_Prof_Sling";
+            this.LBL_Prof_Sling.Size = new System.Drawing.Size(30, 13);
+            this.LBL_Prof_Sling.TabIndex = 85;
+            this.LBL_Prof_Sling.Text = "Sling";
+            // 
+            // LBL_Prof_BlackPowder
+            // 
+            this.LBL_Prof_BlackPowder.AutoSize = true;
+            this.LBL_Prof_BlackPowder.Location = new System.Drawing.Point(56, 21);
+            this.LBL_Prof_BlackPowder.Name = "LBL_Prof_BlackPowder";
+            this.LBL_Prof_BlackPowder.Size = new System.Drawing.Size(122, 13);
+            this.LBL_Prof_BlackPowder.TabIndex = 84;
+            this.LBL_Prof_BlackPowder.Text = "Black Powder Weapons";
+            // 
+            // NUD_Prof_ThrownKnife
+            // 
+            this.NUD_Prof_ThrownKnife.Location = new System.Drawing.Point(439, 19);
+            this.NUD_Prof_ThrownKnife.Name = "NUD_Prof_ThrownKnife";
+            this.NUD_Prof_ThrownKnife.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_ThrownKnife.TabIndex = 83;
+            // 
+            // NUD_Prof_Sling
+            // 
+            this.NUD_Prof_Sling.Location = new System.Drawing.Point(203, 19);
+            this.NUD_Prof_Sling.Name = "NUD_Prof_Sling";
+            this.NUD_Prof_Sling.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_Sling.TabIndex = 82;
+            // 
+            // NUD_Prof_BlackPowder
+            // 
+            this.NUD_Prof_BlackPowder.Location = new System.Drawing.Point(6, 19);
+            this.NUD_Prof_BlackPowder.Name = "NUD_Prof_BlackPowder";
+            this.NUD_Prof_BlackPowder.Size = new System.Drawing.Size(44, 20);
+            this.NUD_Prof_BlackPowder.TabIndex = 81;
             // 
             // GB_Prof_Melee
             // 
@@ -3203,42 +3580,6 @@
             this.GB_Prof_Melee.TabIndex = 1;
             this.GB_Prof_Melee.TabStop = false;
             this.GB_Prof_Melee.Text = "Melee Proficiencies";
-            // 
-            // GB_Prof_Archery
-            // 
-            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_ThrownAxe);
-            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_Crossbow);
-            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_ThrownAxe);
-            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_Crossbow);
-            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_ThrownRock);
-            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_SpearJavelin);
-            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_Bow);
-            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_ThrownRock);
-            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_SpearJavelin);
-            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_Bow);
-            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_ThrownKnife);
-            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_Sling);
-            this.GB_Prof_Archery.Controls.Add(this.LBL_Prof_BlackPowder);
-            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_ThrownKnife);
-            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_Sling);
-            this.GB_Prof_Archery.Controls.Add(this.NUD_Prof_BlackPowder);
-            this.GB_Prof_Archery.Enabled = false;
-            this.GB_Prof_Archery.Location = new System.Drawing.Point(6, 145);
-            this.GB_Prof_Archery.Name = "GB_Prof_Archery";
-            this.GB_Prof_Archery.Size = new System.Drawing.Size(585, 104);
-            this.GB_Prof_Archery.TabIndex = 2;
-            this.GB_Prof_Archery.TabStop = false;
-            this.GB_Prof_Archery.Text = "Archery Proficiencies";
-            // 
-            // TXB_Prof_Desc
-            // 
-            this.TXB_Prof_Desc.Location = new System.Drawing.Point(7, 365);
-            this.TXB_Prof_Desc.Multiline = true;
-            this.TXB_Prof_Desc.Name = "TXB_Prof_Desc";
-            this.TXB_Prof_Desc.ReadOnly = true;
-            this.TXB_Prof_Desc.Size = new System.Drawing.Size(584, 98);
-            this.TXB_Prof_Desc.TabIndex = 5;
-            this.TXB_Prof_Desc.Text = "No Proficiency priority chosen!  Choose a Proficiency level before proceeding.";
             // 
             // LBL_Prof_Wrestling
             // 
@@ -3416,287 +3757,14 @@
             this.NUD_Prof_Brawling.Size = new System.Drawing.Size(44, 20);
             this.NUD_Prof_Brawling.TabIndex = 56;
             // 
-            // LBL_Prof_ThrownKnife
-            // 
-            this.LBL_Prof_ThrownKnife.AutoSize = true;
-            this.LBL_Prof_ThrownKnife.Location = new System.Drawing.Point(489, 21);
-            this.LBL_Prof_ThrownKnife.Name = "LBL_Prof_ThrownKnife";
-            this.LBL_Prof_ThrownKnife.Size = new System.Drawing.Size(70, 13);
-            this.LBL_Prof_ThrownKnife.TabIndex = 86;
-            this.LBL_Prof_ThrownKnife.Text = "Thrown Knife";
-            // 
-            // LBL_Prof_Sling
-            // 
-            this.LBL_Prof_Sling.AutoSize = true;
-            this.LBL_Prof_Sling.Location = new System.Drawing.Point(253, 21);
-            this.LBL_Prof_Sling.Name = "LBL_Prof_Sling";
-            this.LBL_Prof_Sling.Size = new System.Drawing.Size(30, 13);
-            this.LBL_Prof_Sling.TabIndex = 85;
-            this.LBL_Prof_Sling.Text = "Sling";
-            // 
-            // LBL_Prof_BlackPowder
-            // 
-            this.LBL_Prof_BlackPowder.AutoSize = true;
-            this.LBL_Prof_BlackPowder.Location = new System.Drawing.Point(56, 21);
-            this.LBL_Prof_BlackPowder.Name = "LBL_Prof_BlackPowder";
-            this.LBL_Prof_BlackPowder.Size = new System.Drawing.Size(122, 13);
-            this.LBL_Prof_BlackPowder.TabIndex = 84;
-            this.LBL_Prof_BlackPowder.Text = "Black Powder Weapons";
-            // 
-            // NUD_Prof_ThrownKnife
-            // 
-            this.NUD_Prof_ThrownKnife.Location = new System.Drawing.Point(439, 19);
-            this.NUD_Prof_ThrownKnife.Name = "NUD_Prof_ThrownKnife";
-            this.NUD_Prof_ThrownKnife.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_ThrownKnife.TabIndex = 83;
-            // 
-            // NUD_Prof_Sling
-            // 
-            this.NUD_Prof_Sling.Location = new System.Drawing.Point(203, 19);
-            this.NUD_Prof_Sling.Name = "NUD_Prof_Sling";
-            this.NUD_Prof_Sling.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Sling.TabIndex = 82;
-            // 
-            // NUD_Prof_BlackPowder
-            // 
-            this.NUD_Prof_BlackPowder.Location = new System.Drawing.Point(6, 19);
-            this.NUD_Prof_BlackPowder.Name = "NUD_Prof_BlackPowder";
-            this.NUD_Prof_BlackPowder.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_BlackPowder.TabIndex = 81;
-            // 
-            // LBL_Prof_ThrownRock
-            // 
-            this.LBL_Prof_ThrownRock.AutoSize = true;
-            this.LBL_Prof_ThrownRock.Location = new System.Drawing.Point(489, 45);
-            this.LBL_Prof_ThrownRock.Name = "LBL_Prof_ThrownRock";
-            this.LBL_Prof_ThrownRock.Size = new System.Drawing.Size(72, 13);
-            this.LBL_Prof_ThrownRock.TabIndex = 92;
-            this.LBL_Prof_ThrownRock.Text = "Thrown Rock";
-            // 
-            // LBL_Prof_SpearJavelin
-            // 
-            this.LBL_Prof_SpearJavelin.AutoSize = true;
-            this.LBL_Prof_SpearJavelin.Location = new System.Drawing.Point(253, 45);
-            this.LBL_Prof_SpearJavelin.Name = "LBL_Prof_SpearJavelin";
-            this.LBL_Prof_SpearJavelin.Size = new System.Drawing.Size(79, 13);
-            this.LBL_Prof_SpearJavelin.TabIndex = 91;
-            this.LBL_Prof_SpearJavelin.Text = "Spear / Javelin";
-            // 
-            // LBL_Prof_Bow
-            // 
-            this.LBL_Prof_Bow.AutoSize = true;
-            this.LBL_Prof_Bow.Location = new System.Drawing.Point(56, 45);
-            this.LBL_Prof_Bow.Name = "LBL_Prof_Bow";
-            this.LBL_Prof_Bow.Size = new System.Drawing.Size(28, 13);
-            this.LBL_Prof_Bow.TabIndex = 90;
-            this.LBL_Prof_Bow.Text = "Bow";
-            // 
-            // NUD_Prof_ThrownRock
-            // 
-            this.NUD_Prof_ThrownRock.Location = new System.Drawing.Point(439, 43);
-            this.NUD_Prof_ThrownRock.Name = "NUD_Prof_ThrownRock";
-            this.NUD_Prof_ThrownRock.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_ThrownRock.TabIndex = 89;
-            // 
-            // NUD_Prof_SpearJavelin
-            // 
-            this.NUD_Prof_SpearJavelin.Location = new System.Drawing.Point(203, 43);
-            this.NUD_Prof_SpearJavelin.Name = "NUD_Prof_SpearJavelin";
-            this.NUD_Prof_SpearJavelin.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_SpearJavelin.TabIndex = 88;
-            // 
-            // NUD_Prof_Bow
-            // 
-            this.NUD_Prof_Bow.Location = new System.Drawing.Point(6, 43);
-            this.NUD_Prof_Bow.Name = "NUD_Prof_Bow";
-            this.NUD_Prof_Bow.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Bow.TabIndex = 87;
-            // 
-            // LBL_Prof_ThrownAxe
-            // 
-            this.LBL_Prof_ThrownAxe.AutoSize = true;
-            this.LBL_Prof_ThrownAxe.Location = new System.Drawing.Point(253, 69);
-            this.LBL_Prof_ThrownAxe.Name = "LBL_Prof_ThrownAxe";
-            this.LBL_Prof_ThrownAxe.Size = new System.Drawing.Size(64, 13);
-            this.LBL_Prof_ThrownAxe.TabIndex = 97;
-            this.LBL_Prof_ThrownAxe.Text = "Thrown Axe";
-            // 
-            // LBL_Prof_Crossbow
-            // 
-            this.LBL_Prof_Crossbow.AutoSize = true;
-            this.LBL_Prof_Crossbow.Location = new System.Drawing.Point(56, 69);
-            this.LBL_Prof_Crossbow.Name = "LBL_Prof_Crossbow";
-            this.LBL_Prof_Crossbow.Size = new System.Drawing.Size(53, 13);
-            this.LBL_Prof_Crossbow.TabIndex = 96;
-            this.LBL_Prof_Crossbow.Text = "Crossbow";
-            // 
-            // NUD_Prof_ThrownAxe
-            // 
-            this.NUD_Prof_ThrownAxe.Location = new System.Drawing.Point(203, 67);
-            this.NUD_Prof_ThrownAxe.Name = "NUD_Prof_ThrownAxe";
-            this.NUD_Prof_ThrownAxe.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_ThrownAxe.TabIndex = 94;
-            // 
-            // NUD_Prof_Crossbow
-            // 
-            this.NUD_Prof_Crossbow.Location = new System.Drawing.Point(6, 67);
-            this.NUD_Prof_Crossbow.Name = "NUD_Prof_Crossbow";
-            this.NUD_Prof_Crossbow.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Crossbow.TabIndex = 93;
-            // 
-            // GB_Prof_Sorcery
-            // 
-            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Prophecy);
-            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Goety);
-            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Prophecy);
-            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Goety);
-            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Witchfire);
-            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Necromancy);
-            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Enslavement);
-            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Witchfire);
-            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Necromancy);
-            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Enslavement);
-            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Scrying);
-            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Mending);
-            this.GB_Prof_Sorcery.Controls.Add(this.LBL_Prof_Cursing);
-            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Scrying);
-            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Mending);
-            this.GB_Prof_Sorcery.Controls.Add(this.NUD_Prof_Cursing);
-            this.GB_Prof_Sorcery.Enabled = false;
-            this.GB_Prof_Sorcery.Location = new System.Drawing.Point(6, 255);
-            this.GB_Prof_Sorcery.Name = "GB_Prof_Sorcery";
-            this.GB_Prof_Sorcery.Size = new System.Drawing.Size(585, 104);
-            this.GB_Prof_Sorcery.TabIndex = 98;
-            this.GB_Prof_Sorcery.TabStop = false;
-            this.GB_Prof_Sorcery.Text = "Sorcery Proficiencies";
-            // 
-            // LBL_Prof_Prophecy
-            // 
-            this.LBL_Prof_Prophecy.AutoSize = true;
-            this.LBL_Prof_Prophecy.Location = new System.Drawing.Point(253, 69);
-            this.LBL_Prof_Prophecy.Name = "LBL_Prof_Prophecy";
-            this.LBL_Prof_Prophecy.Size = new System.Drawing.Size(52, 13);
-            this.LBL_Prof_Prophecy.TabIndex = 97;
-            this.LBL_Prof_Prophecy.Text = "Prophecy";
-            // 
-            // LBL_Prof_Goety
-            // 
-            this.LBL_Prof_Goety.AutoSize = true;
-            this.LBL_Prof_Goety.Location = new System.Drawing.Point(56, 69);
-            this.LBL_Prof_Goety.Name = "LBL_Prof_Goety";
-            this.LBL_Prof_Goety.Size = new System.Drawing.Size(35, 13);
-            this.LBL_Prof_Goety.TabIndex = 96;
-            this.LBL_Prof_Goety.Text = "Goety";
-            // 
-            // NUD_Prof_Prophecy
-            // 
-            this.NUD_Prof_Prophecy.Location = new System.Drawing.Point(203, 67);
-            this.NUD_Prof_Prophecy.Name = "NUD_Prof_Prophecy";
-            this.NUD_Prof_Prophecy.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Prophecy.TabIndex = 94;
-            // 
-            // NUD_Prof_Goety
-            // 
-            this.NUD_Prof_Goety.Location = new System.Drawing.Point(6, 67);
-            this.NUD_Prof_Goety.Name = "NUD_Prof_Goety";
-            this.NUD_Prof_Goety.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Goety.TabIndex = 93;
-            // 
-            // LBL_Prof_Witchfire
-            // 
-            this.LBL_Prof_Witchfire.AutoSize = true;
-            this.LBL_Prof_Witchfire.Location = new System.Drawing.Point(489, 45);
-            this.LBL_Prof_Witchfire.Name = "LBL_Prof_Witchfire";
-            this.LBL_Prof_Witchfire.Size = new System.Drawing.Size(49, 13);
-            this.LBL_Prof_Witchfire.TabIndex = 92;
-            this.LBL_Prof_Witchfire.Text = "Witchfire";
-            // 
-            // LBL_Prof_Necromancy
-            // 
-            this.LBL_Prof_Necromancy.AutoSize = true;
-            this.LBL_Prof_Necromancy.Location = new System.Drawing.Point(253, 45);
-            this.LBL_Prof_Necromancy.Name = "LBL_Prof_Necromancy";
-            this.LBL_Prof_Necromancy.Size = new System.Drawing.Size(67, 13);
-            this.LBL_Prof_Necromancy.TabIndex = 91;
-            this.LBL_Prof_Necromancy.Text = "Necromancy";
-            // 
-            // LBL_Prof_Enslavement
-            // 
-            this.LBL_Prof_Enslavement.AutoSize = true;
-            this.LBL_Prof_Enslavement.Location = new System.Drawing.Point(56, 45);
-            this.LBL_Prof_Enslavement.Name = "LBL_Prof_Enslavement";
-            this.LBL_Prof_Enslavement.Size = new System.Drawing.Size(68, 13);
-            this.LBL_Prof_Enslavement.TabIndex = 90;
-            this.LBL_Prof_Enslavement.Text = "Enslavement";
-            // 
-            // NUD_Prof_Witchfire
-            // 
-            this.NUD_Prof_Witchfire.Location = new System.Drawing.Point(439, 43);
-            this.NUD_Prof_Witchfire.Name = "NUD_Prof_Witchfire";
-            this.NUD_Prof_Witchfire.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Witchfire.TabIndex = 89;
-            // 
-            // NUD_Prof_Necromancy
-            // 
-            this.NUD_Prof_Necromancy.Location = new System.Drawing.Point(203, 43);
-            this.NUD_Prof_Necromancy.Name = "NUD_Prof_Necromancy";
-            this.NUD_Prof_Necromancy.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Necromancy.TabIndex = 88;
-            // 
-            // NUD_Prof_Enslavement
-            // 
-            this.NUD_Prof_Enslavement.Location = new System.Drawing.Point(6, 43);
-            this.NUD_Prof_Enslavement.Name = "NUD_Prof_Enslavement";
-            this.NUD_Prof_Enslavement.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Enslavement.TabIndex = 87;
-            // 
-            // LBL_Prof_Scrying
-            // 
-            this.LBL_Prof_Scrying.AutoSize = true;
-            this.LBL_Prof_Scrying.Location = new System.Drawing.Point(489, 21);
-            this.LBL_Prof_Scrying.Name = "LBL_Prof_Scrying";
-            this.LBL_Prof_Scrying.Size = new System.Drawing.Size(42, 13);
-            this.LBL_Prof_Scrying.TabIndex = 86;
-            this.LBL_Prof_Scrying.Text = "Scrying";
-            // 
-            // LBL_Prof_Mending
-            // 
-            this.LBL_Prof_Mending.AutoSize = true;
-            this.LBL_Prof_Mending.Location = new System.Drawing.Point(253, 21);
-            this.LBL_Prof_Mending.Name = "LBL_Prof_Mending";
-            this.LBL_Prof_Mending.Size = new System.Drawing.Size(48, 13);
-            this.LBL_Prof_Mending.TabIndex = 85;
-            this.LBL_Prof_Mending.Text = "Mending";
-            // 
-            // LBL_Prof_Cursing
-            // 
-            this.LBL_Prof_Cursing.AutoSize = true;
-            this.LBL_Prof_Cursing.Location = new System.Drawing.Point(56, 21);
-            this.LBL_Prof_Cursing.Name = "LBL_Prof_Cursing";
-            this.LBL_Prof_Cursing.Size = new System.Drawing.Size(42, 13);
-            this.LBL_Prof_Cursing.TabIndex = 84;
-            this.LBL_Prof_Cursing.Text = "Cursing";
-            // 
-            // NUD_Prof_Scrying
-            // 
-            this.NUD_Prof_Scrying.Location = new System.Drawing.Point(439, 19);
-            this.NUD_Prof_Scrying.Name = "NUD_Prof_Scrying";
-            this.NUD_Prof_Scrying.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Scrying.TabIndex = 83;
-            // 
-            // NUD_Prof_Mending
-            // 
-            this.NUD_Prof_Mending.Location = new System.Drawing.Point(203, 19);
-            this.NUD_Prof_Mending.Name = "NUD_Prof_Mending";
-            this.NUD_Prof_Mending.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Mending.TabIndex = 82;
-            // 
-            // NUD_Prof_Cursing
-            // 
-            this.NUD_Prof_Cursing.Location = new System.Drawing.Point(6, 19);
-            this.NUD_Prof_Cursing.Name = "NUD_Prof_Cursing";
-            this.NUD_Prof_Cursing.Size = new System.Drawing.Size(44, 20);
-            this.NUD_Prof_Cursing.TabIndex = 81;
+            // LBL_Prof_Spent
+            // 
+            this.LBL_Prof_Spent.AutoSize = true;
+            this.LBL_Prof_Spent.Location = new System.Drawing.Point(251, 7);
+            this.LBL_Prof_Spent.Name = "LBL_Prof_Spent";
+            this.LBL_Prof_Spent.Size = new System.Drawing.Size(96, 13);
+            this.LBL_Prof_Spent.TabIndex = 0;
+            this.LBL_Prof_Spent.Text = "Points Spent: 0 / 0";
             // 
             // Character_Creator
             // 
@@ -3713,7 +3781,7 @@
             this.GB_PriorityPassion.ResumeLayout(false);
             this.GB_Passion.ResumeLayout(false);
             this.GB_Passion.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Drama)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_PassionThree)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_PassionTwo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_PassionOne)).EndInit();
@@ -3735,6 +3803,8 @@
             this.TAB_Sorc_Cult.ResumeLayout(false);
             this.GB_Culture.ResumeLayout(false);
             this.GB_Culture.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.GB_Sorcery.ResumeLayout(false);
             this.GB_Sorcery.PerformLayout();
             this.TAB_Attr_Asst.ResumeLayout(false);
@@ -3742,43 +3812,35 @@
             this.GB_Assets.PerformLayout();
             this.GB_Attributes.ResumeLayout(false);
             this.GB_Attributes.PerformLayout();
-            this.TAB_Skll.ResumeLayout(false);
-            this.TAB_Skll.PerformLayout();
-            this.TAB_Prof.ResumeLayout(false);
-            this.TAB_Prof.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.GB_Attr_Pools.ResumeLayout(false);
+            this.GB_Attr_Pools.PerformLayout();
+            this.GB_Attr_Derived.ResumeLayout(false);
+            this.GB_Attr_Derived.PerformLayout();
             this.GB_Attr_Basic.ResumeLayout(false);
             this.GB_Attr_Basic.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Brawn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Tenacity)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Sagacity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Cunning)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Heart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Daring)).EndInit();
-            this.GB_Attr_Derived.ResumeLayout(false);
-            this.GB_Attr_Derived.PerformLayout();
-            this.GB_Attr_Pools.ResumeLayout(false);
-            this.GB_Attr_Pools.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Sagacity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Tenacity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Attr_Brawn)).EndInit();
+            this.TAB_Skll.ResumeLayout(false);
+            this.TAB_Skll.PerformLayout();
+            this.GB_Skll_Sorcerous.ResumeLayout(false);
+            this.GB_Skll_Sorcerous.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Precognition)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_DtcSorcery)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_OmenReading)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Occultism)).EndInit();
             this.GB_Skll_Basic.ResumeLayout(false);
             this.GB_Skll_Basic.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Acting)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_AncLanguages)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Apothecary)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_AniKen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Dancing)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Customs)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Climbing)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_BtfTactics)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Decipher)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_LockPicking)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_LightStep)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_InfoGathering)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Healing)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_FrnLanguages)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Falsehood)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Etiquette)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Disguise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Trapping)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Trailing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Tracking)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Theology)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Swimming)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Survival)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Soldiering)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Sneaking)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Seduction)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Seamanship)).EndInit();
@@ -3788,23 +3850,47 @@
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Negotiation)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Navigation)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Music)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Trapping)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Trailing)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Tracking)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Theology)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Swimming)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Survival)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Soldiering)).EndInit();
-            this.GB_Skll_Sorcerous.ResumeLayout(false);
-            this.GB_Skll_Sorcerous.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Precognition)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_OmenReading)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Occultism)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_DtcSorcery)).EndInit();
-            this.GB_Prof_Melee.ResumeLayout(false);
-            this.GB_Prof_Melee.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_LockPicking)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_LightStep)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_InfoGathering)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Healing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_FrnLanguages)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Falsehood)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Etiquette)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Disguise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Decipher)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Dancing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Customs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Climbing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_BtfTactics)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Apothecary)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_AniKen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_AncLanguages)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Skll_Acting)).EndInit();
+            this.TAB_Prof.ResumeLayout(false);
+            this.TAB_Prof.PerformLayout();
+            this.GB_Prof_Sorcery.ResumeLayout(false);
+            this.GB_Prof_Sorcery.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Prophecy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Goety)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Witchfire)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Necromancy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Enslavement)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Scrying)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Mending)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Cursing)).EndInit();
             this.GB_Prof_Archery.ResumeLayout(false);
             this.GB_Prof_Archery.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownAxe)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Crossbow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownRock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_SpearJavelin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Bow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownKnife)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Sling)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_BlackPowder)).EndInit();
+            this.GB_Prof_Melee.ResumeLayout(false);
+            this.GB_Prof_Melee.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Wrestling)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_SwordShield)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_SpearShield)).EndInit();
@@ -3816,24 +3902,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Dagger)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_CutThrust)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Brawling)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownKnife)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Sling)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_BlackPowder)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownRock)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_SpearJavelin)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Bow)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_ThrownAxe)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Crossbow)).EndInit();
-            this.GB_Prof_Sorcery.ResumeLayout(false);
-            this.GB_Prof_Sorcery.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Prophecy)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Goety)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Witchfire)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Necromancy)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Enslavement)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Scrying)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Mending)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUD_Prof_Cursing)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3893,17 +3961,17 @@
         private System.Windows.Forms.GroupBox GB_Char_Proficiency;
         private System.Windows.Forms.Label LBL_Prof_PriLevel;
         private System.Windows.Forms.Label LBL_ProfF;
-        private System.Windows.Forms.RadioButton CMB_ProfF;
+        private System.Windows.Forms.RadioButton RDO_ProfF;
         private System.Windows.Forms.Label LBL_ProfE;
-        private System.Windows.Forms.RadioButton CMB_ProfE;
+        private System.Windows.Forms.RadioButton RDO_ProfE;
         private System.Windows.Forms.Label LBL_ProfD;
-        private System.Windows.Forms.RadioButton CMB_ProfD;
+        private System.Windows.Forms.RadioButton RDO_ProfD;
         private System.Windows.Forms.Label LBL_ProfC;
-        private System.Windows.Forms.RadioButton CMB_ProfC;
+        private System.Windows.Forms.RadioButton RDO_ProfC;
         private System.Windows.Forms.Label LBL_ProfB;
-        private System.Windows.Forms.RadioButton CMB_ProfB;
+        private System.Windows.Forms.RadioButton RDO_ProfB;
         private System.Windows.Forms.Label LBL_ProfA;
-        private System.Windows.Forms.RadioButton CMB_ProfA;
+        private System.Windows.Forms.RadioButton RDO_ProfA;
         private System.Windows.Forms.GroupBox GB_Char_Skill;
         private System.Windows.Forms.Label LBL_Skll_PriLevel;
         private System.Windows.Forms.Label LBL_SkllF;
@@ -3959,7 +4027,7 @@
         private System.Windows.Forms.RadioButton RDO_SorcB;
         private System.Windows.Forms.Label LBL_Passion_Spent;
         private System.Windows.Forms.ComboBox CMB_Karma;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown NUD_Drama;
         private System.Windows.Forms.TextBox TXB_PassionDrama;
         private System.Windows.Forms.NumericUpDown NUD_PassionThree;
         private System.Windows.Forms.TextBox TXB_PassionThree;
@@ -4166,6 +4234,7 @@
         private System.Windows.Forms.NumericUpDown NUD_Prof_CutThrust;
         private System.Windows.Forms.NumericUpDown NUD_Prof_Brawling;
         private System.Windows.Forms.Label LBL_Prof_Spent;
+        private System.Windows.Forms.Label LBL_Attr_Power;
     }
 }
 

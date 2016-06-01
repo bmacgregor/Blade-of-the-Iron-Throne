@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character\Info.cs" />
     <Compile Include="Character\Priority.cs" />
     <Compile Include="Data\Asset.cs" />
     <Compile Include="Form1.cs">
@@ -61,6 +62,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Data\Secret.cs" />
     <Compile Include="Data\Skill.cs" />
+    <Compile Include="Utility\Helpers.cs" />
     <Compile Include="Utility\Loaded.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -92,11 +94,17 @@
     <Content Include="Files\Arcance_Secrets.txt" />
     <Content Include="Files\Assets.txt" />
     <Content Include="Files\Mysteries.txt" />
+    <Content Include="Files\Priority Descriptions\Asset.txt" />
+    <Content Include="Files\Priority Descriptions\Attribute.txt" />
+    <Content Include="Files\Priority Descriptions\Culture.txt" />
+    <Content Include="Files\Priority Descriptions\Proficiency.txt" />
+    <Content Include="Files\Priority Descriptions\Sorcery.txt" />
     <Content Include="Files\Proficiencies_Melee.txt" />
     <Content Include="Files\Proficiencies_Ranged.txt" />
     <Content Include="Files\Simple Text\Focus.txt" />
     <Content Include="Files\Simple Text\Karma.txt" />
     <Content Include="Files\Simple Text\Loot.txt" />
+    <Content Include="Files\Priority Descriptions\Skill.txt" />
     <Content Include="Files\Skills.txt" />
     <Content Include="ToDo.txt" />
   </ItemGroup>

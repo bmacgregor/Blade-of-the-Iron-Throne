@@ -1,0 +1,14 @@
+﻿No Attribute priority chosen!  Choose an Attribute level before proceeding.
+Assigning points to your attributes is vital to constructing an exciting character. All players must nominate one of their attributes as their Focus. No other attribute may exceed the point value of the Focus during the process of character creation.
+Brawn is a measure of your muscle, your vitality, or your frame. It indicates how much damage you do unaided, and how easily you resist punishment, disease, and poison.
+Daring is a measure of your courage and ability to take decisive action. It affects how well you can strike and parry, as well as how skilled you are with actions like climbing, acrobatics and all kinds of athletics.
+Tenacity is a measure of your ability to focus on a task or goal, a measure of the strength of your persona. It affects how easily influenced you are, your inner discipline, and your sanity.
+Heart is a measure of your social aptitude. It affects both how charismatic you appear to others (people and animals) and how easily you can get them to do your bidding. It governs your ability for empathy, and the understanding of human and animal nature.
+Sagacity is a measure of your mental agility. It indicates how logical, intuitive, and smart you are. It affects situations that require reasoning, sharpness of the senses, as well as any judgment relating to them.
+Cunning is a measure of your raw instincts, agility, reaction time and balance. It affects how skilled you are with actions like lock picking, pick pocketing, hiding, and sneaking.
+Reflex is the combination of Daring and Cunning, which determines how quickly a character may physically react to external stimulus.
+Aim, extracted from Sagacity and Cunning, quantifies one’s natural ability to hit a target over distances.
+Knockdown, derived from Brawn and Daring, is a measure of how solid and balanced one remains after taking a blow.
+Knockout is a measure of how hard it is to knock a character unconscious, based on Brawn and Tenacity.
+Move, derived from Brawn, Cunning, and Daring, is a measure of how much distance one can cover on foot in a hurry.
+Power, derived from Sagacity, Tenacity, and Brawn, is the sorcerer’s innate ability to create magic.

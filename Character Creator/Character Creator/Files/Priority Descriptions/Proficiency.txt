@@ -1,0 +1,2 @@
+﻿No Proficiency priority chosen!  Choose a Proficiency level before proceeding.
+Proficiencies refer to weapons training. Each selected Melee Proficiency or Missile Proficiency conveys training in a single style of combat or grouping of weapons.
