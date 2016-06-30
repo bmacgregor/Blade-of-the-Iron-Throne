@@ -1,0 +1,72 @@
+1|1|Foot|1|0|0|3|0|0|Weak strike.|
+1|1|Foot|2|1|2|5|0|0|Struck foe with more force than edge.|
+1|1|Foot|3|2|5|7|1|0|Foe steps quickly out of your reach.|
+1|1|Foot|4|3|8|9|2|0|Foe stumbles, quality strike.|
+1|1|Foot|5|4|10|12|3|0|Foe dances right into your swing.|
+1|1|Foot|6|5|13|14|4|0|Opens up a terrible wound. Blood everywhere.|
+1|2|Shin and Lower Leg|1|0|0|2|0|0|Feeble strike taps target.|
+1|2|Shin and Lower Leg|2|1|3|4|1|0|An opening appears and all you can do is smack foe lightly.|
+1|2|Shin and Lower Leg|3|2|5|6|1|0|Foe avoids your main effort, but you nick him on your recovery.|
+1|2|Shin and Lower Leg|4|3|8|9|2|0|Blow lands solidly upon foe's shin. You get some slashing action, but no mortal wound.|
+1|2|Shin and Lower Leg|5|4|10|12|3|0|Reached long and caught foe in lower leg. He twists out of it, but is unbalanced.|
+1|2|Shin and Lower Leg|6|5|13|14|4|0|Slashed muscle and tendons in lower leg. Foe stumbles forward into you with his guard down.|
+1|3|Shin and Lower Leg|1|0|0|2|0|0|Feeble strike taps target.|
+1|3|Shin and Lower Leg|2|1|3|4|1|0|An opening appears and all you can do is smack foe lightly.|
+1|3|Shin and Lower Leg|3|2|5|6|1|0|Foe avoids your main effort, but you nick him on your recovery.|
+1|3|Shin and Lower Leg|4|3|8|9|2|0|Blow lands solidly upon foe's shin. You get some slashing action, but no mortal wound.|
+1|3|Shin and Lower Leg|5|4|10|12|3|0|Reached long and caught foe in lower leg. He twists out of it, but is unbalanced.|
+1|3|Shin and Lower Leg|6|5|13|14|4|0|Slashed muscle and tendons in lower leg. Foe stumbles forward into you with his guard down.|
+1|4|Shin and Lower Leg|1|0|0|2|0|0|Feeble strike taps target.|
+1|4|Shin and Lower Leg|2|1|3|4|1|0|An opening appears and all you can do is smack foe lightly.|
+1|4|Shin and Lower Leg|3|2|5|6|1|0|Foe avoids your main effort, but you nick him on your recovery.|
+1|4|Shin and Lower Leg|4|3|8|9|2|0|Blow lands solidly upon foe's shin. You get some slashing action, but no mortal wound.|
+1|4|Shin and Lower Leg|5|4|10|12|3|0|Reached long and caught foe in lower leg. He twists out of it, but is unbalanced.|
+1|4|Shin and Lower Leg|6|5|13|14|4|0|Slashed muscle and tendons in lower leg. Foe stumbles forward into you with his guard down.|
+1|5|Knee and nearby areas|1|0|1|3|0|0|Unbalanced foe.|
+1|5|Knee and nearby areas|2|1|4|5|1|0|You are lucky to strike foe's knee while recovering from a lunge.|
+1|5|Knee and nearby areas|3|2|6|8|1|0|Nick foe above knee. Wound bleeds surprisingly strongly.|
+1|5|Knee and nearby areas|4|3|9|10|2|0|Good Form! He can't stand this much longer.|
+1|5|Knee and nearby areas|5|4|11|13|3|0|Foe mistakenly brings his leg in line with your attack. Severed tendons.|
+1|5|Knee and nearby areas|6|5|14|15|4|0|Your weapon slices through foe’s calf. Hideous wound! Foe is instantly pale from the pain.|
+1|6|Knee and nearby areas|1|0|1|3|0|0|Unbalanced foe.|
+1|6|Knee and nearby areas|2|1|4|5|1|0|You are lucky to strike foe's knee while recovering from a lunge.|
+1|6|Knee and nearby areas|3|2|6|8|1|0|Nick foe above knee. Wound bleeds surprisingly strongly.|
+1|6|Knee and nearby areas|4|3|9|10|2|0|Good Form! He can't stand this much longer.|
+1|6|Knee and nearby areas|5|4|11|13|3|0|Foe mistakenly brings his leg in line with your attack. Severed tendons.|
+1|6|Knee and nearby areas|6|5|14|15|4|0|Your weapon slices through foe’s calf. Hideous wound! Foe is instantly pale from the pain.|
+2|1|Knee and nearby areas|1|0|1|3|0|0|Foe's evasion puts him out of an aggressive posture.|
+2|1|Knee and nearby areas|2|1|4|5|1|0|The blow does nothing more than open a wide shallow cut.|
+2|1|Knee and nearby areas|3|2|6|8|1|0|So-So strike. Slight leg wound.|
+2|1|Knee and nearby areas|4|3|9|10|2|0|Foe leaps back, but you still catch his thigh. It's a bleeder!|
+2|1|Knee and nearby areas|5|4|11|13|3|0|Slash foe's knee. Your strike tears garments and armor off.|
+2|1|Knee and nearby areas|6|5|14|15|4|0|Strong blow to foe‘s leg. Foe drops his guard and almost his weapon.|
+2|2|Knee and nearby areas|1|0|1|3|0|0|Foe's evasion puts him out of an aggressive posture.|
+2|2|Knee and nearby areas|2|1|4|5|1|0|The blow does nothing more than open a wide shallow cut.|
+2|2|Knee and nearby areas|3|2|6|8|1|0|So-So strike. Slight leg wound.|
+2|2|Knee and nearby areas|4|3|9|10|2|0|Foe leaps back, but you still catch his thigh. It's a bleeder!|
+2|2|Knee and nearby areas|5|4|11|13|3|0|Slash foe's knee. Your strike tears garments and armor off.|
+2|2|Knee and nearby areas|6|5|14|15|4|0|Strong blow to foe‘s leg. Foe drops his guard and almost his weapon.|
+2|3|Thigh|1|1|1|2|0|0|Foe evades frantically.|
+2|3|Thigh|2|2|4|4|0|0|Foe goes airborne to evade your strike.|
+2|3|Thigh|3|3|6|6|1|0|Slash to foe's thigh sends a piece of equipment flying.|
+2|3|Thigh|4|4|9|8|2|0|The blow has some edge, but much impact.|
+2|3|Thigh|5|5|11|10|3|Wound falls open and foe is in agony. His guard is still up, amazingly enough.|
+2|3|Thigh|6|6|14|12|4|0|Foe blocks your attack with his thigh. Take a blood shower.|
+2|4|Thigh|1|1|1|2|0|0|Foe evades frantically.|
+2|4|Thigh|2|2|4|4|0|0|Foe goes airborne to evade your strike.|
+2|4|Thigh|3|3|6|6|1|0|Slash to foe's thigh sends a piece of equipment flying.|
+2|4|Thigh|4|4|9|8|2|0|The blow has some edge, but much impact.|
+2|4|Thigh|5|5|11|10|3|Wound falls open and foe is in agony. His guard is still up, amazingly enough.|
+2|4|Thigh|6|6|14|12|4|0|Foe blocks your attack with his thigh. Take a blood shower.|
+2|5|Thigh|1|1|1|2|0|0|Foe evades frantically.|
+2|5|Thigh|2|2|4|4|0|0|Foe goes airborne to evade your strike.|
+2|5|Thigh|3|3|6|6|1|0|Slash to foe's thigh sends a piece of equipment flying.|
+2|5|Thigh|4|4|9|8|2|0|The blow has some edge, but much impact.|
+2|5|Thigh|5|5|11|10|3|Wound falls open and foe is in agony. His guard is still up, amazingly enough.|
+2|5|Thigh|6|6|14|12|4|0|Foe blocks your attack with his thigh. Take a blood shower.|
+2|6|Hip|1|0|1|2|0|0|Foe backpedals 5 feet.|
+2|6|Hip|2|1|4|4|0|0|Strike passes across left hip and grazes right. It lands lightly.|
+2|6|Hip|3|2|6|7|0|0|Miss foe's arm and strike his hip. He drops something.|
+2|6|Hip|4|3|9|10|2|0|You follow your training well. You extend on your slashing arc.|
+2|6|Hip|5|5|11|13|3|0|Catch part of foe‘s hip. You make an ugly wound.|
+2|6|Hip|6|0|0|0|0|0|Your blade gets stuck in foe’s hip. Lots of screaming before he dies.|
