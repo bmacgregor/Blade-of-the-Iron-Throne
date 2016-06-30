@@ -1,6 +1,9 @@
-﻿Cleaving: UP TO AREA TWO IS DONE - COMPLETE ALL THE WAY TO AREA SEVEN, THEN DO THE REST OF THE DAMAGE TYPES (Piercing, Blunt, Swung Piercing)
+Cleaving: Up to area two is complete
+          Need to complete areas three through seven
+          
+Add info to the remaining three .txt files (Piercing, Blunt, Swung Piercing)
 
-READ IN DATA AND SAVE TO LISTS
-ADD LABELS FOR KNOCKDOWN AND KNOCKOUT
-PARSE, BASED ON USER INPUT, AND OUTPUT DATA
-DOUBLE-CHECK EVERYTHING IN THE TEXTFILES FOR ACCURACY
+Read in text and save to lists
+Add labels for knockdown and knockout
+Get user input and output correct item data
+Double-check each textfile item for accuracy
