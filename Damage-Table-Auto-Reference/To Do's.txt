@@ -1,9 +1,0 @@
-Cleaving: Up to area two is complete
-          Need to complete areas three through seven
-          
-Add info to the remaining three .txt files (Piercing, Blunt, Swung Piercing)
-
-Read in text and save to lists
-Add labels for knockdown and knockout
-Get user input and output correct item data
-Double-check each textfile item for accuracy
