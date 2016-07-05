@@ -1,0 +1,264 @@
+8|1|Foot|1|0|0|2|0|0|Strike lands without energy.|False|Both
+8|1|Foot|2|0|1|4|0|0|Foe's evasion puts him out of position.|False|Both
+8|1|Foot|3|1|3|6|1|0|Panic!|False|Both
+8|1|Foot|4|2|6|8|1|0|Foe vibrates from the impact of the strike.|False|Both
+8|1|Foot|5|3|8|10|2|0|Massive thrust to foot. If foe has shoe, the blow rips it off.|False|Both
+8|1|Foot|6|3|11|12|3|0|Your strike pins foe’s foot to the floor! You twist your blade for luck.|False|Both
+8|2|Shin and Lower Leg|1|0|0|2|0|0|Convince foe of his peril by just missing his calf.|False|Both
+8|2|Shin and Lower Leg|2|1|1|4|0|0|Strike lands oddly.|False|Both
+8|2|Shin and Lower Leg|3|2|3|6|1|0|Foe is fearful of your skill and steps back from your mighty onslaught.|False|Both
+8|2|Shin and Lower Leg|4|3|6|8|2|0|Deal foe a measurable blow to his leg. Any one low hanging container on your foe now has a hole in it.|False|Both
+8|2|Shin and Lower Leg|5|3|8|10|2|0|Foe leaps high to evade your attack. Oops!|False|Both
+8|2|Shin and Lower Leg|6|4|11|12|3|0|Agonizing blow to foe's leg. He stumbles five feet to your left.|False|Both
+8|3|Shin and Lower Leg|1|0|0|2|0|0|Convince foe of his peril by just missing his calf.|False|Both
+8|3|Shin and Lower Leg|2|1|1|4|0|0|Strike lands oddly.|False|Both
+8|3|Shin and Lower Leg|3|2|3|6|1|0|Foe is fearful of your skill and steps back from your mighty onslaught.|False|Both
+8|3|Shin and Lower Leg|4|3|6|8|2|0|Deal foe a measurable blow to his leg. Any one low hanging container on your foe now has a hole in it.|False|Both
+8|3|Shin and Lower Leg|5|3|8|10|2|0|Foe leaps high to evade your attack. Oops!|False|Both
+8|3|Shin and Lower Leg|6|4|11|12|3|0|Agonizing blow to foe's leg. He stumbles five feet to your left.|False|Both
+8|4|Shin and Lower Leg|1|0|0|2|0|0|Convince foe of his peril by just missing his calf.|False|Both
+8|4|Shin and Lower Leg|2|1|1|4|0|0|Strike lands oddly.|False|Both
+8|4|Shin and Lower Leg|3|2|3|6|1|0|Foe is fearful of your skill and steps back from your mighty onslaught.|False|Both
+8|4|Shin and Lower Leg|4|3|6|8|2|0|Deal foe a measurable blow to his leg. Any one low hanging container on your foe now has a hole in it.|False|Both
+8|4|Shin and Lower Leg|5|3|8|10|2|0|Foe leaps high to evade your attack. Oops!|False|Both
+8|4|Shin and Lower Leg|6|4|11|12|3|0|Agonizing blow to foe's leg. He stumbles five feet to your left.|False|Both
+8|5|Knee and nearby areas|1|0|0|2|0|0|Foe questions his resolve.|False|Both
+8|5|Knee and nearby areas|2|1|2|4|0|0|Cheap shot to foe's knee.|False|Both
+8|5|Knee and nearby areas|3|2|4|7|1|0|Foe steps back defensively.|False|Both
+8|5|Knee and nearby areas|4|3|7|9|2|0|Catch foe's leg. The wound opens up nicely.|False|Both
+8|5|Knee and nearby areas|5|3|9|11|2|0|Strike plunges into leg with deadly effect. Foe completely panics.|False|Both
+8|5|Knee and nearby areas|6|4|12|13|3|0|Strike pierces both of foe's legs. He moans in agony.|False|Both
+8|6|Passed between Legs|1|0|0|0|0|0|Missed target, better luck next time!|False|Both
+8|6|Passed between Legs|2|0|0|0|0|0|Missed target, better luck next time!|False|Both
+8|6|Passed between Legs|3|0|0|0|0|0|Missed target, better luck next time!|False|Both
+8|6|Passed between Legs|4|0|0|0|0|0|Missed target, better luck next time!|False|Both
+8|6|Passed between Legs|5|0|0|0|0|0|Missed target, better luck next time!|False|Both
+8|6|Passed between Legs|6|0|0|0|0|0|Missed target, better luck next time!|False|Both
+9|1|Knee and nearby areas|1|0|0|2|0|0|Glancing blow. Nothing extra.|False|Both
+9|1|Knee and nearby areas|2|1|2|4|0|0|Strike to foe's leg. He looks impressed.|False|Both
+9|1|Knee and nearby areas|3|2|4|7|1|0|Strike foe in upper leg. You rip his pretty pants.|False|Both
+9|1|Knee and nearby areas|4|3|7|9|2|0|Excellent attack to knee slides and deeply punctures muscle.|False|Both
+9|1|Knee and nearby areas|5|3|9|11|2|0|Savage strike to kneecap has foe shrieking in agony.|False|Both
+9|1|Knee and nearby areas|6|4|12|13|3|0|Amazing strike to knee area. If foe has armor it is ripped away.|False|Both
+9|2|Thigh|1|0|0|2|0|0|Foe twitches away and wound does very slight damage.|False|Both
+9|2|Thigh|2|1|2|4|0|0|Foe's evasion exposes his back to you.|False|Both
+9|2|Thigh|3|2|4|6|1|0|Deep wound in foe's thigh. Well, it looked like a killing blow.|False|Both
+9|2|Thigh|4|3|7|8|1|0|Strike to foe's thigh. Slashes muscle. Foe teeters off-balance.|False|Both
+9|2|Thigh|5|4|9|10|2|0|Strike pierces cleanly but tears free in bloody finish.|False|Both
+9|2|Thigh|6|5|12|12|3|0|Foe runs up half the length of your blade!|False|Both
+9|3|Thigh|1|0|0|2|0|0|Foe twitches away and wound does very slight damage.|False|Both
+9|3|Thigh|2|1|2|4|0|0|Foe's evasion exposes his back to you.|False|Both
+9|3|Thigh|3|2|4|6|1|0|Deep wound in foe's thigh. Well, it looked like a killing blow.|False|Both
+9|3|Thigh|4|3|7|8|1|0|Strike to foe's thigh. Slashes muscle. Foe teeters off-balance.|False|Both
+9|3|Thigh|5|4|9|10|2|0|Strike pierces cleanly but tears free in bloody finish.|False|Both
+9|3|Thigh|6|5|12|12|3|0|Foe runs up half the length of your blade!|False|Both
+9|4|Thigh|1|0|0|2|0|0|Foe twitches away and wound does very slight damage.|False|Both
+9|4|Thigh|2|1|2|4|0|0|Foe's evasion exposes his back to you.|False|Both
+9|4|Thigh|3|2|4|6|1|0|Deep wound in foe's thigh. Well, it looked like a killing blow.|False|Both
+9|4|Thigh|4|3|7|8|1|0|Strike to foe's thigh. Slashes muscle. Foe teeters off-balance.|False|Both
+9|4|Thigh|5|4|9|10|2|0|Strike pierces cleanly but tears free in bloody finish.|False|Both
+9|4|Thigh|6|5|12|12|3|0|Foe runs up half the length of your blade!|False|Both
+9|5|Thigh|1|0|0|2|0|0|Foe twitches away and wound does very slight damage.|False|Both
+9|5|Thigh|2|1|2|4|0|0|Foe's evasion exposes his back to you.|False|Both
+9|5|Thigh|3|2|4|6|1|0|Deep wound in foe's thigh. Well, it looked like a killing blow.|False|Both
+9|5|Thigh|4|3|7|8|1|0|Strike to foe's thigh. Slashes muscle. Foe teeters off-balance.|False|Both
+9|5|Thigh|5|4|9|10|2|0|Strike pierces cleanly but tears free in bloody finish.|False|Both
+9|5|Thigh|6|5|12|12|3|0|Foe runs up half the length of your blade!|False|Both
+9|6|Hip|1|0|0|2|0|0|Foe steps back and avoids the worst.|False|Both
+9|6|Hip|2|1|2|4|0|0|Hip strike shakes foe up. Foe attempts a recovery.|False|Both
+9|6|Hip|3|2|4|6|0|0|Strike bites into foe's hip. The impact sounds truly terrible.|False|Both
+9|6|Hip|4|3|7|9|1|0|Solid blow to foe's hip leaves his side numb. He screams.|False|Both
+9|6|Hip|5|4|9|12|2|0|Foe gets run through the hip. That must really hurt!|False|Both
+9|6|Hip|6|6|12|14|3|0|Foe's sloppy footwork gets him stuck on your blade.|False|Both
+10|1|Hip|1|0|2|2|0|0|Strike fails to pierce.|False|Both
+10|1|Hip|2|1|2|4|0|0|Strike pokes foe's hip. He yells as though burned.|False|Both
+10|1|Hip|3|2|4|6|0|0|Probing strike makes foe cautious.|False|Both
+10|1|Hip|4|3|7|9|1|0|Foe's sluggish defense gives you the opening you've waited for.|False|Both
+10|1|Hip|5|4|9|12|2|0|Savage strike strips equipment from right side of foe's waist.|False|Both
+10|1|Hip|6|6|12|14|3|0|Authoritative thrust briefly pins foe's weapon hand to his hip.|False|Both
+10|2|Hip|1|0|2|2|0|0|Strike fails to pierce.|False|Both
+10|2|Hip|2|1|2|4|0|0|Strike pokes foe's hip. He yells as though burned.|False|Both
+10|2|Hip|3|2|4|6|0|0|Probing strike makes foe cautious.|False|Both
+10|2|Hip|4|3|7|9|1|0|Foe's sluggish defense gives you the opening you've waited for.|False|Both
+10|2|Hip|5|4|9|12|2|0|Savage strike strips equipment from right side of foe's waist.|False|Both
+10|2|Hip|6|6|12|14|3|0|Authoritative thrust briefly pins foe's weapon hand to his hip.|False|Both
+10|3|Groin (Male)|1|1|2|5|0|0|Close call for foe’s groin has him sweating.|False|Male
+10|3|Groin (Male)|2|2|6|7|0|0|Foe dances clear of the worst.|False|Male
+10|3|Groin (Male)|3|3|8|9|0|0|Foe reels back from blow.|False|Male
+10|3|Groin (Male)|4|4|10|11|1|0|Foe screeches in pain from your combat lesson.|False|Male
+10|3|Groin (Male)|5|5|12|13|2|0|Foe dances in agony as he tears off your point. He is having trouble breathing.|False|Male
+10|3|Groin (Male)|6|7|14|15|3|0|Rip foe's groin wide open with twisting strike that leaves him wide-eyed with horror.|False|Male
+10|3|Lower Abdomen|1|0|0|2|0|0|Foe is fearful of your skill and leaps back from your flashing blade.|False|Female
+10|3|Lower Abdomen|2|2|3|5|0|0|Foe evades and maneuvers for a better position.|False|Female
+10|3|Lower Abdomen|3|4|5|8|0|0|Strike through foe's bladder has her frantic to escape.|False|Female
+10|3|Lower Abdomen|4|5|8|10|0|0|Strike up and through foe’s kidney. Lots of screaming.|False|Female
+10|3|Lower Abdomen|5|6|10|12|0|0|Major abdominal wound. Blood pours out in frightening quantities.|False|Female
+10|3|Lower Abdomen|6|0|0|0|0|0|Tear out foe's guts in a graphic display of violence. Yep, she's dead.|True|Female
+10|4|Groin (Male)|1|1|2|5|0|0|Close call for foe’s groin has him sweating.|False|Male
+10|4|Groin (Male)|2|2|6|7|0|0|Foe dances clear of the worst.|False|Male
+10|4|Groin (Male)|3|3|8|9|0|0|Foe reels back from blow.|False|Male
+10|4|Groin (Male)|4|4|10|11|1|0|Foe screeches in pain from your combat lesson.|False|Male
+10|4|Groin (Male)|5|5|12|13|2|0|Foe dances in agony as he tears off your point. He is having trouble breathing.|False|Male
+10|4|Groin (Male)|6|7|14|15|3|0|Rip foe's groin wide open with twisting strike that leaves him wide-eyed with horror.|False|Male
+10|4|Hip|1|0|2|2|0|0|Strike fails to pierce.|False|Female
+10|4|Hip|2|1|2|4|0|0|Strike pokes foe's hip. She yells as though burned.|False|Female
+10|4|Hip|3|2|4|6|0|0|Probing strike makes foe cautious.|False|Female
+10|4|Hip|4|3|7|9|1|0|Foe's sluggish defense gives you the opening you've waited for.|False|Female
+10|4|Hip|5|4|9|12|2|0|Savage strike strips equipment from right side of foe's waist.|False|Female
+10|4|Hip|6|6|12|14|3|0|Authoritative thrust briefly pins foe's weapon hand to her hip.|False|Female
+10|5|Lower Abdomen|1|0|0|2|0|0|Foe is fearful of your skill and leaps back from your flashing blade.|False|Both
+10|5|Lower Abdomen|2|2|3|5|0|0|Foe evades and maneuvers for a better position.|False|Both
+10|5|Lower Abdomen|3|4|5|8|0|0|Strike through foe's bladder has him frantic to escape.|False|Both
+10|5|Lower Abdomen|4|5|8|10|0|0|Strike up and through foe’s kidney. Lots of screaming.|False|Both
+10|5|Lower Abdomen|5|6|10|12|0|0|Major abdominal wound. Blood pours out in frightening quantities.|False|Both
+10|5|Lower Abdomen|6|0|0|0|0|0|Tear out foe's guts in a graphic display of violence. Yep, he's dead.|True|Both
+10|6|Lower Abdomen|1|0|0|2|0|0|Foe is fearful of your skill and leaps back from your flashing blade.|False|Both
+10|6|Lower Abdomen|2|2|3|5|0|0|Foe evades and maneuvers for a better position.|False|Both
+10|6|Lower Abdomen|3|4|5|8|0|0|Strike through foe's bladder has him frantic to escape.|False|Both
+10|6|Lower Abdomen|4|5|8|10|0|0|Strike up and through foe’s kidney. Lots of screaming.|False|Both
+10|6|Lower Abdomen|5|6|10|12|0|0|Major abdominal wound. Blood pours out in frightening quantities.|False|Both
+10|6|Lower Abdomen|6|0|0|0|0|0|Tear out foe's guts in a graphic display of violence. Yep, he's dead.|True|Both
+11|1|Lower Abdomen|1|0|0|2|0|0|Your thrust falls short when foe leaps back.|False|Both
+11|1|Lower Abdomen|2|2|3|5|0|0|Struck foe with more force than edge.|False|Both
+11|1|Lower Abdomen|3|4|5|8|0|0|Foe staggers away from the worst of your strike.|False|Both
+11|1|Lower Abdomen|4|5|8|10|0|0|Plunge through foe's guts with long follow through and twist.|False|Both
+11|1|Lower Abdomen|5|6|10|12|0|0|Strike tears in just below foe's belt. He's frozen in pain.|False|Both
+11|1|Lower Abdomen|6|0|0|0|0|0|Strike through foe's belly spills his guts to the floor. He's dead.|True|Both
+11|2|Lower Abdomen|1|0|0|2|0|0|Your thrust falls short when foe leaps back.|False|Both
+11|2|Lower Abdomen|2|2|3|5|0|0|Struck foe with more force than edge.|False|Both
+11|2|Lower Abdomen|3|4|5|8|0|0|Foe staggers away from the worst of your strike.|False|Both
+11|2|Lower Abdomen|4|5|8|10|0|0|Plunge through foe's guts with long follow through and twist.|False|Both
+11|2|Lower Abdomen|5|6|10|12|0|0|Strike tears in just below foe's belt. He's frozen in pain.|False|Both
+11|2|Lower Abdomen|6|0|0|0|0|0|Strike through foe's belly spills his guts to the floor. He's dead.|True|Both
+11|3|Lower Abdomen|1|0|0|2|0|0|Your thrust falls short when foe leaps back.|False|Both
+11|3|Lower Abdomen|2|2|3|5|0|0|Struck foe with more force than edge.|False|Both
+11|3|Lower Abdomen|3|4|5|8|0|0|Foe staggers away from the worst of your strike.|False|Both
+11|3|Lower Abdomen|4|5|8|10|0|0|Plunge through foe's guts with long follow through and twist.|False|Both
+11|3|Lower Abdomen|5|6|10|12|0|0|Strike tears in just below foe's belt. He's frozen in pain.|False|Both
+11|3|Lower Abdomen|6|0|0|0|0|0|Strike through foe's belly spills his guts to the floor. He's dead.|True|Both
+11|4|Lower Abdomen|1|0|0|2|0|0|Your thrust falls short when foe leaps back.|False|Both
+11|4|Lower Abdomen|2|2|3|5|0|0|Struck foe with more force than edge.|False|Both
+11|4|Lower Abdomen|3|4|5|8|0|0|Foe staggers away from the worst of your strike.|False|Both
+11|4|Lower Abdomen|4|5|8|10|0|0|Plunge through foe's guts with long follow through and twist.|False|Both
+11|4|Lower Abdomen|5|6|10|12|0|0|Strike tears in just below foe's belt. He's frozen in pain.|False|Both
+11|4|Lower Abdomen|6|0|0|0|0|0|Strike through foe's belly spills his guts to the floor. He's dead.|True|Both
+11|5|Lower Abdomen|1|0|0|2|0|0|Your thrust falls short when foe leaps back.|False|Both
+11|5|Lower Abdomen|2|2|3|5|0|0|Struck foe with more force than edge.|False|Both
+11|5|Lower Abdomen|3|4|5|8|0|0|Foe staggers away from the worst of your strike.|False|Both
+11|5|Lower Abdomen|4|5|8|10|0|0|Plunge through foe's guts with long follow through and twist.|False|Both
+11|5|Lower Abdomen|5|6|10|12|0|0|Strike tears in just below foe's belt. He's frozen in pain.|False|Both
+11|5|Lower Abdomen|6|0|0|0|0|0|Strike through foe's belly spills his guts to the floor. He's dead.|True|Both
+11|6|Flesh to the Side|1|1|0|0|0|0|Shock level -1, Pain level +2, Pierced body without hitting any major organs, mostly just flesh and muscles. It hurts and bleeds, but probably isn't lethal.|False|Both
+11|6|Flesh to the Side|2|1|0|0|0|0|Shock level -1, Pain level +2, Pierced body without hitting any major organs, mostly just flesh and muscles. It hurts and bleeds, but probably isn't lethal.|False|Both
+11|6|Flesh to the Side|3|1|0|0|0|0|Shock level -1, Pain level +2, Pierced body without hitting any major organs, mostly just flesh and muscles. It hurts and bleeds, but probably isn't lethal.|False|Both
+11|6|Flesh to the Side|4|1|0|0|0|0|Shock level -1, Pain level +2, Pierced body without hitting any major organs, mostly just flesh and muscles. It hurts and bleeds, but probably isn't lethal.|False|Both
+11|6|Flesh to the Side|5|1|0|0|0|0|Shock level -1, Pain level +2, Pierced body without hitting any major organs, mostly just flesh and muscles. It hurts and bleeds, but probably isn't lethal.|False|Both
+11|6|Flesh to the Side|6|1|0|0|0|0|Shock level -1, Pain level +2, Pierced body without hitting any major organs, mostly just flesh and muscles. It hurts and bleeds, but probably isn't lethal.|False|Both
+12|1|Under the ribs (Upper Abdomen)|1|0|0|2|0|0|Catch foe in ribs. He drops his guard and leaps back.|False|Both
+12|1|Under the ribs (Upper Abdomen)|2|2|3|5|0|0|Foe mostly deflects your attack.|False|Both
+12|1|Under the ribs (Upper Abdomen)|3|4|5|8|0|0|Foe's evasion puts him out of position.|False|Both
+12|1|Under the ribs (Upper Abdomen)|4|5|8|10|0|0|Solid strike into abs has blood spraying everywhere.|False|Both
+12|1|Under the ribs (Upper Abdomen)|5|6|10|12|0|0|Lightning strike up and through ribs staggers foe back and off your blade.|False|Both
+12|1|Under the ribs (Upper Abdomen)|6|0|0|0|0|0|Strike through both of foe's lungs. Foe drops and passes out. He dies during the next Limelight.|True|Both
+12|2|Under the ribs (Upper Abdomen)|1|0|0|2|0|0|Catch foe in ribs. He drops his guard and leaps back.|False|Both
+12|2|Under the ribs (Upper Abdomen)|2|2|3|5|0|0|Foe mostly deflects your attack.|False|Both
+12|2|Under the ribs (Upper Abdomen)|3|4|5|8|0|0|Foe's evasion puts him out of position.|False|Both
+12|2|Under the ribs (Upper Abdomen)|4|5|8|10|0|0|Solid strike into abs has blood spraying everywhere.|False|Both
+12|2|Under the ribs (Upper Abdomen)|5|6|10|12|0|0|Lightning strike up and through ribs staggers foe back and off your blade.|False|Both
+12|2|Under the ribs (Upper Abdomen)|6|0|0|0|0|0|Strike through both of foe's lungs. Foe drops and passes out. He dies during the next Limelight.|True|Both
+12|3|Chest|1|0|0|3|0|0|Minor chest wound. It could have been much better.|False|Both
+12|3|Chest|2|2|3|5|0|0|Foe's attempt at daring riposte earns him pain.|False|Both
+12|3|Chest|3|4|6|7|0|0|Minor chest wound numbs foe.|False|Both
+12|3|Chest|4|5|9|9|0|0|Foe whirls left into your strike.|False|Both
+12|3|Chest|5|6|12|11|0|0|Strike plunges into foe's chest and emerges from the other side.|False|Both
+12|3|Chest|6|0|0|0|0|0|Shot through heart sends foe reeling back ten feet to a place suitable for death. Okay, he’s gone.|True|Both
+12|4|Chest|1|0|0|3|0|0|Minor chest wound. It could have been much better.|False|Both
+12|4|Chest|2|2|3|5|0|0|Foe's attempt at daring riposte earns him pain.|False|Both
+12|4|Chest|3|4|6|7|0|0|Minor chest wound numbs foe.|False|Both
+12|4|Chest|4|5|9|9|0|0|Foe whirls left into your strike.|False|Both
+12|4|Chest|5|6|12|11|0|0|Strike plunges into foe's chest and emerges from the other side.|False|Both
+12|4|Chest|6|0|0|0|0|0|Shot through heart sends foe reeling back ten feet to a place suitable for death. Okay, he’s gone.|True|Both
+12|5|Chest|1|0|0|3|0|0|Minor chest wound. It could have been much better.|False|Both
+12|5|Chest|2|2|3|5|0|0|Foe's attempt at daring riposte earns him pain.|False|Both
+12|5|Chest|3|4|6|7|0|0|Minor chest wound numbs foe.|False|Both
+12|5|Chest|4|5|9|9|0|0|Foe whirls left into your strike.|False|Both
+12|5|Chest|5|6|12|11|0|0|Strike plunges into foe's chest and emerges from the other side.|False|Both
+12|5|Chest|6|0|0|0|0|0|Shot through heart sends foe reeling back ten feet to a place suitable for death. Okay, he’s gone.|True|Both
+12|6|Chest|1|0|0|3|0|0|Minor chest wound. It could have been much better.|False|Both
+12|6|Chest|2|2|3|5|0|0|Foe's attempt at daring riposte earns him pain.|False|Both
+12|6|Chest|3|4|6|7|0|0|Minor chest wound numbs foe.|False|Both
+12|6|Chest|4|5|9|9|0|0|Foe whirls left into your strike.|False|Both
+12|6|Chest|5|6|12|11|0|0|Strike plunges into foe's chest and emerges from the other side.|False|Both
+12|6|Chest|6|0|0|0|0|0|Shot through heart sends foe reeling back ten feet to a place suitable for death. Okay, he’s gone.|True|Both
+13|1|Collar and Throat|1|1|0|2|0|0|Foe dances and weaves with vigor to avoid the worst of your assault.|False|Both
+13|1|Collar and Throat|2|3|3|4|0|0|Foe deflects the weight of your strike at the last moment with his shoulder.|False|Both
+13|1|Collar and Throat|3|5|6|6|0|0|Shot caroms off foe's shoulder and up into throat.|False|Both
+13|1|Collar and Throat|4|6|9|8|0|0|Excellent strike to collar slices through muscle and tendons.|False|Both
+13|1|Collar and Throat|5|7|12|10|1|0|Strike through throat. Mangles veins and arteries. Foe cannot breathe.|False|Both
+13|1|Collar and Throat|6|0|0|0|0|0|Piercing strike up through Adam's Apple. Foe dies instantly.|True|Both
+13|2|Collar and Throat|1|1|0|2|0|0|Foe dances and weaves with vigor to avoid the worst of your assault.|False|Both
+13|2|Collar and Throat|2|3|3|4|0|0|Foe deflects the weight of your strike at the last moment with his shoulder.|False|Both
+13|2|Collar and Throat|3|5|6|6|0|0|Shot caroms off foe's shoulder and up into throat.|False|Both
+13|2|Collar and Throat|4|6|9|8|0|0|Excellent strike to collar slices through muscle and tendons.|False|Both
+13|2|Collar and Throat|5|7|12|10|1|0|Strike through throat. Mangles veins and arteries. Foe cannot breathe.|False|Both
+13|2|Collar and Throat|6|0|0|0|0|0|Piercing strike up through Adam's Apple. Foe dies instantly.|True|Both
+13|3|Face|1|1|1|2|0|0|Foe's slip allows his narrow escape.|False|Both
+13|3|Face|2|1|4|4|0|0|Foe's furious defense earns him a momentary reprieve.|False|Both
+13|3|Face|3|3|6|6|0|0|Shot slips through lips and jaw. What a mess.|False|Both
+13|3|Face|4|4|9|8|1|0|Strike through nose. Foe's eyes cross momentarily.|False|Both
+13|3|Face|5|0|0|0|0|0|Strike plunges through foe's eye. Foe dies immediately.|True|Both
+13|3|Face|6|0|0|0|0|0|Shot through both ears proves effective. Foe drops dead instantly. Smooth move.|True|Both
+13|4|Face|1|1|1|2|0|0|Foe's slip allows his narrow escape.|False|Both
+13|4|Face|2|1|4|4|0|0|Foe's furious defense earns him a momentary reprieve.|False|Both
+13|4|Face|3|3|6|6|0|0|Shot slips through lips and jaw. What a mess.|False|Both
+13|4|Face|4|4|9|8|1|0|Strike through nose. Foe's eyes cross momentarily.|False|Both
+13|4|Face|5|0|0|0|0|0|Strike plunges through foe's eye. Foe dies immediately.|True|Both
+13|4|Face|6|0|0|0|0|0|Shot through both ears proves effective. Foe drops dead instantly. Smooth move.|True|Both
+13|5|Head|1|1|1|2|0|0|Foe's slip allows his narrow escape.|False|Both
+13|5|Head|2|1|4|4|0|0|Foe's furious defense earns him a momentary reprieve.|False|Both
+13|5|Head|3|3|6|6|0|0|Shot slips through lips and jaw. What a mess.|False|Both
+13|5|Head|4|4|9|8|1|0|Strike through nose. Foe's eyes cross momentarily.|False|Both
+13|5|Head|5|0|0|0|0|0|Strike plunges through foe's eye. Foe dies immediately.|True|Both
+13|5|Head|6|0|0|0|0|0|Shot through both ears proves effective. Foe drops dead instantly. Smooth move.|True|Both
+13|6|Head|1|1|1|2|0|0|Foe's slip allows his narrow escape.|False|Both
+13|6|Head|2|1|4|4|0|0|Foe's furious defense earns him a momentary reprieve.|False|Both
+13|6|Head|3|3|6|6|0|0|Shot slips through lips and jaw. What a mess.|False|Both
+13|6|Head|4|4|9|8|1|0|Strike through nose. Foe's eyes cross momentarily.|False|Both
+13|6|Head|5|0|0|0|0|0|Strike plunges through foe's eye. Foe dies immediately.|True|Both
+13|6|Head|6|0|0|0|0|0|Shot through both ears proves effective. Foe drops dead instantly. Smooth move.|True|Both
+14|1|Hand|1|0|0|2|0|0|Foe evades and maneuvers for a better position.|False|Both
+14|1|Hand|2|0|2|3|0|0|Strike lands with much force but no edge.|False|Both
+14|1|Hand|3|1|4|5|0|0|Stinging thrust through fleshy web of foe’s hand.|False|Both
+14|1|Hand|4|2|7|7|0|0|Artful attack leaves foe breathless and minus a digit.|False|Both
+14|1|Hand|5|3|9|9|0|0|Strike and flick leaves two fingers hanging by threads.|False|Both
+14|1|Hand|6|4|11|11|0|0|Completely pierce foe’s hand. Oh yeah, he’s howling.|False|Both
+14|2|Forearm|1|0|0|2|0|0|Strike lands without energy.|False|Both
+14|2|Forearm|2|1|2|3|0|0|Slice foe's forearm with long follow through.|False|Both
+14|2|Forearm|3|2|4|5|0|0|Strike along foe's arm. The damage takes a moment to show.|False|Both
+14|2|Forearm|4|3|7|7|0|0|Deep wound to foe's arm. It’s a bleeder!|False|Both
+14|2|Forearm|5|3|9|9|0|0|Savage stab to foe's arm makes him hiss with pain.|False|Both
+14|2|Forearm|6|4|11|11|0|0|Strike ricochets through muscle in shield arm. If foe has shield, he drops it.|False|Both
+14|3|Forearm|1|0|0|2|0|0|Strike lands without energy.|False|Both
+14|3|Forearm|2|1|2|3|0|0|Slice foe's forearm with long follow through.|False|Both
+14|3|Forearm|3|2|4|5|0|0|Strike along foe's arm. The damage takes a moment to show.|False|Both
+14|3|Forearm|4|3|7|7|0|0|Deep wound to foe's arm. It’s a bleeder!|False|Both
+14|3|Forearm|5|3|9|9|0|0|Savage stab to foe's arm makes him hiss with pain.|False|Both
+14|3|Forearm|6|4|11|11|0|0|Strike ricochets through muscle in shield arm. If foe has shield, he drops it.|False|Both
+14|4|Elbow|1|0|0|2|0|0|Strike prods foe back.|False|Both
+14|4|Elbow|2|1|2|4|0|0|Strike pierces flesh of foe's elbow. Ow, It burns!|False|Both
+14|4|Elbow|3|2|4|6|0|0|Foe blocks your attack with his elbow.|False|Both
+14|4|Elbow|4|3|7|9|0|0|Foe's leap sends your point tumbling through the flesh of his elbow. He pulls free.|False|Both
+14|4|Elbow|5|3|9|11|0|0|Foe is stunned when his flurry ends with your steel buried in him.|False|Both
+14|4|Elbow|6|4|11|13|0|0|Strike plunges into doomed foe's elbow and rips out through other side.|False|Both
+14|5|Upper Arm|1|0|0|2|0|0|Foe veers away and avoids all but the tip of your blade.|False|Both
+14|5|Upper Arm|2|1|2|4|0|0|Strike costs foe a piece of his hide.|False|Both
+14|5|Upper Arm|3|2|4|5|0|0|Stinging shot through foe's bicep.|False|Both
+14|5|Upper Arm|4|3|7|7|0|0|Solid strike pierces flesh and digs into bone.|False|Both
+14|5|Upper Arm|5|4|9|9|0|0|Foe loses concentration for just one moment. That was enough.|False|Both
+14|5|Upper Arm|6|5|11|11|0|0|Savage strike pins foe's arm briefly to his side. Take a blood shower.|False|Both
+14|6|Upper Arm|1|0|0|2|0|0|Foe veers away and avoids all but the tip of your blade.|False|Both
+14|6|Upper Arm|2|1|2|4|0|0|Strike costs foe a piece of his hide.|False|Both
+14|6|Upper Arm|3|2|4|5|0|0|Stinging shot through foe's bicep.|False|Both
+14|6|Upper Arm|4|3|7|7|0|0|Solid strike pierces flesh and digs into bone.|False|Both
+14|6|Upper Arm|5|4|9|9|0|0|Foe loses concentration for just one moment. That was enough.|False|Both
+14|6|Upper Arm|6|5|11|11|0|0|Savage strike pins foe's arm briefly to his side. Take a blood shower.|False|Both
