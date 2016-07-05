@@ -1,72 +1,258 @@
-1|1|Foot|1|0|0|3|0|0|Weak strike.|
-1|1|Foot|2|1|2|5|0|0|Struck foe with more force than edge.|
-1|1|Foot|3|2|5|7|1|0|Foe steps quickly out of your reach.|
-1|1|Foot|4|3|8|9|2|0|Foe stumbles, quality strike.|
-1|1|Foot|5|4|10|12|3|0|Foe dances right into your swing.|
-1|1|Foot|6|5|13|14|4|0|Opens up a terrible wound. Blood everywhere.|
-1|2|Shin and Lower Leg|1|0|0|2|0|0|Feeble strike taps target.|
-1|2|Shin and Lower Leg|2|1|3|4|1|0|An opening appears and all you can do is smack foe lightly.|
-1|2|Shin and Lower Leg|3|2|5|6|1|0|Foe avoids your main effort, but you nick him on your recovery.|
-1|2|Shin and Lower Leg|4|3|8|9|2|0|Blow lands solidly upon foe's shin. You get some slashing action, but no mortal wound.|
-1|2|Shin and Lower Leg|5|4|10|12|3|0|Reached long and caught foe in lower leg. He twists out of it, but is unbalanced.|
-1|2|Shin and Lower Leg|6|5|13|14|4|0|Slashed muscle and tendons in lower leg. Foe stumbles forward into you with his guard down.|
-1|3|Shin and Lower Leg|1|0|0|2|0|0|Feeble strike taps target.|
-1|3|Shin and Lower Leg|2|1|3|4|1|0|An opening appears and all you can do is smack foe lightly.|
-1|3|Shin and Lower Leg|3|2|5|6|1|0|Foe avoids your main effort, but you nick him on your recovery.|
-1|3|Shin and Lower Leg|4|3|8|9|2|0|Blow lands solidly upon foe's shin. You get some slashing action, but no mortal wound.|
-1|3|Shin and Lower Leg|5|4|10|12|3|0|Reached long and caught foe in lower leg. He twists out of it, but is unbalanced.|
-1|3|Shin and Lower Leg|6|5|13|14|4|0|Slashed muscle and tendons in lower leg. Foe stumbles forward into you with his guard down.|
-1|4|Shin and Lower Leg|1|0|0|2|0|0|Feeble strike taps target.|
-1|4|Shin and Lower Leg|2|1|3|4|1|0|An opening appears and all you can do is smack foe lightly.|
-1|4|Shin and Lower Leg|3|2|5|6|1|0|Foe avoids your main effort, but you nick him on your recovery.|
-1|4|Shin and Lower Leg|4|3|8|9|2|0|Blow lands solidly upon foe's shin. You get some slashing action, but no mortal wound.|
-1|4|Shin and Lower Leg|5|4|10|12|3|0|Reached long and caught foe in lower leg. He twists out of it, but is unbalanced.|
-1|4|Shin and Lower Leg|6|5|13|14|4|0|Slashed muscle and tendons in lower leg. Foe stumbles forward into you with his guard down.|
-1|5|Knee and nearby areas|1|0|1|3|0|0|Unbalanced foe.|
-1|5|Knee and nearby areas|2|1|4|5|1|0|You are lucky to strike foe's knee while recovering from a lunge.|
-1|5|Knee and nearby areas|3|2|6|8|1|0|Nick foe above knee. Wound bleeds surprisingly strongly.|
-1|5|Knee and nearby areas|4|3|9|10|2|0|Good Form! He can't stand this much longer.|
-1|5|Knee and nearby areas|5|4|11|13|3|0|Foe mistakenly brings his leg in line with your attack. Severed tendons.|
-1|5|Knee and nearby areas|6|5|14|15|4|0|Your weapon slices through foe’s calf. Hideous wound! Foe is instantly pale from the pain.|
-1|6|Knee and nearby areas|1|0|1|3|0|0|Unbalanced foe.|
-1|6|Knee and nearby areas|2|1|4|5|1|0|You are lucky to strike foe's knee while recovering from a lunge.|
-1|6|Knee and nearby areas|3|2|6|8|1|0|Nick foe above knee. Wound bleeds surprisingly strongly.|
-1|6|Knee and nearby areas|4|3|9|10|2|0|Good Form! He can't stand this much longer.|
-1|6|Knee and nearby areas|5|4|11|13|3|0|Foe mistakenly brings his leg in line with your attack. Severed tendons.|
-1|6|Knee and nearby areas|6|5|14|15|4|0|Your weapon slices through foe’s calf. Hideous wound! Foe is instantly pale from the pain.|
-2|1|Knee and nearby areas|1|0|1|3|0|0|Foe's evasion puts him out of an aggressive posture.|
-2|1|Knee and nearby areas|2|1|4|5|1|0|The blow does nothing more than open a wide shallow cut.|
-2|1|Knee and nearby areas|3|2|6|8|1|0|So-So strike. Slight leg wound.|
-2|1|Knee and nearby areas|4|3|9|10|2|0|Foe leaps back, but you still catch his thigh. It's a bleeder!|
-2|1|Knee and nearby areas|5|4|11|13|3|0|Slash foe's knee. Your strike tears garments and armor off.|
-2|1|Knee and nearby areas|6|5|14|15|4|0|Strong blow to foe‘s leg. Foe drops his guard and almost his weapon.|
-2|2|Knee and nearby areas|1|0|1|3|0|0|Foe's evasion puts him out of an aggressive posture.|
-2|2|Knee and nearby areas|2|1|4|5|1|0|The blow does nothing more than open a wide shallow cut.|
-2|2|Knee and nearby areas|3|2|6|8|1|0|So-So strike. Slight leg wound.|
-2|2|Knee and nearby areas|4|3|9|10|2|0|Foe leaps back, but you still catch his thigh. It's a bleeder!|
-2|2|Knee and nearby areas|5|4|11|13|3|0|Slash foe's knee. Your strike tears garments and armor off.|
-2|2|Knee and nearby areas|6|5|14|15|4|0|Strong blow to foe‘s leg. Foe drops his guard and almost his weapon.|
-2|3|Thigh|1|1|1|2|0|0|Foe evades frantically.|
-2|3|Thigh|2|2|4|4|0|0|Foe goes airborne to evade your strike.|
-2|3|Thigh|3|3|6|6|1|0|Slash to foe's thigh sends a piece of equipment flying.|
-2|3|Thigh|4|4|9|8|2|0|The blow has some edge, but much impact.|
-2|3|Thigh|5|5|11|10|3|Wound falls open and foe is in agony. His guard is still up, amazingly enough.|
-2|3|Thigh|6|6|14|12|4|0|Foe blocks your attack with his thigh. Take a blood shower.|
-2|4|Thigh|1|1|1|2|0|0|Foe evades frantically.|
-2|4|Thigh|2|2|4|4|0|0|Foe goes airborne to evade your strike.|
-2|4|Thigh|3|3|6|6|1|0|Slash to foe's thigh sends a piece of equipment flying.|
-2|4|Thigh|4|4|9|8|2|0|The blow has some edge, but much impact.|
-2|4|Thigh|5|5|11|10|3|Wound falls open and foe is in agony. His guard is still up, amazingly enough.|
-2|4|Thigh|6|6|14|12|4|0|Foe blocks your attack with his thigh. Take a blood shower.|
-2|5|Thigh|1|1|1|2|0|0|Foe evades frantically.|
-2|5|Thigh|2|2|4|4|0|0|Foe goes airborne to evade your strike.|
-2|5|Thigh|3|3|6|6|1|0|Slash to foe's thigh sends a piece of equipment flying.|
-2|5|Thigh|4|4|9|8|2|0|The blow has some edge, but much impact.|
-2|5|Thigh|5|5|11|10|3|Wound falls open and foe is in agony. His guard is still up, amazingly enough.|
-2|5|Thigh|6|6|14|12|4|0|Foe blocks your attack with his thigh. Take a blood shower.|
-2|6|Hip|1|0|1|2|0|0|Foe backpedals 5 feet.|
-2|6|Hip|2|1|4|4|0|0|Strike passes across left hip and grazes right. It lands lightly.|
-2|6|Hip|3|2|6|7|0|0|Miss foe's arm and strike his hip. He drops something.|
-2|6|Hip|4|3|9|10|2|0|You follow your training well. You extend on your slashing arc.|
-2|6|Hip|5|5|11|13|3|0|Catch part of foe‘s hip. You make an ugly wound.|
-2|6|Hip|6|0|0|0|0|0|Your blade gets stuck in foe’s hip. Lots of screaming before he dies.|
+1|1|Foot|1|0|0|3|0|0|Weak strike.|False|Both
+1|1|Foot|2|1|2|5|0|0|Struck foe with more force than edge.|False|Both
+1|1|Foot|3|2|5|7|1|0|Foe steps quickly out of your reach.|False|Both
+1|1|Foot|4|3|8|9|2|0|Foe stumbles, quality strike.|False|Both
+1|1|Foot|5|4|10|12|3|0|Foe dances right into your swing.|False|Both
+1|1|Foot|6|5|13|14|4|0|Opens up a terrible wound. Blood everywhere.|False|Both
+1|2|Shin and Lower Leg|1|0|0|2|0|0|Feeble strike taps target.|False|Both
+1|2|Shin and Lower Leg|2|1|3|4|1|0|An opening appears and all you can do is smack foe lightly.|False|Both
+1|2|Shin and Lower Leg|3|2|5|6|1|0|Foe avoids your main effort, but you nick him on your recovery.|False|Both
+1|2|Shin and Lower Leg|4|3|8|9|2|0|Blow lands solidly upon foe's shin. You get some slashing action, but no mortal wound.|False|Both
+1|2|Shin and Lower Leg|5|4|10|12|3|0|Reached long and caught foe in lower leg. He twists out of it, but is unbalanced.|False|Both
+1|2|Shin and Lower Leg|6|5|13|14|4|0|Slashed muscle and tendons in lower leg. Foe stumbles forward into you with his guard down.|False|Both
+1|3|Shin and Lower Leg|1|0|0|2|0|0|Feeble strike taps target.|False|Both
+1|3|Shin and Lower Leg|2|1|3|4|1|0|An opening appears and all you can do is smack foe lightly.|False|Both
+1|3|Shin and Lower Leg|3|2|5|6|1|0|Foe avoids your main effort, but you nick him on your recovery.|False|Both
+1|3|Shin and Lower Leg|4|3|8|9|2|0|Blow lands solidly upon foe's shin. You get some slashing action, but no mortal wound.|False|Both
+1|3|Shin and Lower Leg|5|4|10|12|3|0|Reached long and caught foe in lower leg. He twists out of it, but is unbalanced.|False|Both
+1|3|Shin and Lower Leg|6|5|13|14|4|0|Slashed muscle and tendons in lower leg. Foe stumbles forward into you with his guard down.|False|Both
+1|4|Shin and Lower Leg|1|0|0|2|0|0|Feeble strike taps target.|False|Both
+1|4|Shin and Lower Leg|2|1|3|4|1|0|An opening appears and all you can do is smack foe lightly.|False|Both
+1|4|Shin and Lower Leg|3|2|5|6|1|0|Foe avoids your main effort, but you nick him on your recovery.|False|Both
+1|4|Shin and Lower Leg|4|3|8|9|2|0|Blow lands solidly upon foe's shin. You get some slashing action, but no mortal wound.|False|Both
+1|4|Shin and Lower Leg|5|4|10|12|3|0|Reached long and caught foe in lower leg. He twists out of it, but is unbalanced.|False|Both
+1|4|Shin and Lower Leg|6|5|13|14|4|0|Slashed muscle and tendons in lower leg. Foe stumbles forward into you with his guard down.|False|Both
+1|5|Knee and nearby areas|1|0|1|3|0|0|Unbalanced foe.|False|Both
+1|5|Knee and nearby areas|2|1|4|5|1|0|You are lucky to strike foe's knee while recovering from a lunge.|False|Both
+1|5|Knee and nearby areas|3|2|6|8|1|0|Nick foe above knee. Wound bleeds surprisingly strongly.|False|Both
+1|5|Knee and nearby areas|4|3|9|10|2|0|Good Form! He can't stand this much longer.|False|Both
+1|5|Knee and nearby areas|5|4|11|13|3|0|Foe mistakenly brings his leg in line with your attack. Severed tendons.|False|Both
+1|5|Knee and nearby areas|6|5|14|15|4|0|Your weapon slices through foe’s calf. Hideous wound! Foe is instantly pale from the pain.|False|Both
+1|6|Knee and nearby areas|1|0|1|3|0|0|Unbalanced foe.|False|Both
+1|6|Knee and nearby areas|2|1|4|5|1|0|You are lucky to strike foe's knee while recovering from a lunge.|False|Both
+1|6|Knee and nearby areas|3|2|6|8|1|0|Nick foe above knee. Wound bleeds surprisingly strongly.|False|Both
+1|6|Knee and nearby areas|4|3|9|10|2|0|Good Form! He can't stand this much longer.|False|Both
+1|6|Knee and nearby areas|5|4|11|13|3|0|Foe mistakenly brings his leg in line with your attack. Severed tendons.|False|Both
+1|6|Knee and nearby areas|6|5|14|15|4|0|Your weapon slices through foe’s calf. Hideous wound! Foe is instantly pale from the pain.|False|Both
+2|1|Knee and nearby areas|1|0|1|3|0|0|Foe's evasion puts him out of an aggressive posture.|False|Both
+2|1|Knee and nearby areas|2|1|4|5|1|0|The blow does nothing more than open a wide shallow cut.|False|Both
+2|1|Knee and nearby areas|3|2|6|8|1|0|So-So strike. Slight leg wound.|False|Both
+2|1|Knee and nearby areas|4|3|9|10|2|0|Foe leaps back, but you still catch his thigh. It's a bleeder!|False|Both
+2|1|Knee and nearby areas|5|4|11|13|3|0|Slash foe's knee. Your strike tears garments and armor off.|False|Both
+2|1|Knee and nearby areas|6|5|14|15|4|0|Strong blow to foe's leg. Foe drops his guard and almost his weapon.|False|Both
+2|2|Knee and nearby areas|1|0|1|3|0|0|Foe's evasion puts him out of an aggressive posture.|False|Both
+2|2|Knee and nearby areas|2|1|4|5|1|0|The blow does nothing more than open a wide shallow cut.|False|Both
+2|2|Knee and nearby areas|3|2|6|8|1|0|So-So strike. Slight leg wound.|False|Both
+2|2|Knee and nearby areas|4|3|9|10|2|0|Foe leaps back, but you still catch his thigh. It's a bleeder!|False|Both
+2|2|Knee and nearby areas|5|4|11|13|3|0|Slash foe's knee. Your strike tears garments and armor off.|False|Both
+2|2|Knee and nearby areas|6|5|14|15|4|0|Strong blow to foe's leg. Foe drops his guard and almost his weapon.|False|Both
+2|3|Thigh|1|1|1|2|0|0|Foe evades frantically.|False|Both
+2|3|Thigh|2|2|4|4|0|0|Foe goes airborne to evade your strike.|False|Both
+2|3|Thigh|3|3|6|6|1|0|Slash to foe's thigh sends a piece of equipment flying.|False|Both
+2|3|Thigh|4|4|9|8|2|0|The blow has some edge, but much impact.|False|Both
+2|3|Thigh|5|5|11|10|3|0|Wound falls open and foe is in agony. His guard is still up, amazingly enough.|False|Both
+2|3|Thigh|6|6|14|12|4|0|Foe blocks your attack with his thigh. Take a blood shower.|False|Both
+2|4|Thigh|1|1|1|2|0|0|Foe evades frantically.|False|Both
+2|4|Thigh|2|2|4|4|0|0|Foe goes airborne to evade your strike.|False|Both
+2|4|Thigh|3|3|6|6|1|0|Slash to foe's thigh sends a piece of equipment flying.|False|Both
+2|4|Thigh|4|4|9|8|2|0|The blow has some edge, but much impact.|False|Both
+2|4|Thigh|5|5|11|10|3|0|Wound falls open and foe is in agony. His guard is still up, amazingly enough.|False|Both
+2|4|Thigh|6|6|14|12|4|0|Foe blocks your attack with his thigh. Take a blood shower.|False|Both
+2|5|Thigh|1|1|1|2|0|0|Foe evades frantically.|False|Both
+2|5|Thigh|2|2|4|4|0|0|Foe goes airborne to evade your strike.|False|Both
+2|5|Thigh|3|3|6|6|1|0|Slash to foe's thigh sends a piece of equipment flying.|False|Both
+2|5|Thigh|4|4|9|8|2|0|The blow has some edge, but much impact.|False|Both
+2|5|Thigh|5|5|11|10|3|0|Wound falls open and foe is in agony. His guard is still up, amazingly enough.|False|Both
+2|5|Thigh|6|6|14|12|4|0|Foe blocks your attack with his thigh. Take a blood shower.|False|Both
+2|6|Hip|1|0|1|2|0|0|Foe backpedals five feet.|False|Both
+2|6|Hip|2|1|4|4|0|0|Strike passes across left hip and grazes right. It lands lightly.|False|Both
+2|6|Hip|3|2|6|7|0|0|Miss foe's arm and strike his hip. He drops something.|False|Both
+2|6|Hip|4|3|9|10|2|0|You follow your training well. You extend on your slashing arc.|False|Both
+2|6|Hip|5|5|11|13|3|0|Catch part of foe's hip. You make an ugly wound.|False|Both
+2|6|Hip|6|0|0|0|0|0|Your blade gets stuck in foe’s hip. Lots of screaming before he dies.|True|Both
+3|1|Hip|1|0|1|2|0|0|Foe evades your much of your swing.|False|Both
+3|1|Hip|2|1|4|4|0|0|You should have swung much harder.|False|Both
+3|1|Hip|3|2|6|7|0|0|Blow to foe’s hip causes his right leg to falter for a moment.|False|Both
+3|1|Hip|4|3|9|10|2|0|Disorient foe with a tricky shot. He is at a loss for words.|False|Both
+3|1|Hip|5|5|11|13|3|0|Catch foe with devastating hit. A terrible howl erupts from him.|False|Both
+3|1|Hip|6|0|0|0|0|0|That does it for him. He’s very dead.|True|Both
+3|2|Upper Abs|1|0|2|2|0|0|Your grip fails you.|False|Both
+3|2|Upper Abs|2|1|5|5|0|0|Glancing blow takes skin with it.|False|Both
+3|2|Upper Abs|3|3|7|8|0|0|Strike blunted by clothing.|False|Both
+3|2|Upper Abs|4|5|10|11|0|0|Very solid strike to foe’s shield side.|False|Both
+3|2|Upper Abs|5|7|12|14|0|0|Masterful strike to foe's chest.|False|Both
+3|2|Upper Abs|6|0|0|0|0|0|Boom! Shot strikes foe's abs with stunning effect. He’s dead. You’re drenched.|True|Both
+3|3|Lower Abs|1|0|2|2|0|0|Your grip fails you.|False|Both
+3|3|Lower Abs|2|1|5|5|0|0|Glancing blow takes skin with it.|False|Both
+3|3|Lower Abs|3|3|7|8|0|0|Strike blunted by clothing.|False|Both
+3|3|Lower Abs|4|5|10|11|0|0|Very solid strike to foe’s shield side.|False|Both
+3|3|Lower Abs|5|7|12|14|0|0|Masterful strike to foe's chest.|False|Both
+3|3|Lower Abs|6|0|0|0|0|0|Boom! Shot strikes foe's abs with stunning effect. He’s dead. You’re drenched.|True|Both
+3|4|Ribcage|1|0|2|2|0|0|Foe steps right, then left, and almost evades your blow.|False|Both
+3|4|Ribcage|2|1|5|4|0|0|Destroy one of foe's silly decorations.|False|Both
+3|4|Ribcage|3|2|7|7|0|0|Blow is forceful, not hard.|False|Both
+3|4|Ribcage|4|3|10|10|0|0|Strong blow breaks foe's guard. He is unbalanced.|False|Both
+3|4|Ribcage|5|5|12|13|0|0|Foe yells out before the impact and is silenced by the blow. Ribs crackle.|False|Both
+3|4|Ribcage|6|0|0|0|0|0|Blow thunders as it connects. Foe's ribs shatter. Heart destroyed. Dead on his feet.|True|Both
+3|5|Ribcage|1|0|2|2|0|0|Foe steps right, then left, and almost evades your blow.|False|Both
+3|5|Ribcage|2|1|5|4|0|0|Destroy one of foe's silly decorations.|False|Both
+3|5|Ribcage|3|2|7|7|0|0|Blow is forceful, not hard.|False|Both
+3|5|Ribcage|4|3|10|10|0|0|Strong blow breaks foe's guard. He is unbalanced.|False|Both
+3|5|Ribcage|5|5|12|13|0|0|Foe yells out before the impact and is silenced by the blow. Ribs crackle.|False|Both
+3|5|Ribcage|6|0|0|0|0|0|Blow thunders as it connects. Foe's ribs shatter. Heart destroyed. Dead on his feet.|True|Both
+3|6|Arms|1|0|0|0|0|0|Go to Arms (Area 7).|False|Both
+3|6|Arms|2|0|0|0|0|0|Go to Arms (Area 7).|False|Both
+3|6|Arms|3|0|0|0|0|0|Go to Arms (Area 7).|False|Both
+3|6|Arms|4|0|0|0|0|0|Go to Arms (Area 7).|False|Both
+3|6|Arms|5|0|0|0|0|0|Go to Arms (Area 7).|False|Both
+3|6|Arms|6|0|0|0|0|0|Go to Arms (Area 7).|False|Both
+4|1|Upper Arm and Shoulder|1|0|1|2|0|0|Good form, but it disappoints.|False|Both
+4|1|Upper Arm and Shoulder|2|1|4|4|0|0|Hard strike with no edge. Foe steps clear before you sort it out.|False|Both
+4|1|Upper Arm and Shoulder|3|3|6|6|0|0|You push aside foe's weapon and force him back.|False|Both
+4|1|Upper Arm and Shoulder|4|4|9|8|0|0|You strike foe's shoulder and slash muscles.|False|Both
+4|1|Upper Arm and Shoulder|5|5|11|10|0|0|Foe mistakenly brings his weapon arm across your blade’s path. Ripping damage.|False|Both
+4|1|Upper Arm and Shoulder|6|6|14|12|0|0|Bury your sword into foe's shoulder. He dances a jig.|False|Both
+4|2|Upper Arm and Shoulder|1|0|1|2|0|0|Good form, but it disappoints.|False|Both
+4|2|Upper Arm and Shoulder|2|1|4|4|0|0|Hard strike with no edge. Foe steps clear before you sort it out.|False|Both
+4|2|Upper Arm and Shoulder|3|3|6|6|0|0|You push aside foe's weapon and force him back.|False|Both
+4|2|Upper Arm and Shoulder|4|4|9|8|0|0|You strike foe's shoulder and slash muscles.|False|Both
+4|2|Upper Arm and Shoulder|5|5|11|10|0|0|Foe mistakenly brings his weapon arm across your blade’s path. Ripping damage.|False|Both
+4|2|Upper Arm and Shoulder|6|6|14|12|0|0|Bury your sword into foe's shoulder. He dances a jig.|False|Both
+4|3|Chest Crosscut|1|0|2|2|0|0|Strike lands poorly.|False|Both
+4|3|Chest Crosscut|2|1|5|4|0|0|Strike passes under foe's arm. It fails to bite deep. He recoils.|False|Both
+4|3|Chest Crosscut|3|2|7|7|0|0|Foe blocks your attack with his chest.|False|Both
+4|3|Chest Crosscut|4|3|10|10|0|0|You crack foe's rib with a lightning strike to his chest.|False|Both
+4|3|Chest Crosscut|5|5|12|13|0|0|Vicious Slash to foe's chest. Massive internal organ damage.|False|Both
+4|3|Chest Crosscut|6|0|0|0|0|0|Strike to chest. Foe goes prone trying to avoid your strike. He gets up facing the wrong direction and collapses dead.|True|Both
+4|4|Neck|1|1|2|2|0|0|Foe is shaken by your attack. He screams.|False|Both
+4|4|Neck|2|3|5|4|0|0|Blow opens shallow but bloody cut in neck.|False|Both
+4|4|Neck|3|5|7|6|0|0|Strike lands against foe's neck. Foe is horrified.|False|Both
+4|4|Neck|4|7|10|8|1|0|Foe tries to disarm you and pays with a massive chop to his neck.|False|Both
+4|4|Neck|5|0|0|0|0|0|Your edge bites half its width into foe. Opens up a terrible wound. It's raining blood as he drops dead.|True|Both
+4|4|Neck|6|0|0|0|0|0|Meat chopping strike severs foe's head.|True|Both
+4|5|Head (Lower), including the Face|1|1|3|3|0|0|Blade misses foe's eye by inches. |False|Both
+4|5|Head (Lower), including the Face|2|2|6|5|0|0|Foe defends energetically to avoid disaster.|False|Both
+4|5|Head (Lower), including the Face|3|3|8|7|1|1|Foe is shaken by your blow to his head. His defensive measures look clumsy.|False|Both
+4|5|Head (Lower), including the Face|4|4|11|9|2|2|Foe twists oddly to avoid your attack. Blow strikes foe's chin.|False|Both
+4|5|Head (Lower), including the Face|5|5|13|11|3|3|Foe moves his shield arm too slowly. You gladly slash his face.|False|Both
+4|5|Head (Lower), including the Face|6|0|0|0|0|0|Foe turns out and away from your swing. You still catch his face and destroy his head. Dead before he hits the ground.|True|Both
+4|6|Head (Upper)|1|1|2|2|0|0|You force your opponent back. He keeps you at bay with wild swings.|False|Both
+4|6|Head (Upper)|2|2|5|4|0|0|Your attack is weak.|False|Both
+4|6|Head (Upper)|3|3|7|6|1|2|Foe yelps with pain!|False|Both
+4|6|Head (Upper)|4|4|10|9|2|4|Foe sobs as ear is removed.|False|Both
+4|6|Head (Upper)|5|0|0|0|0|0|Strike to foe's head cracks skull and causes massive brain damage. He gibbers and dies.|True|Both
+4|6|Head (Upper)|6|0|0|0|0|0|Strike down, in, and across foe's forehead. Destroy foe's eyes. He drops dead in his tracks.|True|Both
+5|1|Head (Upper)|1|1|2|2|0|0|Strike slides off.|False|Both
+5|1|Head (Upper)|2|2|5|4|0|0|Nick your weapon and your foe.|False|Both
+5|1|Head (Upper)|3|3|7|6|1|2|Foe blocks your attack with his ear.|False|Both
+5|1|Head (Upper)|4|4|10|9|2|4|Strike to brain makes life difficult for foe.|False|Both
+5|1|Head (Upper)|5|0|0|0|0|0|Devastating Strike through foe's cranium. He leaps to the left and dies.|True|Both
+5|1|Head (Upper)|6|0|0|0|0|0|Your weapon slices through foe’s head and out the other side. Foe drops and dies.|True|Both
+5|2|Head (Upper)|1|1|2|2|0|0|Strike slides off.|False|Both
+5|2|Head (Upper)|2|2|5|4|0|0|Nick your weapon and your foe.|False|Both
+5|2|Head (Upper)|3|3|7|6|1|2|Foe blocks your attack with his ear.|False|Both
+5|2|Head (Upper)|4|4|10|9|2|4|Strike to brain makes life difficult for foe.|False|Both
+5|2|Head (Upper)|5|0|0|0|0|0|Devastating Strike through foe's cranium. He leaps to the left and dies.|True|Both
+5|2|Head (Upper)|6|0|0|0|0|0|Your weapon slices through foe’s head and out the other side. Foe drops and dies.|True|Both
+5|3|Head (Upper)|1|1|2|2|0|0|Strike slides off.|False|Both
+5|3|Head (Upper)|2|2|5|4|0|0|Nick your weapon and your foe.|False|Both
+5|3|Head (Upper)|3|3|7|6|1|2|Foe blocks your attack with his ear.|False|Both
+5|3|Head (Upper)|4|4|10|9|2|4|Strike to brain makes life difficult for foe.|False|Both
+5|3|Head (Upper)|5|0|0|0|0|0|Devastating Strike through foe's cranium. He leaps to the left and dies.|True|Both
+5|3|Head (Upper)|6|0|0|0|0|0|Your weapon slices through foe’s head and out the other side. Foe drops and dies.|True|Both
+5|4|Head (Lower), including the Face|1|1|3|3|0|0|Strike lands flat.|False|Both
+5|4|Head (Lower), including the Face|2|2|6|5|0|0|Shot unbalances foe.|False|Both
+5|4|Head (Lower), including the Face|3|3|8|7|1|1|Catch foe in the cheek. He drops his guard and stumbles away from you.|False|Both
+5|4|Head (Lower), including the Face|4|4|11|9|2|2|Strike along foe's neck. Foe is frantic to escape death.|False|Both
+5|4|Head (Lower), including the Face|5|5|13|11|3|3|Slice through foe's cheek and throat.|False|Both
+5|4|Head (Lower), including the Face|6|0|0|0|0|0|Destroys foe's jaw. Drives bone through brain. Foe dies instantly.|True|Both
+5|5|Shoulders|1|0|1|2|0|0|Glancing blow. Nothing extra.|False|Both
+5|5|Shoulders|2|1|4|4|0|0|Strike failed to connect well.|False|Both
+5|5|Shoulders|3|2|6|6|0|0|Foe dances clear of the worst.|False|Both
+5|5|Shoulders|4|4|9|9|0|0|Shot raises foe's arm up in involuntary salute.|False|Both
+5|5|Shoulders|5|5|11|12|0|0|Tear open foe's shoulder in a graphic display of violence.|False|Both
+5|5|Shoulders|6|0|0|0|0|0|Strike to foe's shoulder severs an artery. Foe drops to his knees and dies.|True|Both
+5|6|Shoulders|1|0|1|2|0|0|Glancing blow. Nothing extra.|False|Both
+5|6|Shoulders|2|1|4|4|0|0|Strike failed to connect well.|False|Both
+5|6|Shoulders|3|2|6|6|0|0|Foe dances clear of the worst.|False|Both
+5|6|Shoulders|4|4|9|9|0|0|Shot raises foe's arm up in involuntary salute.|False|Both
+5|6|Shoulders|5|5|11|12|0|0|Tear open foe's shoulder in a graphic display of violence.|False|Both
+5|6|Shoulders|6|0|0|0|0|0|Strike to foe's shoulder severs an artery. Foe drops to his knees and dies.|True|Both
+6|1|Inner Thigh|1|1|1|2|0|0|Foe is concerned with his own preservation. He steps back five feet.|False|Both
+6|1|Inner Thigh|2|2|4|4|0|0|Good attack angle but poor follow up.|False|Both
+6|1|Inner Thigh|3|3|6|6|1|0|Foe jumps in the wrong direction and gets clipped.|False|Both
+6|1|Inner Thigh|4|4|9|8|2|0|Foe loses some resolve from your solid strike.|False|Both
+6|1|Inner Thigh|5|6|11|10|3|0|Strike to side slips down into foe's thigh. Foe reels away in agony.|False|Both
+6|1|Inner Thigh|6|7|14|12|4|0|Blow to foe's thigh. Foe twists out of it and you turn your weapon to magnify the wound. Foe screams.|False|Both
+6|2|Inner Thigh|1|1|1|2|0|0|Foe is concerned with his own preservation. He steps back five feet.|False|Both
+6|2|Inner Thigh|2|2|4|4|0|0|Good attack angle but poor follow up.|False|Both
+6|2|Inner Thigh|3|3|6|6|1|0|Foe jumps in the wrong direction and gets clipped.|False|Both
+6|2|Inner Thigh|4|4|9|8|2|0|Foe loses some resolve from your solid strike.|False|Both
+6|2|Inner Thigh|5|6|11|10|3|0|Strike to side slips down into foe's thigh. Foe reels away in agony.|False|Both
+6|2|Inner Thigh|6|7|14|12|4|0|Blow to foe's thigh. Foe twists out of it and you turn your weapon to magnify the wound. Foe screams.|False|Both
+6|3|Inner Thigh|1|1|1|2|0|0|Foe is concerned with his own preservation. He steps back five feet.|False|Both
+6|3|Inner Thigh|2|2|4|4|0|0|Good attack angle but poor follow up.|False|Both
+6|3|Inner Thigh|3|3|6|6|1|0|Foe jumps in the wrong direction and gets clipped.|False|Both
+6|3|Inner Thigh|4|4|9|8|2|0|Foe loses some resolve from your solid strike.|False|Both
+6|3|Inner Thigh|5|6|11|10|3|0|Strike to side slips down into foe's thigh. Foe reels away in agony.|False|Both
+6|3|Inner Thigh|6|7|14|12|4|0|Blow to foe's thigh. Foe twists out of it and you turn your weapon to magnify the wound. Foe screams.|False|Both
+6|4|Groin (Male)|1|1|4|5|0|0|Your swing falls short when foe leaps back.|False|Male
+6|4|Groin (Male)|2|2|8|7|0|0|Light swing to foe's groin. Foe is nicked.|False|Male
+6|4|Groin (Male)|3|3|10|9|0|0|Glancing blow takes skin with it.|False|Male
+6|4|Groin (Male)|4|4|12|11|2|0|Blow to foe's groin. The strike is solid. The pain is certain.|False|Male
+6|4|Groin (Male)|5|5|14|13|3|0|Strike to foe's groin area. All vital organs are destroyed immediately.|False|Male
+6|4|Groin (Male)|6|0|0|0|0|0|Chop through the top of foe's groin and sever foe's leg. Foe drops and dies.|True|Male
+6|4|Groin (Female)|1|0|1|2|0|0|Your swing falls short when foe leaps back.|False|Female
+6|4|Groin (Female)|2|1|4|4|0|0|Light swing to foe's groin. Foe is nicked.|False|Female
+6|4|Groin (Female)|3|2|6|7|0|0|Glancing blow takes skin with it.|False|Female
+6|4|Groin (Female)|4|3|9|10|2|0|Blow to foe's groin. The strike is solid. The pain is certain.|False|Female
+6|4|Groin (Female)|5|5|11|13|3|0|Strike to foe's groin area. All vital organs are destroyed immediately.|False|Female
+6|4|Groin (Female)|6|0|0|0|0|0|Chop through the top of foe's groin and sever foe's leg. Foe drops and dies.|True|Female
+6|5|Abdomen|1|0|2|2|0|0|Good form but ineffectual.|False|Both
+6|5|Abdomen|2|1|5|5|0|0|Your weapon stings foe but nothing solid.|False|Both
+6|5|Abdomen|3|3|8|8|0|0|Great finesse but low power.|False|Both
+6|5|Abdomen|4|5|11|11|0|0|Solid strike sends foe into defensive frenzy.|False|Both
+6|5|Abdomen|5|7|14|14|0|0|Your weapon rips into foe's stomach. Major abdominal wound.|False|Both
+6|5|Abdomen|6|0|0|0|0|0|Disembowel foe, killing him instantly.|True|Both
+6|6|Chest|1|0|2|2|0|0|Foe rears back just in time to save his hide.|False|Both
+6|6|Chest|2|1|5|4|0|0|Foe's fancy move earns him the tip of your blade.|False|Both
+6|6|Chest|3|2|8|7|0|0|Your blow, though minor, takes off most of foe's shirt.|False|Both
+6|6|Chest|4|3|11|10|0|0|A hard blow that leaves your foe shaking in his boots.|False|Both
+6|6|Chest|5|5|14|13|0|0|Upward swing gets hung up in foe's ribs. Screaming, he tears himself away from your blade.|False|Both
+6|6|Chest|6|0|0|0|0|0|Slash up through foe's heart. Foe dies instantly.|True|Both
+7|1|Hand|1|0|1|2|0|0|Weak strike.|False|Both
+7|1|Hand|2|1|4|4|0|0|Foe's evasion puts him out of an aggressive posture.|False|Both
+7|1|Hand|3|2|6|6|0|0|Foe's knuckles are laid bare defending against your strike.|False|Both
+7|1|Hand|4|3|9|8|0|0|Foe tries to disarm you and pays with fingers.|False|Both
+7|1|Hand|5|4|11|11|0|0|Butcher chop to hand freezes foe in agony.|False|Both
+7|1|Hand|6|5|14|13|0|0|Foe screams as severed hand lands behind him.|False|Both
+7|2|Forearm|1|0|1|2|0|0|Strike lands poorly.|False|Both
+7|2|Forearm|2|1|4|4|0|0|Minor wound. Cut foe with the smallest of slashes.|False|Both
+7|2|Forearm|3|2|6|6|0|0|Catch part of foe's forearm. You make a long slice in foe's arm.|False|Both
+7|2|Forearm|4|3|9|8|0|0|You are lucky to strike foe's forearm while recovering from a lunge.|False|Both
+7|2|Forearm|5|4|11|11|0|0|Your blow cuts deep and severs an important vein.|False|Both
+7|2|Forearm|6|5|14|13|0|0|Block foe's weapon arm away and then nearly sever it.|False|Both
+7|3|Forearm|1|0|1|2|0|0|Strike lands poorly.|False|Both
+7|3|Forearm|2|1|4|4|0|0|Minor wound. Cut foe with the smallest of slashes.|False|Both
+7|3|Forearm|3|2|6|6|0|0|Catch part of foe's forearm. You make a long slice in foe's arm.|False|Both
+7|3|Forearm|4|3|9|8|0|0|You are lucky to strike foe's forearm while recovering from a lunge.|False|Both
+7|3|Forearm|5|4|11|11|0|0|Your blow cuts deep and severs an important vein.|False|Both
+7|3|Forearm|6|5|14|13|0|0|Block foe's weapon arm away and then nearly sever it.|False|Both
+7|4|Elbow|1|0|1|3|0|0|Your attack is weak.|False|Both
+7|4|Elbow|2|1|4|5|0|0|Point of your blade makes foe yelp.|False|Both
+7|4|Elbow|3|2|6|7|0|0|Strike to foe's elbow causes his shield to crack teeth.|False|Both
+7|4|Elbow|4|3|9|9|0|0|Foe's clumsy shield work costs him.|False|Both
+7|4|Elbow|5|4|11|11|0|0|Your strike lays open foe's elbow to the bone.|False|Both
+7|4|Elbow|6|5|14|13|0|0|Foe dances away in shock and pulls free of your blade.|False|Both
+7|5|Upper Arm and Shoulder|1|0|1|2|0|0|Foe steps quickly out of your reach.|False|Both
+7|5|Upper Arm and Shoulder|2|1|4|4|0|0|Your assault catches foe in bicep and forces him back five feet.|False|Both
+7|5|Upper Arm and Shoulder|3|3|6|6|0|0|Your great form makes foe cautious.|False|Both
+7|5|Upper Arm and Shoulder|4|4|9|8|0|0|Foe's awkward parry gives you the opening you’ve waited for.|False|Both
+7|5|Upper Arm and Shoulder|5|5|11|10|0|0|Blow to shoulder has foe panting in pain.|False|Both
+7|5|Upper Arm and Shoulder|6|6|14|12|0|0|Massive wound to upper arm causes foe to howl in agony.|False|Both
+7|6|Upper Arm and Shoulder|1|0|1|2|0|0|Foe steps quickly out of your reach.|False|Both
+7|6|Upper Arm and Shoulder|2|1|4|4|0|0|Your assault catches foe in bicep and forces him back five feet.|False|Both
+7|6|Upper Arm and Shoulder|3|3|6|6|0|0|Your great form makes foe cautious.|False|Both
+7|6|Upper Arm and Shoulder|4|4|9|8|0|0|Foe's awkward parry gives you the opening you’ve waited for.|False|Both
+7|6|Upper Arm and Shoulder|5|5|11|10|0|0|Blow to shoulder has foe panting in pain.|False|Both
+7|6|Upper Arm and Shoulder|6|6|14|12|0|0|Massive wound to upper arm causes foe to howl in agony.|False|Both
