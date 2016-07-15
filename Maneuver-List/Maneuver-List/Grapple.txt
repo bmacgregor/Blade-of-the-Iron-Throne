@@ -1,0 +1,23 @@
+﻿Immobilize|The aggressor tries to improve his initial hold in such a way as to completely immobilize his opponent. This may require several Exchanges of wrestling.
+
+The aggressor assigns MP dice and, without paying any Activation Cost, checks against TN 7. If he is beaten by the opponent’s defense, the hold is broken and combat returns to a normal melee at engagement range Hand, with the former defender now the aggressor.
+
+If the defense is tied or overcome, the victor’s QoS is subtracted from the opponent’s MP for the next Exchange. If this leads at any time to one combatant beginning a Combat Round with an MP of 0 or less dice, he is completely immobilized and unable to break free until circumstances change significantly.|Throw|The aggressor tries to throw his opponent to the ground. To do so, he assigns MP dice and rolls his Opposed Check. The TN is 6 if the initial hold was on a leg. It is 8 if on torso, head or arm.
+
+If the defense against the throw is successful, the hold is broken and the previous defender becomes the new aggressor, at a current engagement Reach range of Hand.
+
+In case of a tie, the clinch is broken and the combat continues at Reach range Hand, but without a change of aggressor. If the aggressor is victorious, the clinch is broken and he remains the aggressor, but the opponent is thrown to the ground, with all the attendant penalties of being prone.
+
+Any other outcome is treated as a tied attempt to immobilize.|Break|The aggressor attempts to break the limb he has grabbed. To do so, he assigns MP dice and rolls them in an Opposed Check. His TN for this roll is 7 if an arm is grabbed, 8 for a leg, and 9 for the neck, and is opposed by the defender’s assigned MP dice.
+
+If the defender is victorious, the clinch is broken, and he becomes next Exchange’s aggressor, at an engagement range of Hand. If the roll is tied, the outcome is identical to a tied attempt to immobilize.
+
+If the aggressor is victorious, aggressor and defender immediately make an Opposed BN Check, with the aggressor receiving his QoS as bonus dice. If the aggressor wins this Opposed Check with a QoS of at least 2, the limb in question is broken – which in the case of it’s being the neck is fatal. If any limb, other than the neck, is affected, refer to the Blunt Swing Damage Tables, Zone 1 for broken legs and Zone 7 for broken arms. Roll d6 on the Table for Zone 1 or 7 and apply the result of a level 4 wound to the exact location determined by the die.
+
+Any other outcome is treated as a tied attempt to immobilize.|Break Out|An attempt to break out of an opponent’s hold is one’s defense against attempts to immobilize, throw, or break a limb; as such, this is a defensive-only option.
+
+This is a defensive Maneuver, free of any Activation Cost. The defender simply assigns dice from his MP and checks them against TN 7.  Victory in this contest usually signifies the breaking of the clinch and a switch of the roles of aggressor and defender. However, this may vary according to the actual wrestling attack defended against. For details, see the three offensive uses of the Maneuver above.
+
+Alternatively, a grabbed opponent may choose to forego any attempt to break the enemy’s hold on him and simply attack him instead. He cannot use the limb that is being held for such an attack, and the MP for attacks with another part of the body are modified by –1/2 MP due to the awkwardness of having one’s freedom of movement restricted by the hold.
+
+Engagement Reach range for this attack is Hand, and it is only conducted after the enemy has carried out his – now unopposed – offensive Grapple Maneuver.
