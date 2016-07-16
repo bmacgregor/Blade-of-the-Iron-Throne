@@ -1,9 +1,0 @@
-D:\Other\BotIT\Die Roller\Die Roller\bin\Release\Die Roller.exe.config
-D:\Other\BotIT\Die Roller\Die Roller\bin\Release\Die Roller.exe
-D:\Other\BotIT\Die Roller\Die Roller\bin\Release\Die Roller.pdb
-D:\Other\BotIT\Die Roller\Die Roller\obj\Release\Die_Roller.Form1.resources
-D:\Other\BotIT\Die Roller\Die Roller\obj\Release\Die_Roller.Properties.Resources.resources
-D:\Other\BotIT\Die Roller\Die Roller\obj\Release\Die Roller.csproj.GenerateResource.Cache
-D:\Other\BotIT\Die Roller\Die Roller\obj\Release\Die Roller.exe
-D:\Other\BotIT\Die Roller\Die Roller\obj\Release\Die Roller.pdb
-D:\Other\BotIT\Die Roller\Die Roller\obj\Release\Die Roller.csprojResolveAssemblyReference.cache

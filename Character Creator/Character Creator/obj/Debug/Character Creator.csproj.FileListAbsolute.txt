@@ -8,3 +8,6 @@ C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Crea
 C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character Creator.exe
 C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character Creator.pdb
 C:\Learning to Code\Personal Projects\C#\Blade of the Iron Throne\Character Creation v4\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character_Creator.Character_Creator.resources
+C:\RPG's\Blade-of-the-Iron-Throne\Character Creator\Character Creator\bin\Debug\Character Creator.exe.config
+C:\RPG's\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character Creator.exe
+C:\RPG's\Blade-of-the-Iron-Throne\Character Creator\Character Creator\obj\Debug\Character Creator.pdb
