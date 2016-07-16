@@ -1,0 +1,8 @@
+C:\RPG's\Blade-of-the-Iron-Throne\Die Roller\Die Roller\bin\Release\Die Roller.exe.config
+C:\RPG's\Blade-of-the-Iron-Throne\Die Roller\Die Roller\bin\Release\Die Roller.exe
+C:\RPG's\Blade-of-the-Iron-Throne\Die Roller\Die Roller\bin\Release\Die Roller.pdb
+C:\RPG's\Blade-of-the-Iron-Throne\Die Roller\Die Roller\obj\Release\Die_Roller.DieRoller.resources
+C:\RPG's\Blade-of-the-Iron-Throne\Die Roller\Die Roller\obj\Release\Die_Roller.Properties.Resources.resources
+C:\RPG's\Blade-of-the-Iron-Throne\Die Roller\Die Roller\obj\Release\Die Roller.csproj.GenerateResource.Cache
+C:\RPG's\Blade-of-the-Iron-Throne\Die Roller\Die Roller\obj\Release\Die Roller.exe
+C:\RPG's\Blade-of-the-Iron-Throne\Die Roller\Die Roller\obj\Release\Die Roller.pdb
