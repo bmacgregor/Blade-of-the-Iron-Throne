@@ -14,6 +14,7 @@ namespace Die_Roller
     {
         private static List<int> results = new List<int>();
         private static Random rng = new Random();
+        System.Media.SoundPlayer roll = new System.Media.SoundPlayer(Properties.Resources.Dice);
 
         public DieRoller()
         {
@@ -53,6 +54,8 @@ namespace Die_Roller
 
         private void Roll(bool visibility, int count, int max)
         {
+            roll.Play();
+
             Clear();
 
             for (int i = 0; i < count; ++i)
