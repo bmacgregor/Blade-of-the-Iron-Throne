@@ -1,0 +1,9 @@
+C:\RPG's\Blade-of-the-Iron-Throne\Weapon and Armour Tables\Weapon and Armour Tables\bin\Debug\Weapon and Armour Tables.exe.config
+C:\RPG's\Blade-of-the-Iron-Throne\Weapon and Armour Tables\Weapon and Armour Tables\bin\Debug\Weapon and Armour Tables.exe
+C:\RPG's\Blade-of-the-Iron-Throne\Weapon and Armour Tables\Weapon and Armour Tables\bin\Debug\Weapon and Armour Tables.pdb
+C:\RPG's\Blade-of-the-Iron-Throne\Weapon and Armour Tables\Weapon and Armour Tables\obj\Debug\Weapon and Armour Tables.csprojResolveAssemblyReference.cache
+C:\RPG's\Blade-of-the-Iron-Throne\Weapon and Armour Tables\Weapon and Armour Tables\obj\Debug\Weapon_and_Armour_Tables.Form1.resources
+C:\RPG's\Blade-of-the-Iron-Throne\Weapon and Armour Tables\Weapon and Armour Tables\obj\Debug\Weapon_and_Armour_Tables.Properties.Resources.resources
+C:\RPG's\Blade-of-the-Iron-Throne\Weapon and Armour Tables\Weapon and Armour Tables\obj\Debug\Weapon and Armour Tables.csproj.GenerateResource.Cache
+C:\RPG's\Blade-of-the-Iron-Throne\Weapon and Armour Tables\Weapon and Armour Tables\obj\Debug\Weapon and Armour Tables.exe
+C:\RPG's\Blade-of-the-Iron-Throne\Weapon and Armour Tables\Weapon and Armour Tables\obj\Debug\Weapon and Armour Tables.pdb
