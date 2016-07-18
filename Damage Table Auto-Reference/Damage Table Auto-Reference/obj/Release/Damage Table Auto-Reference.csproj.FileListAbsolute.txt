@@ -1,0 +1,8 @@
+D:\Other\BotIT\Damage Table Auto-Reference\Damage Table Auto-Reference\bin\Release\Damage Table Auto-Reference.exe.config
+D:\Other\BotIT\Damage Table Auto-Reference\Damage Table Auto-Reference\bin\Release\Damage Table Auto-Reference.exe
+D:\Other\BotIT\Damage Table Auto-Reference\Damage Table Auto-Reference\bin\Release\Damage Table Auto-Reference.pdb
+D:\Other\BotIT\Damage Table Auto-Reference\Damage Table Auto-Reference\obj\Release\Damage_Table_Auto_Reference.Form1.resources
+D:\Other\BotIT\Damage Table Auto-Reference\Damage Table Auto-Reference\obj\Release\Damage_Table_Auto_Reference.Properties.Resources.resources
+D:\Other\BotIT\Damage Table Auto-Reference\Damage Table Auto-Reference\obj\Release\Damage Table Auto-Reference.csproj.GenerateResource.Cache
+D:\Other\BotIT\Damage Table Auto-Reference\Damage Table Auto-Reference\obj\Release\Damage Table Auto-Reference.exe
+D:\Other\BotIT\Damage Table Auto-Reference\Damage Table Auto-Reference\obj\Release\Damage Table Auto-Reference.pdb
