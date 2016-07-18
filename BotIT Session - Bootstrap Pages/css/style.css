@@ -1,0 +1,26 @@
+html
+{
+	position: relative;
+	min-height: 100%;
+}
+body
+{
+	margin-bottom: 60px;
+}
+.no-margin
+{
+	margin:0px;
+}
+.no-padding
+{
+	padding:0px;
+}
+.site-footer
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #222;
+	color: #b2b2b2;
+	padding-top: 5px;
+}

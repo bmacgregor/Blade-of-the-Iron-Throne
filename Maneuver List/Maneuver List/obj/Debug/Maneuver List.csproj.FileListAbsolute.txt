@@ -7,3 +7,12 @@ D:\Other\BotIT\Maneuver List\Maneuver List\obj\Debug\Maneuver_List.Properties.Re
 D:\Other\BotIT\Maneuver List\Maneuver List\obj\Debug\Maneuver List.csproj.GenerateResource.Cache
 D:\Other\BotIT\Maneuver List\Maneuver List\obj\Debug\Maneuver List.exe
 D:\Other\BotIT\Maneuver List\Maneuver List\obj\Debug\Maneuver List.pdb
+D:\Other\BotIT\Blade-of-the-Iron-Throne\Maneuver List\Maneuver List\bin\Debug\Maneuver List.exe.config
+D:\Other\BotIT\Blade-of-the-Iron-Throne\Maneuver List\Maneuver List\obj\Debug\Maneuver List.exe
+D:\Other\BotIT\Blade-of-the-Iron-Throne\Maneuver List\Maneuver List\obj\Debug\Maneuver List.pdb
+D:\Other\BotIT\Blade-of-the-Iron-Throne\Maneuver List\Maneuver List\bin\Debug\Maneuver List.exe
+D:\Other\BotIT\Blade-of-the-Iron-Throne\Maneuver List\Maneuver List\bin\Debug\Maneuver List.pdb
+D:\Other\BotIT\Blade-of-the-Iron-Throne\Maneuver List\Maneuver List\obj\Debug\Maneuver List.csprojResolveAssemblyReference.cache
+D:\Other\BotIT\Blade-of-the-Iron-Throne\Maneuver List\Maneuver List\obj\Debug\Maneuver_List.Form1.resources
+D:\Other\BotIT\Blade-of-the-Iron-Throne\Maneuver List\Maneuver List\obj\Debug\Maneuver_List.Properties.Resources.resources
+D:\Other\BotIT\Blade-of-the-Iron-Throne\Maneuver List\Maneuver List\obj\Debug\Maneuver List.csproj.GenerateResource.Cache

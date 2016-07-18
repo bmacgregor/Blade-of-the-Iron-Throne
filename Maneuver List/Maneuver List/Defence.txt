@@ -54,8 +54,8 @@ Even if the defender merely ties the attacker, the initiative passes to him and 
 
 While a Thrust past an opponent’s guard is the most likely outcome, it is by no means the only one possible. To determine the actual form of the follow-up attack, the initiator of the Winding & Binding rolls 1D6 on the table in the following tab.
 
-The combatant winds into an advantageous position for an attack. The Winding & Binding continues into the next Exchange without change of aggressors, but with twice this Exchange’s QoS as bonus dice for the current aggressor, any or all of which may also be used as a + / - modifier for the D6 roll on Table 3.3.
+The combatant winds into an advantageous position for an attack. The Winding & Binding continues into the next Exchange without change of aggressors, but with twice this Exchange’s QoS as bonus dice for the current aggressor, any or all of which may also be used as a + / - modifier for the D6 roll on the table shown on the next tab.
 
 Winding & Binding changes the engagement range. All attacks happen at optimum Reach for the attacker, this now being the new engagement range.
 
-The defender has the choice of three defenses, as shown in the tables tab.
+The defender has the choice of three defenses, as shown in the tables tab.|This maneuver is available at Proficiency level 5.
