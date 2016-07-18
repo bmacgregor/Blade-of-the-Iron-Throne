@@ -22,14 +22,24 @@ namespace Maneuver_List
         public static List<string> _grappleOptions = new List<string>() { "Select Option", "Immobilize", "Throw", "Break", "Break Out" };
 
         public static string _brawlNoteOffense = 
-            "Bash Activation Cost 0 is for punches, 1 for kicks and any other Bashes that might come up.";
-        public static string _daggerNoteOffense = 
-            "Bash Activation Cost 1 is for punches, 2 for any other Bashes that might come up.";
-        public static string _wrestlingNoteOffense = 
-            "Bash Activation Cost 1 is for punches, 2 for kicks and any other Bashes that might come up.";
+            @"
 
-        public static string _massWeapNoteDefence = "Lower of two given Activation Costs is for use without shield.";
-        public static string _swordNoteDefence = "Lower of two given Activation Costs is for use without shield.";
+NOTE: Bash Activation Cost 0 is for punches, 1 for kicks and any other Bashes that might come up.";
+        public static string _daggerNoteOffense =
+            @"
+
+NOTE: Bash Activation Cost 1 is for punches, 2 for any other Bashes that might come up.";
+        public static string _wrestlingNoteOffense = 
+            @"
+
+NOTE: Bash Activation Cost 1 is for punches, 2 for kicks and any other Bashes that might come up.";
+
+        public static string _massWeapNoteDefence = @"
+
+NOTE: Lower of two given Activation Costs is for use without shield.";
+        public static string _swordNoteDefence = @" 
+
+NOTE: Lower of two given Activation Costs is for use without shield.";
     }
 
     class GrappleOptions

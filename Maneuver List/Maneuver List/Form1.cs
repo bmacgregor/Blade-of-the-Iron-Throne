@@ -85,6 +85,23 @@ namespace Maneuver_List
                 activation.Text = "Activation Cost : " + Maneuver.GetCost(CMB_Offense.SelectedItem.ToString(), m);
                 level.Text = m.Notes;
                 level.Visible = true;
+
+                if (isOffence)
+                {
+                    if (weapon.SelectedIndex == 1)
+                        desc.Text += Helpers._brawlNoteOffense;
+                    if (weapon.SelectedIndex == 3)
+                        desc.Text += Helpers._daggerNoteOffense;
+                    if (weapon.SelectedIndex == 11)
+                        desc.Text += Helpers._wrestlingNoteOffense;
+                }
+                else
+                {
+                    if (weapon.SelectedIndex == 7)
+                        desc.Text += Helpers._swordNoteDefence;
+                    if (weapon.SelectedIndex == 10)
+                        desc.Text += Helpers._massWeapNoteDefence;
+                }
             }
         }
 
