@@ -22,6 +22,7 @@ namespace Weapon_and_Armour_Tables
         private void Form1_Load(object sender, EventArgs e)
         {
             PrepareArmour();
+            PrepareWeapons();
         }
 
         private void CMB_Armour_SelectedIndexChanged(object sender, EventArgs e)
@@ -37,7 +38,7 @@ namespace Weapon_and_Armour_Tables
 
         private void BTN_Arm_Random_Click(object sender, EventArgs e)
         {
-            CMB_Armour.SelectedIndex = (rng.Next(1, Armour.AllArmours.Count));
+            CMB_Armour.SelectedIndex = (rng.Next(1, CMB_Armour.Items.Count - 1));
         }
 
         private void PrepareArmour()
@@ -52,6 +53,66 @@ namespace Weapon_and_Armour_Tables
                 CMB_Armour.Items.Add(s);
 
             CMB_Armour.SelectedIndex = 0;
+        }
+
+        private void PrepareWeapons()
+        {
+            Weapon.LoadWeapons();
+
+            List<string> WeaponNames = Weapon.GetWeaponGroups();
+
+            CMB_WeaponGroup.Items.Add("Select Weapon Group");
+
+            foreach (string s in WeaponNames)
+                CMB_WeaponGroup.Items.Add(s);
+
+            CMB_WeaponGroup.SelectedIndex = 0;
+        }
+
+        private void CMB_WeaponGroup_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CMB_Weapon.Enabled = false;
+            BTN_Weap_Random.Enabled = false;
+            List<string> weapons = new List<string>() { "Select Weapon" };
+            
+            if (CMB_WeaponGroup.SelectedIndex != 0)
+            {
+                CMB_Weapon.Enabled = true;
+                BTN_Weap_Random.Enabled = true;
+                CMB_Weapon.Items.Clear();
+                List<string> temp = Weapon.AllWeaponsInGroup(CMB_WeaponGroup.SelectedIndex);
+
+                foreach (string s in temp)
+                    weapons.Add(s);
+            }
+
+            CMB_Weapon.SelectedIndex = 0;
+        }
+
+        private void CMB_Weapon_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Weapon update = CMB_WeaponGroup.SelectedIndex != 0 ? Weapon.FindWeapon(CMB_WeaponGroup.SelectedItem.ToString()) 
+                : Weapon.PassDefault();
+
+            LBL_Reach.Text = "Reach : " + update.Reach;
+            LBL_SwingATN.Text = "Swing ATN : " + update.Swing_ATN;
+            LBL_SwingDR.Text = "Swing DR : " + update.Swing_DR;
+            LBL_ThrustATN.Text = "Thrust ATN : " + update.Thrust_ATN;
+            LBL_ThrustDR.Text = "Thrust DR : " + update.Thrust_DR;
+            LBL_DTN.Text = "DTN : " + update.DTN;
+            LBL_BluntDR.Text = "Blunt DR : " + update.Blunt_DR;
+            TXB_Weap_Description.Text = update.Description;
+            TXB_Weap_Notes.Text = update.Notes;
+        }
+
+        private void BTN_Weap_RngGroup_Click(object sender, EventArgs e)
+        {
+            CMB_WeaponGroup.SelectedIndex = rng.Next(1, CMB_WeaponGroup.Items.Count - 1);
+        }
+
+        private void BTN_Weap_Random_Click(object sender, EventArgs e)
+        {
+            CMB_Weapon.SelectedIndex = rng.Next(1, CMB_Weapon.Items.Count - 1);
         }
     }
 }

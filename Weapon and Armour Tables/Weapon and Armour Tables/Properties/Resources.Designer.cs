@@ -71,5 +71,14 @@ namespace Weapon_and_Armour_Tables.Properties {
                 return ResourceManager.GetString("Armour_Info", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string Weapon_Info {
+            get {
+                return ResourceManager.GetString("Weapon_Info", resourceCulture);
+            }
+        }
     }
 }
